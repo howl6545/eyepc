@@ -1,0 +1,67 @@
+name: Raccolta offerte
+
+# La raccolta gira ogni mattina: e' cio' che rende l'app "giorno dopo giorno".
+# Lo storico prezzi vive dentro data/offers.json, che viene ricommittato.
+on:
+  schedule:
+    - cron: '15 5 * * *' # 05:15 UTC ≈ 07:15 in Italia (ora legale)
+  workflow_dispatch:
+    inputs:
+      seed_only:
+        description: 'Rigenera solo il dataset dimostrativo'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'pipeline/**'
+      - '.github/workflows/offers.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: offers
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Test della pipeline
+        run: node --test "pipeline/test/*.test.js"
+
+      - name: Raccolta offerte
+        env:
+          # Amazon entra nella raccolta solo se le credenziali PA-API sono
+          # configurate fra i secrets: lo scraping del sito non è consentito.
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          STORES: ${{ vars.STORES }}
+        run: |
+          if [ "${{ inputs.seed_only }}" = "true" ]; then
+            node pipeline/run.js --seed-only
+          else
+            node pipeline/run.js
+          fi
+
+      - name: Commit del dataset aggiornato
+        run: |
+          if git diff --quiet -- data/offers.json; then
+            echo "Nessuna variazione di prezzo: niente da committare."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/offers.json
+          git commit -m "dati: offerte del $(date -u +%d/%m/%Y)"
+          git push

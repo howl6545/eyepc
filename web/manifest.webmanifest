@@ -1,0 +1,24 @@
+{
+  "name": "Tech Offers Hub — Offerte PC",
+  "short_name": "PC Offerte",
+  "description": "Le offerte del giorno su PC fissi e notebook dai principali negozi italiani di tecnologia.",
+  "lang": "it",
+  "dir": "ltr",
+  "start_url": "../",
+  "scope": "../",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f8fc",
+  "theme_color": "#0ea5e9",
+  "categories": ["shopping", "utilities"],
+  "icons": [
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "PC fissi", "url": "../#desktop" },
+    { "name": "Portatili", "url": "../#laptop" }
+  ]
+}
