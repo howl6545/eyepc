@@ -2,7 +2,13 @@ name: Pubblicazione su GitHub Pages
 
 on:
   push:
-    branches: [main]
+    # Il branch di default del repository e' `claude/tech-offers-hub-mobile-0h4fnw`:
+    # `main` non esiste. E' elencato lo stesso perche' se un giorno il branch
+    # viene rinominato secondo la convenzione piu' comune, il workflow continua
+    # a funzionare senza modifiche.
+    branches:
+      - claude/tech-offers-hub-mobile-0h4fnw
+      - main
   workflow_dispatch:
 
 permissions:

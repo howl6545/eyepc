@@ -12,7 +12,10 @@ on:
         type: boolean
         default: false
   push:
-    branches: [main]
+    # Vedi la nota in pages.yml: il branch di default non si chiama `main`.
+    branches:
+      - claude/tech-offers-hub-mobile-0h4fnw
+      - main
     paths:
       - 'pipeline/**'
       - '.github/workflows/offers.yml'

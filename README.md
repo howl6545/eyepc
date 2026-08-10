@@ -166,6 +166,22 @@ quasi mai chipset e alimentatore, quindi quei filtri restano vuoti finché la
 raccolta non incontra configurazioni descritte meglio. È un limite del dato di
 origine, non dell'estrattore.
 
+## Pubblicare l'app
+
+Il repository ha un solo branch, `claude/tech-offers-hub-mobile-0h4fnw`, che e'
+anche quello di default: non c'e' nessun merge da fare. Per mettere l'app online
+serve solo abilitare GitHub Pages una volta:
+
+**Settings → Pages → Source: GitHub Actions**
+
+Da quel momento `.github/workflows/pages.yml` pubblica la radice del repository
+a ogni push, e `offers.yml` aggiorna le offerte ogni mattina alle 05:15 UTC
+ricommettendo `data/offers.json`. E' quel commit quotidiano a costruire lo
+storico dei prezzi: gli sconti compaiono dalla seconda raccolta in poi.
+
+Per una prova immediata senza pubblicare nulla, `npm run bundle` produce il file
+unico descritto sopra.
+
 ## L'estrattore di specifiche
 
 È il pezzo che fa il lavoro interessante. I negozi italiani mettono quasi tutto
