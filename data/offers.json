@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T13:01:17.731Z",
+  "generatedAt": "2026-08-10T13:26:43.703Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
@@ -36,7 +36,7 @@
       "store": "euronics",
       "count": 60,
       "notes": [
-        "4008 in sitemap, 219 candidati, 60 scaricati (35 fissi disponibili)"
+        "4007 in sitemap, 218 candidati, 60 scaricati (33 fissi disponibili)"
       ]
     },
     {
@@ -106,7 +106,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -194,7 +194,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -277,7 +277,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -361,7 +361,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -451,7 +451,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -536,7 +536,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -622,7 +622,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -710,7 +710,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -793,7 +793,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -875,7 +875,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -961,7 +961,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1043,7 +1043,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1146,7 +1146,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1228,7 +1228,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1332,7 +1332,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1411,7 +1411,7 @@
         "weightKg": 1.85
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1500,7 +1500,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1584,7 +1584,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1672,7 +1672,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1749,7 +1749,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1820,7 +1820,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1895,7 +1895,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1975,7 +1975,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2053,7 +2053,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2537,7 +2537,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2714,7 +2714,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2789,7 +2789,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2862,7 +2862,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2932,7 +2932,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2999,7 +2999,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -3067,7 +3067,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3138,7 +3138,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3208,7 +3208,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3277,7 +3277,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3353,7 +3353,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3422,7 +3422,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -3498,7 +3498,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3570,7 +3570,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3639,7 +3639,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -3711,7 +3711,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3878,7 +3878,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4128,7 +4128,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-10T13:01:17.731Z",
+      "seenAt": "2026-08-10T13:26:43.703Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
