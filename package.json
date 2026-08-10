@@ -14,7 +14,9 @@
     "seed": "node pipeline/seed/generate.js",
     "test": "node --test \"pipeline/test/*.test.js\"",
     "verify": "node pipeline/tools/smoke.js",
-    "icons": "node pipeline/tools/icons.js"
+    "icons": "node pipeline/tools/icons.js",
+    "bundle": "node pipeline/tools/bundle.js",
+    "bundle:artifact": "node pipeline/tools/bundle.js --artifact"
   },
   "license": "MIT",
   "devDependencies": {

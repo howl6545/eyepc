@@ -77,10 +77,17 @@ npm run collect    # raccolta reale, con ricaduta sui dati dimostrativi
 npm run seed       # rigenera solo il dataset dimostrativo
 npm test           # test della pipeline
 npm run verify     # percorre l'app in Chromium e salva gli screenshot
+npm run bundle     # dist/tech-offers-hub.html: un file solo, dati inclusi
 ```
 
 L'app va servita via HTTP: usa moduli ES e `fetch`, quindi aprendo
 `index.html` con `file://` non funziona.
+
+`npm run bundle` aggira il problema: produce un **unico file HTML** con stili,
+codice e offerte incorporati, che si apre con un doppio clic e funziona senza
+server. È il modo più rapido per far vedere l'app a qualcuno.
+`npm run bundle:artifact` genera la stessa cosa senza il guscio `<html>`, per
+le piattaforme che lo forniscono già.
 
 ## Come vengono raccolti i dati
 
