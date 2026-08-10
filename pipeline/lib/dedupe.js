@@ -33,26 +33,48 @@ export function dedupeOffers(offers) {
     const [primary, ...others] = group;
 
     if (others.length) {
-      primary.otherStores = others
-        .map((offer) => ({
-          storeId: offer.store.id,
-          storeName: offer.store.name,
-          price: offer.price,
-          url: offer.url,
-          availability: offer.availability,
-        }))
-        .sort((a, b) => a.price - b.price);
+      // Due casi molto diversi, che vanno distinti:
+      //  - stesso negozio  -> e' lo stesso PC in un'altra variante (il colore
+      //    tipicamente): mostrarlo come "disponibile anche su Comet" sarebbe
+      //    assurdo;
+      //  - negozio diverso -> e' una vera alternativa d'acquisto.
+      const sameStore = others.filter((offer) => offer.store.id === primary.store.id);
+      const otherStores = others.filter((offer) => offer.store.id !== primary.store.id);
 
-      // Se altrove costa di piu', il risparmio rispetto alla media di mercato
-      // e' un'informazione utile quanto lo sconto.
-      const prices = group.map((offer) => offer.price);
-      const average = prices.reduce((sum, price) => sum + price, 0) / prices.length;
-      if (average > primary.price) {
-        primary.marketDelta = {
-          averagePrice: Math.round(average * 100) / 100,
-          savedPct: Math.round(((average - primary.price) / average) * 100),
-          storeCount: group.length,
-        };
+      if (sameStore.length) {
+        primary.variants = sameStore
+          .map((offer) => ({ title: offer.title, price: offer.price, url: offer.url }))
+          .sort((a, b) => a.price - b.price);
+      }
+
+      if (otherStores.length) {
+        // Di ogni altro negozio si tiene solo l'offerta piu' conveniente.
+        const cheapestPerStore = new Map();
+        for (const offer of otherStores) {
+          const current = cheapestPerStore.get(offer.store.id);
+          if (!current || offer.price < current.price) cheapestPerStore.set(offer.store.id, offer);
+        }
+
+        primary.otherStores = [...cheapestPerStore.values()]
+          .map((offer) => ({
+            storeId: offer.store.id,
+            storeName: offer.store.name,
+            price: offer.price,
+            url: offer.url,
+            availability: offer.availability,
+          }))
+          .sort((a, b) => a.price - b.price);
+
+        // Il confronto di mercato ha senso solo fra negozi diversi.
+        const prices = [primary.price, ...primary.otherStores.map((entry) => entry.price)];
+        const average = prices.reduce((sum, price) => sum + price, 0) / prices.length;
+        if (average > primary.price) {
+          primary.marketDelta = {
+            averagePrice: Math.round(average * 100) / 100,
+            savedPct: Math.round(((average - primary.price) / average) * 100),
+            storeCount: prices.length,
+          };
+        }
       }
     }
 

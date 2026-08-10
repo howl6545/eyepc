@@ -4,7 +4,7 @@
  */
 
 import { createHash } from 'node:crypto';
-import { extractSpecs, extractBrand, specsCompleteness, normalizeText } from './specs.js';
+import { canonicalBrand, extractSpecs, extractBrand, specsCompleteness, normalizeText } from './specs.js';
 
 /** Identificativo stabile dell'offerta (negozio + prodotto). */
 export function offerId(storeId, record) {
@@ -45,6 +45,18 @@ export function modelKey({ brand, category, specs }) {
   return createHash('sha1').update(parts.join('|')).digest('hex').slice(0, 16);
 }
 
+/**
+ * Alcuni negozi antepongono la marca al titolo, che spesso la contiene gia':
+ * "ASUS - ASUS Vivobook 15" o "HP - OMNIDESK SLIM TOWER". Il prefisso va tolto
+ * solo quando e' davvero ridondante.
+ */
+export function stripBrandPrefix(title, brand) {
+  if (!title || !brand) return title;
+  const prefix = new RegExp(`^\\s*${brand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*[-–—:|]\\s*`, 'i');
+  const stripped = title.replace(prefix, '').trim();
+  return stripped.length >= 8 ? stripped : title;
+}
+
 /** Titolo compatto: via il rumore di marketing tipico dei listini italiani. */
 export function cleanTitle(raw) {
   return normalizeText(raw)
@@ -82,7 +94,7 @@ export function normalizeRecord(record, now = new Date()) {
     category: record.category,
   });
 
-  const brand = record.brand ? cleanTitle(record.brand) : extractBrand(title);
+  const brand = canonicalBrand(record.brand) ?? extractBrand(title);
   const url = canonicalUrl(record.url);
   const listPrice = record.listPrice ?? record.properties?.['Prezzo di listino'] ?? null;
 
@@ -90,7 +102,7 @@ export function normalizeRecord(record, now = new Date()) {
     id: offerId(record.storeId, { ...record, url }),
     modelKey: modelKey({ brand, category, specs }),
     category,
-    title,
+    title: stripBrandPrefix(title, brand),
     brand,
     image: record.image ?? null,
     url,

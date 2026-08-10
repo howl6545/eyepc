@@ -30,10 +30,18 @@ const BADGE_STYLE = {
 
 /* ------------------------------------------------------------- CARD ----- */
 
+/**
+ * Le immagini arrivano dai CDN dei negozi e talvolta non caricano (hotlink
+ * protection, prodotto ritirato, utente offline). Il segnaposto sta sempre
+ * sotto: se l'immagine fallisce si rimuove e resta lui, senza icona rotta.
+ */
+function media(offer) {
+  if (!offer.image) return ICONS.box;
+  return `${ICONS.box}<img src="${esc(offer.image)}" alt="" loading="lazy" decoding="async"
+    onerror="this.remove()">`;
+}
+
 export function renderCard(offer, { isFavorite }) {
-  const media = offer.image
-    ? `<img src="${esc(offer.image)}" alt="" loading="lazy" decoding="async">`
-    : ICONS.box;
 
   const discount = offer.discountPct > 0
     ? `<span class="card__discount">−${offer.discountPct}%</span>`
@@ -54,7 +62,7 @@ export function renderCard(offer, { isFavorite }) {
 
   return `
     <article class="card${offer.isStale ? ' is-stale' : ''}">
-      <div class="card__media">${media}${discount}</div>
+      <div class="card__media">${media(offer)}${discount}</div>
       <div class="card__body">
         <div class="card__store">${esc(offer.store.name)}</div>
         <h3 class="card__title">
@@ -185,7 +193,20 @@ function buildSpecGroups(offer) {
 /** Grafico dell'andamento prezzi: polilinea SVG generata a mano. */
 function renderChart(offer) {
   const points = offer.priceHistory ?? [];
-  if (points.length < 3) return '';
+
+  // Servono almeno tre rilevazioni perche' una linea dica qualcosa. Nei primi
+  // giorni di vita di un'offerta si spiega all'utente cosa sta succedendo,
+  // invece di lasciare un buco nella pagina.
+  if (points.length < 3) {
+    return `
+      <div class="section">
+        <h4 class="section__title">Andamento del prezzo</h4>
+        <p class="notice" style="margin:0">
+          Stiamo seguendo questo prodotto da ${points.length === 1 ? 'oggi' : `${points.length} giorni`}.
+          Il grafico e lo sconto verificato compaiono dopo qualche rilevazione.
+        </p>
+      </div>`;
+  }
 
   const width = 300;
   const height = 96;
@@ -273,9 +294,7 @@ export function renderDetail(offer, { isFavorite, dataQuality }) {
     title: offer.brand ?? 'Dettagli',
     body: `
       <div class="detail__hero">
-        <div class="detail__media">
-          ${offer.image ? `<img src="${esc(offer.image)}" alt="" decoding="async">` : ICONS.box}
-        </div>
+        <div class="detail__media">${media(offer)}</div>
         <div>
           <div class="card__store">${esc(offer.store.name)}</div>
           <h3 class="detail__name">${esc(offer.title)}</h3>

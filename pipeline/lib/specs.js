@@ -20,6 +20,8 @@ export function normalizeText(input) {
   return String(input)
     .replace(DASH, '-')
     .replace(QUOTES, '"')
+    // I negozi scrivono le risoluzioni sia "2408x1506" sia "2408×1506".
+    .replace(/×/g, 'x')
     .replace(/ /g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -50,6 +52,7 @@ const INTEL_N = /\bintel\s+(?:processor\s+)?(N\d{2,3})\b/i;
 const AMD_RYZEN = /\b(?:amd\s+)?ryzen\s+(?:(ai)\s+)?([3579])\s*(\d{3,4}[A-Z0-9]{0,4})?\b/i;
 const AMD_ENTRY = /\b(?:amd\s+)?(athlon|a-?series)\s*([A-Z0-9-]{2,8})?\b/i;
 const APPLE_SILICON = /\bapple\s+(M[1-9])(?:\s+(pro|max|ultra))?\b/i;
+const APPLE_A_SERIES = /\bapple\s+(A\d{2})\s*(pro|max)?\b/i;
 const SNAPDRAGON = /\bsnapdragon\s+(X\s+(?:elite|plus))\b/i;
 
 const CORE_COUNT = /\b(\d{1,2})\s*(?:-|\s)?core\b|\b(\d{1,2})\s*core\b|\b(\d{1,2})\s*nuclei\b/i;
@@ -62,7 +65,7 @@ export function extractCpu(text) {
   const ultra = text.match(INTEL_ULTRA);
   const core = text.match(INTEL_CORE);
   const ryzen = text.match(AMD_RYZEN);
-  const apple = text.match(APPLE_SILICON);
+  const apple = text.match(APPLE_SILICON) ?? text.match(APPLE_A_SERIES);
   const snap = text.match(SNAPDRAGON);
   const intelEntry = text.match(INTEL_ENTRY);
   const intelN = text.match(INTEL_N);
@@ -307,7 +310,13 @@ export function extractStorage(text) {
     if (sizeGb < 32 || sizeGb > 65_536) continue;
 
     let type;
-    if (kindRaw === 'hdd' || kindRaw === 'harddisk') type = 'HDD';
+    if (kindRaw === 'hdd') type = 'HDD';
+    else if (kindRaw === 'harddisk') {
+      // Nei listini italiani "Hard Disk" e' spesso solo l'etichetta della voce
+      // "archiviazione": si classifica come meccanico solo con prove esplicite.
+      if (/\b(7\.?200|5\.?400|rpm|giri|meccanic|sata\s*iii)\b/i.test(text)) type = 'HDD';
+      else type = NVME_HINT.test(text) ? 'SSD NVMe' : 'Archiviazione';
+    }
     else if (kindRaw === 'emmc') type = 'eMMC';
     else if (kindRaw === 'nvme' || kindRaw === 'm.2' || kindRaw === 'm2') type = 'SSD NVMe';
     else type = NVME_HINT.test(text) ? 'SSD NVMe' : 'SSD';
@@ -344,7 +353,18 @@ const PANEL_RE = /\b(oled|ips|va\b|tn\b|mini[\s-]?led|amoled|liquid\s+retina|ret
 const TOUCH_RE = /\b(touch(?:screen)?|touch\s+screen|tattile)\b/i;
 const NITS_RE = /\b(\d{3,4})\s*nit[s]?\b/i;
 
-export function extractDisplay(text, category) {
+/**
+ * Le schede prodotto descrivono anche la webcam ("videocamera FaceTime HD a
+ * 1080p"): senza toglierla di mezzo, la sua risoluzione finirebbe per essere
+ * attribuita allo schermo. Stesso discorso per le fotocamere.
+ */
+const CAMERA_CLAUSE = /\b(?:webcam|videocamera|fotocamera|facetime|camera\s+frontale)[^,.;]*/gi;
+
+/** Risoluzione scritta per esteso, quando non corrisponde a nessuna sigla nota. */
+const RESOLUTION_GENERIC = /\b(\d{3,4})\s*x\s*(\d{3,4})\b/;
+
+export function extractDisplay(rawText, category) {
+  const text = rawText.replace(CAMERA_CLAUSE, ' ');
   const display = {};
 
   const size = text.match(SIZE_RE);
@@ -363,6 +383,22 @@ export function extractDisplay(text, category) {
     }
   }
 
+  // Pannelli fuori standard (i Retina di Apple, i 16:10 di alcuni portatili):
+  // la sigla non esiste, ma i numeri sono nel testo.
+  if (!display.resolution) {
+    const generic = text.match(RESOLUTION_GENERIC);
+    if (generic) {
+      const width = Number(generic[1]);
+      const height = Number(generic[2]);
+      if (width >= 1024 && width <= 8192 && height >= 600 && height <= 5120 && width > height) {
+        display.width = width;
+        display.height = height;
+        display.resolution = `${width}x${height}`;
+        display.resolutionLabel = pixelClass(width, height);
+      }
+    }
+  }
+
   const refresh = text.match(REFRESH_RE);
   if (refresh) {
     const value = Number(refresh[1]);
@@ -370,7 +406,7 @@ export function extractDisplay(text, category) {
   }
 
   const panel = text.match(PANEL_RE);
-  if (panel) display.panel = panel[1].toUpperCase().replace(/\s+/g, ' ').replace('MINI-LED', 'Mini LED');
+  if (panel) display.panel = formatPanel(panel[1]);
 
   if (TOUCH_RE.test(text)) display.touch = true;
 
@@ -386,6 +422,24 @@ export function extractDisplay(text, category) {
   }
 
   return display;
+}
+
+/** Etichetta di massima per una risoluzione senza sigla commerciale. */
+function pixelClass(width, height) {
+  const pixels = width * height;
+  if (pixels >= 3840 * 2160) return '4K+';
+  if (pixels >= 2880 * 1620) return '3K';
+  if (pixels >= 2200 * 1300) return '2.5K';
+  if (pixels >= 1900 * 1000) return 'Full HD+';
+  return 'HD';
+}
+
+/** Le sigle restano maiuscole, i nomi commerciali si scrivono normalmente. */
+function formatPanel(raw) {
+  const clean = raw.replace(/\s+/g, ' ').trim();
+  if (/^(oled|ips|va|tn|amoled)$/i.test(clean)) return clean.toUpperCase();
+  if (/mini[\s-]?led/i.test(clean)) return 'Mini LED';
+  return titleCase(clean.toLowerCase());
 }
 
 /* ---------------------------------------------------------- MOTHERBOARD -- */
@@ -572,6 +626,23 @@ const COMPONENT_SEGMENTS = new RegExp(
 );
 
 const ASSEMBLED = /\b(assemblat[oi]|pc\s+(?:fisso|desktop|gaming)|desktop\s+gaming|workstation)\b/i;
+
+/**
+ * I negozi scrivono la marca come capita ("APPLE", "hp", "Asus"). Qui la si
+ * riporta alla forma canonica dell'elenco, cosi' i filtri non mostrano la
+ * stessa marca due volte con maiuscole diverse.
+ */
+export function canonicalBrand(raw) {
+  if (!raw) return null;
+  const clean = String(raw).trim();
+  if (!clean) return null;
+
+  const known = BRANDS.find((brand) => brand.toLowerCase() === clean.toLowerCase());
+  if (known) return BRAND_ALIASES[known] ?? known;
+
+  // Marca non in elenco: si evita almeno il TUTTO MAIUSCOLO dei listini.
+  return clean === clean.toUpperCase() && clean.length > 3 ? titleCase(clean.toLowerCase()) : clean;
+}
 
 export function extractBrand(text) {
   const withoutComponents = text.replace(COMPONENT_SEGMENTS, ' ');

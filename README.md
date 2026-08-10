@@ -29,12 +29,14 @@ portatili. L'accento cambia in tutta l'interfaccia in base a dove ti trovi.
   chipset della scheda madre, socket, formato del case, watt dell'alimentatore
   e raffreddamento a liquido. Ogni opzione mostra quanti risultati produce e si
   disabilita quando porterebbe a zero.
-- **Sconto verificato**: se il prezzo di listino dichiarato dal negozio è
-  gonfiato, lo sconto viene ricalcolato sul prezzo realmente osservato nelle
-  ultime settimane, e l'app dice quale dei due sta mostrando.
+- **Sconto verificato**: i negozi italiani non pubblicano un prezzo di listino
+  leggibile, quindi lo sconto viene *costruito* confrontando il prezzo di oggi
+  con quello osservato nei giorni precedenti. Se un negozio dichiara un listino
+  gonfiato, vince il calcolo sullo storico, e l'app dice quale dei due mostra.
 - **Storico prezzi** con grafico, minimo e massimo, badge "minimo storico".
 - **Stesso PC su più negozi** accorpato in una scheda sola, con l'elenco delle
-  alternative e il confronto con la media di mercato.
+  alternative e il confronto con la media di mercato. Le varianti dello stesso
+  negozio (tipicamente il colore) vengono raggruppate a parte.
 - **Preferiti**, ricerca testuale, link diretto alla singola offerta.
 - **PWA installabile**, tema chiaro/scuro automatico, funziona offline.
 
@@ -58,7 +60,9 @@ pipeline/
   lib/history.js         storico prezzi e sconto verificato
   lib/dedupe.js          accorpamento fra negozi
   lib/score.js           punteggio hardware e qualità/prezzo
-  sources/registry.js    elenco dei negozi
+  lib/sitemap.js         lettura delle sitemap XML (anche .gz)
+  sources/registry.js    elenco verificato dei negozi
+  sources/collect.js     scoperta URL, prefiltro e gate "e' un computer?"
   seed/                  dataset dimostrativo
   test/                  test della pipeline
   tools/                 server locale, icone, verifica in browser
@@ -69,6 +73,7 @@ pipeline/
 ```bash
 npm run serve      # http://localhost:4173
 npm run collect    # raccolta reale, con ricaduta sui dati dimostrativi
+                   # STORES=comet,trony npm run collect  per limitarla
 npm run seed       # rigenera solo il dataset dimostrativo
 npm test           # test della pipeline
 npm run verify     # percorre l'app in Chromium e salva gli screenshot
@@ -83,39 +88,76 @@ L'app va servita via HTTP: usa moduli ES e `fetch`, quindi aprendo
 (`.github/workflows/offers.yml`) e riscrive `data/offers.json`, che viene
 ricommittato: è quel commit quotidiano a costruire lo storico dei prezzi.
 
-Il collector è deliberatamente conservativo:
+### Perché le sitemap e non le pagine di listino
 
-- **robots.txt viene letto e rispettato** per ogni host, con throttle per
-  dominio e retry con backoff.
-- **I dati si leggono dai marcatori schema.org** (`Product` / `Offer`) che i
-  negozi già pubblicano per Google Shopping, non da selettori CSS: è molto più
-  stabile e non richiede un parser DOM.
-- **Amazon non viene raschiato.** Le sue condizioni d'uso lo vietano: entra
-  nella raccolta solo tramite Product Advertising API, e solo se i secrets
-  `AMAZON_ACCESS_KEY`, `AMAZON_SECRET_KEY` e `AMAZON_PARTNER_TAG` sono
-  configurati.
-- Se un negozio è irraggiungibile la run non fallisce: quel negozio viene
-  saltato e l'esito finisce in `sources` dentro il dataset.
+La prima versione leggeva le pagine di categoria dei negozi. Provandola sul
+campo non ha funzionato: **i listini dei negozi italiani sono tutti
+applicazioni JavaScript** e l'HTML servito non contiene un solo link a un
+prodotto. Unieuro è un'app Angular, le categorie di Comet sono renderizzate da
+Algolia lato client.
 
-I negozi sono elencati in `pipeline/sources/registry.js`; ognuno indica gli URL
-di listino e come riconoscere una pagina prodotto. Con la variabile `STORES`
-puoi limitare la raccolta a un sottoinsieme (`STORES=unieuro,comet`).
+La raccolta parte quindi dalle **sitemap XML**, che sono statiche, dichiarate
+in `robots.txt` e pubblicate apposta per i crawler. Il percorso completo è:
 
-### Stato attuale dei dati
+```
+sitemap XML → prefiltro sull'URL → pagina prodotto → JSON-LD → specifiche → gate
+```
 
-`data/offers.json` contiene al momento un **dataset dimostrativo**: prezzi e
-disponibilità non sono reali. L'app lo dichiara con una fascia in alto, e il
-campo `dataQuality` vale `demo`.
+L'ultimo passaggio non guarda l'URL ma il risultato dell'estrazione: **se da
+una pagina non escono processore, RAM e archiviazione, quello non è un
+computer** e viene scartato. È così che monitor, cavi e toner restano fuori
+anche quando il prefiltro li lascia passare.
 
-Serve a due cose: far funzionare l'app da subito, e mettere sotto sforzo
-l'estrattore di specifiche, che su quelle stringhe deve produrre esattamente i
-campi che produrrà in produzione. Quando una raccolta reale porta a casa almeno
-12 offerte, i dati dimostrativi vengono scartati e `dataQuality` passa a
-`reale`.
+### Stato verificato dei negozi
 
-I selettori dei listini sono la parte che va tarata sul campo: gli URL nel
-registro sono quelli pubblici delle categorie, ma ogni sito cambia struttura nel
-tempo, quindi la prima raccolta reale richiede una verifica negozio per negozio.
+Ogni voce di `pipeline/sources/registry.js` è stata controllata sul campo:
+robots.txt, raggiungibilità della sitemap, presenza dei dati strutturati nelle
+pagine prodotto.
+
+| Negozio | Stato | Note |
+|---|---|---|
+| Comet | attivo | sitemap di categoria (1.900 prodotti), JSON-LD completo |
+| Trony | attivo | `xmlsitemap.php?type=products` (978 prodotti informatica) |
+| Euronics | attivo | 4.008 prodotti, categoria nell'URL: selezione precisa |
+| Unieuro | attivo, a finestra | `robots.txt` dichiara `Visit-time: 0400-0845` UTC |
+| MediaWorld | escluso | protezione anti-bot sulle pagine prodotto (HTTP 403) |
+| Yeppon | escluso | challenge Cloudflare su tutto il sito (HTTP 403) |
+| BPM Power | escluso | `robots.txt` non accessibile (HTTP 403) |
+| Amazon.it | solo API | lo scraping viola le condizioni d'uso: serve la PA-API |
+
+I negozi esclusi non vengono mai interrogati. Aggirare una protezione anti-bot
+sarebbe scorretto oltre che fragile: per averli servirebbe un feed o un accordo
+di affiliazione.
+
+`Visit-time` non fa parte dello standard e Google lo ignora, ma è una richiesta
+esplicita del sito e il client HTTP la rispetta: fuori dalla finestra Unieuro
+viene saltato con una nota nel report. È il motivo per cui il job giornaliero è
+schedulato alle 05:15 UTC.
+
+Con la variabile `STORES` puoi limitare la raccolta a un sottoinsieme
+(`STORES=comet,trony`).
+
+### Il primo giorno non ci sono sconti
+
+Verificando la raccolta è emerso il limite più importante del progetto:
+**nessuno dei negozi raggiungibili espone un prezzo di listino nei dati
+strutturati.** Comet mostra un "Prezzo Consigliato", ma lo scrive via
+JavaScript, quindi non c'è nell'HTML servito.
+
+Lo sconto quindi non è un dato che si legge: è un dato che si **costruisce**,
+confrontando il prezzo di oggi con quello osservato nei giorni precedenti. Alla
+prima raccolta reale tutte le offerte hanno `discountPct: 0` e il grafico dello
+storico non esiste ancora.
+
+L'app gestisce esplicitamente questa fase: se `stats.discounted` è zero passa
+all'ordinamento per qualità/prezzo, avvisa che lo storico è in costruzione, e
+sul dettaglio spiega da quanti giorni segue quel prodotto. Dalla seconda
+raccolta in poi lo sconto verificato compare da solo.
+
+Un effetto collaterale: sui PC fissi preassemblati i negozi non dichiarano
+quasi mai chipset e alimentatore, quindi quei filtri restano vuoti finché la
+raccolta non incontra configurazioni descritte meglio. È un limite del dato di
+origine, non dell'estrattore.
 
 ## L'estrattore di specifiche
 
@@ -163,14 +205,15 @@ genera da sola l'interfaccia, i conteggi e la logica di selezione:
 
 ## Verifica
 
-`npm test` copre l'estrattore di specifiche, robots.txt, la lettura JSON-LD, lo
-storico prezzi, la deduplica e i punteggi (33 test).
+`npm test` copre l'estrattore di specifiche, robots.txt (incluso `Visit-time`),
+la lettura JSON-LD, lo storico prezzi, la deduplica e i punteggi (37 test).
 
 `npm run verify` avvia l'app in Chromium con un viewport da telefono e percorre
 i flussi reali — scelta categoria, filtri, ordinamenti, ricerca, dettaglio,
 preferiti, link diretto, tema scuro, schermo largo — controllando anche che non
-ci siano errori in console né scroll orizzontale. Gli screenshot finiscono in
-`.screenshots/`.
+ci siano errori in console né scroll orizzontale (26 controlli). I test si
+adattano al dataset caricato, così valgono sia sui dati dimostrativi sia su una
+raccolta reale. Gli screenshot finiscono in `.screenshots/`.
 
 ## Avvertenza
 

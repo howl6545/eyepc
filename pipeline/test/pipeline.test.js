@@ -213,6 +213,43 @@ test('accorpa lo stesso modello su negozi diversi tenendo il piu economico', () 
   assert.equal(primary.marketDelta.savedPct, 10);
 });
 
+test('le varianti dello stesso negozio non sono "altri negozi"', () => {
+  // Stesso modello, stesso negozio: e' il medesimo PC in un altro colore.
+  const variant = (id, price, title) => ({
+    id, modelKey: 'k', specsCompleteness: 90, price, title,
+    availability: 'disponibile', url: `https://comet.it/${id}`,
+    store: { id: 'comet', name: 'Comet' },
+  });
+
+  const [primary] = dedupeOffers([
+    variant('a', 1299, 'MacBook Air 13 M4 Argento'),
+    variant('b', 1299, 'MacBook Air 13 M4 Mezzanotte'),
+  ]);
+
+  assert.equal(primary.otherStores, undefined);
+  assert.equal(primary.marketDelta, undefined);
+  assert.deepEqual(primary.variants.map((v) => v.title), ['MacBook Air 13 M4 Mezzanotte']);
+});
+
+test('di ogni altro negozio si tiene solo l offerta migliore', () => {
+  const make = (id, storeId, price) => ({
+    id, modelKey: 'k', specsCompleteness: 90, price, title: 'PC',
+    availability: 'disponibile', url: `https://${storeId}.it/${id}`,
+    store: { id: storeId, name: storeId },
+  });
+
+  const [primary] = dedupeOffers([
+    make('a', 'comet', 999),
+    make('b', 'trony', 1099),
+    make('c', 'trony', 1049),
+    make('d', 'euronics', 1199),
+  ]);
+
+  assert.equal(primary.store.id, 'comet');
+  assert.deepEqual(primary.otherStores.map((s) => [s.storeId, s.price]), [['trony', 1049], ['euronics', 1199]]);
+  assert.equal(primary.marketDelta.storeCount, 3);
+});
+
 test('le offerte con specifiche scarse non vengono accorpate', () => {
   const poor = (id) => ({
     id, modelKey: 'k', specsCompleteness: 10, price: 100,

@@ -14,7 +14,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { enabledStores } from './sources/registry.js';
-import { collectAll } from './sources/collect.js';
+import { collectAll, looksLikeComputer } from './sources/collect.js';
 import { normalizeRecord, buildHighlights } from './lib/normalize.js';
 import { mergeWithHistory } from './lib/history.js';
 import { dedupeOffers } from './lib/dedupe.js';
@@ -78,11 +78,14 @@ async function main() {
     const { records, report: collectReport } = await collectAll(stores, { logger: console });
     report.push(...collectReport);
 
-    normalized = records
-      .map((record) => normalizeRecord(record, now))
-      .filter(Boolean);
+    const parsed = records.map((record) => normalizeRecord(record, now)).filter(Boolean);
+    // Ultimo filtro: senza processore, RAM e disco non e' un computer.
+    normalized = parsed.filter(looksLikeComputer);
 
-    console.log(`Raccolti ${records.length} record grezzi, ${normalized.length} normalizzati.`);
+    console.log(
+      `Raccolti ${records.length} record grezzi, ${parsed.length} normalizzati, `
+      + `${normalized.length} riconosciuti come computer.`,
+    );
 
     if (normalized.length >= MIN_REAL_OFFERS) {
       dataQuality = 'reale';
@@ -100,8 +103,12 @@ async function main() {
   }
 
   // Pipeline: storico -> deduplica -> punteggi -> badge -> evidenze.
+  // Alla prima raccolta reale il dataset dimostrativo va buttato: senza questo
+  // le offerte finte sopravviverebbero nel periodo di grazia dello storico.
+  const history = previous.dataQuality === 'demo' ? { offers: [] } : previous;
+
   let offers = dataQuality === 'reale'
-    ? mergeWithHistory(normalized, previous, now)
+    ? mergeWithHistory(normalized, history, now)
     : normalized;
 
   offers = dedupeOffers(offers);

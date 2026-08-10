@@ -139,6 +139,13 @@ function renderList() {
 
   dom.sortLabel.textContent = (SORTS_BY_ID.get(state.sort) ?? SORTS[0]).label;
 
+  const buildingHistory = !state.dataset.stats?.discounted;
+  dom.notice.classList.toggle('hidden', !buildingHistory);
+  if (buildingHistory) {
+    dom.notice.textContent = 'Storico prezzi in costruzione: gli sconti compariranno '
+      + 'dal prossimo aggiornamento, confrontando i prezzi di oggi con quelli dei giorni scorsi.';
+  }
+
   dom.filterCount.textContent = count || '';
   dom.filterCount.classList.toggle('hidden', count === 0);
 
@@ -417,6 +424,7 @@ function cacheDom() {
   dom.sortLabel = $('#sort-label');
   dom.filterCount = $('#filter-count');
   dom.disclaimer = $('#disclaimer');
+  dom.notice = $('#list-notice');
   dom.sheet = $('#sheet');
   dom.sheetTitle = $('#sheet-title');
   dom.sheetBody = $('#sheet-body');
@@ -461,6 +469,7 @@ async function start() {
 
   const prefs = loadPrefs();
   if (prefs.sort && SORTS_BY_ID.has(prefs.sort)) state.sort = prefs.sort;
+  state.sortExplicit = Boolean(prefs.sort);
   state.favorites = loadFavorites();
 
   dom.cards.innerHTML = renderSkeletons();
@@ -476,6 +485,11 @@ async function start() {
       </div>`;
     return;
   }
+
+  // Alla prima raccolta reale nessun negozio dichiara un prezzo di listino:
+  // gli sconti nascono dal confronto con i giorni successivi. Finche' non ce
+  // ne sono, ordinare per sconto mostrerebbe un elenco tutto a zero.
+  if (!state.dataset.stats?.discounted && !state.sortExplicit) state.sort = 'value';
 
   renderHome();
   onHashChange();

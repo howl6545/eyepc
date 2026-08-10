@@ -50,13 +50,32 @@ export function parseRobots(body) {
     } else if (field === 'crawl-delay' && current) {
       const delay = Number.parseFloat(value);
       if (Number.isFinite(delay)) current.crawlDelayMs = delay * 1000;
+    } else if (field === 'visit-time') {
+      // Direttiva non standard ma esplicita: "Visit-time: 0400-0845" indica
+      // in quale finestra UTC il sito preferisce essere visitato. Unieuro la
+      // usa; la rispettiamo anche se Google la ignora.
+      const window = value.match(/(\d{2})(\d{2})\s*-\s*(\d{2})(\d{2})/);
+      if (window) {
+        const entry = {
+          fromMinutes: Number(window[1]) * 60 + Number(window[2]),
+          toMinutes: Number(window[3]) * 60 + Number(window[4]),
+        };
+        if (current) current.visitTime = entry;
+        else groups.push({ agents: ['*'], rules: [], visitTime: entry });
+      }
     }
   }
 
   const ourAgent = 'techoffershubbot';
   const specific = groups.find((g) => g.agents.includes(ourAgent));
   const wildcard = groups.find((g) => g.agents.includes('*'));
-  return specific ?? wildcard ?? { agents: ['*'], rules: [] };
+  const chosen = specific ?? wildcard ?? { agents: ['*'], rules: [] };
+
+  if (!chosen.visitTime) {
+    const declared = groups.find((g) => g.visitTime);
+    if (declared) chosen.visitTime = declared.visitTime;
+  }
+  return chosen;
 }
 
 /** Il match di robots.txt e' per prefisso, con `*` e `$` come jolly. */
@@ -111,6 +130,28 @@ async function throttle(host, delayMs) {
   lastRequestAt.set(host, Date.now());
 }
 
+/** `true` se adesso rientriamo nella finestra `Visit-time` dichiarata. */
+export function isWithinVisitTime(robots, now = new Date()) {
+  const window = robots?.visitTime;
+  if (!window) return true;
+
+  const minutes = now.getUTCHours() * 60 + now.getUTCMinutes();
+  const { fromMinutes, toMinutes } = window;
+  // La finestra puo' scavalcare la mezzanotte (es. 2300-0500).
+  return fromMinutes <= toMinutes
+    ? minutes >= fromMinutes && minutes <= toMinutes
+    : minutes >= fromMinutes || minutes <= toMinutes;
+}
+
+export class VisitTimeError extends Error {
+  constructor(url, window) {
+    const pad = (m) => String(Math.floor(m / 60)).padStart(2, '0') + String(m % 60).padStart(2, '0');
+    super(`${new URL(url).host} accetta visite solo fra ${pad(window.fromMinutes)} e ${pad(window.toMinutes)} UTC`);
+    this.name = 'VisitTimeError';
+    this.url = url;
+  }
+}
+
 export class RobotsDisallowedError extends Error {
   constructor(url) {
     super(`robots.txt vieta la raccolta di ${url}`);
@@ -135,6 +176,7 @@ export async function fetchPage(url, options = {}) {
   if (!ignoreRobots) {
     const robots = await loadRobots(url);
     if (!isAllowedByRobots(robots, url)) throw new RobotsDisallowedError(url);
+    if (!isWithinVisitTime(robots)) throw new VisitTimeError(url, robots.visitTime);
     if (robots.crawlDelayMs) options.delayMs = Math.max(delayMs, robots.crawlDelayMs);
   }
 
@@ -155,7 +197,11 @@ export async function fetchPage(url, options = {}) {
         signal: AbortSignal.timeout(timeoutMs),
       });
 
-      if (response.ok) return await response.text();
+      if (response.ok) {
+        return options.asBuffer
+          ? Buffer.from(await response.arrayBuffer())
+          : await response.text();
+      }
 
       if (!RETRYABLE_STATUS.has(response.status)) {
         throw new Error(`HTTP ${response.status} su ${url}`);
@@ -170,6 +216,11 @@ export async function fetchPage(url, options = {}) {
   }
 
   throw lastError ?? new Error(`Richiesta fallita: ${url}`);
+}
+
+/** Come `fetchPage`, ma restituisce i byte grezzi (sitemap `.gz`). */
+export function fetchBuffer(url, options = {}) {
+  return fetchPage(url, { ...options, asBuffer: true });
 }
 
 export { USER_AGENT };

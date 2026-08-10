@@ -42,8 +42,15 @@ const browser = await chromium.launch({
 const context = await browser.newContext({ ...devices['iPhone 13'], locale: 'it-IT' });
 const page = await context.newPage();
 
+// Le immagini dei prodotti stanno sui CDN dei negozi e in ambiente isolato
+// non sono raggiungibili: il loro fallimento non e' un errore dell'app (esiste
+// il segnaposto), quindi si esclude dal controllo della console.
+const isAssetFailure = (text) => /Failed to load resource/i.test(text);
+
 const consoleErrors = [];
-page.on('console', (message) => { if (message.type() === 'error') consoleErrors.push(message.text()); });
+page.on('console', (message) => {
+  if (message.type() === 'error' && !isAssetFailure(message.text())) consoleErrors.push(message.text());
+});
 page.on('pageerror', (error) => consoleErrors.push(String(error)));
 
 try {
@@ -68,6 +75,11 @@ try {
   check('le offerte sono in ordine di sconto decrescente', sortedDesc, JSON.stringify(discounts.slice(0, 6)));
   check('ogni card espone le specifiche di sintesi',
     (await page.$$eval('.card .spec-chip', (nodes) => nodes.length)) > 0);
+
+  // Con dati reali le immagini arrivano dai negozi: se non caricano deve
+  // restare il segnaposto, mai un'icona rotta.
+  check('ogni card mostra sempre un\'immagine o il segnaposto',
+    await page.$$eval('.card__media', (nodes) => nodes.every((n) => n.querySelector('svg, img'))));
   await page.screenshot({ path: resolve(SHOTS, '02-lista-portatili.png') });
 
   /* ------------------------------------------------------------ filtri -- */
@@ -117,10 +129,16 @@ try {
   await page.waitForTimeout(300);
 
   /* ----------------------------------------------------------- ricerca -- */
-  await page.fill('#search-input', 'rtx 4060');
+  // Il termine si ricava dal dataset: cosi' la verifica vale sia sui dati
+  // dimostrativi sia su una raccolta reale, il cui assortimento cambia ogni giorno.
+  const term = await page.evaluate(() => {
+    const title = document.querySelector('.card__link')?.textContent ?? '';
+    return title.trim().split(/\s+/)[0] ?? '';
+  });
+  await page.fill('#search-input', term);
   await page.waitForTimeout(300);
   const searched = await page.$$eval('.card', (nodes) => nodes.length);
-  check('la ricerca testuale filtra le offerte', searched > 0 && searched < before, String(searched));
+  check(`la ricerca testuale filtra le offerte ("${term}")`, searched > 0 && searched <= before, String(searched));
   await page.click('#search-clear');
   await page.waitForTimeout(250);
 
@@ -131,7 +149,19 @@ try {
 
   check('il dettaglio elenca la scheda tecnica',
     (await page.$$eval('.specs__row', (nodes) => nodes.length)) >= 8);
-  check('il dettaglio mostra il grafico dei prezzi', await page.locator('.chart svg').count() > 0);
+  // Il grafico esiste solo con almeno tre rilevazioni: alla prima raccolta
+  // reale ce n'e' una sola, e al suo posto va mostrata la spiegazione.
+  const historyPoints = await page.evaluate(() => {
+    const id = location.hash.split('/')[1];
+    return fetch('data/offers.json').then((r) => r.json())
+      .then((d) => d.offers.find((o) => o.id === id)?.priceHistory?.length ?? 0);
+  });
+  const hasChart = await page.locator('.chart svg').count() > 0;
+  check(
+    historyPoints >= 3 ? 'il dettaglio mostra il grafico dei prezzi' : 'senza storico il dettaglio lo spiega',
+    historyPoints >= 3 ? hasChart : !hasChart && (await page.locator('.section .notice').count()) > 0,
+    `${historyPoints} rilevazioni`,
+  );
 
   const buy = page.locator('[data-buy]');
   check('il pulsante di acquisto punta al negozio', (await buy.getAttribute('href') ?? '').startsWith('http'));

@@ -437,7 +437,14 @@ ul { margin: 0; padding: 0; list-style: none; }
   place-items: center;
   overflow: hidden;
 }
-.card__media img { width: 100%; height: 100%; object-fit: contain; }
+.card__media img,
+.detail__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  object-fit: contain;
+  background: var(--surface-2);
+}
 .card__media svg { color: var(--text-faint); opacity: 0.55; }
 
 .card__discount {
@@ -831,13 +838,13 @@ ul { margin: 0; padding: 0; list-style: none; }
   padding: 14px 0 16px;
 }
 .detail__media {
+  position: relative;
   width: 96px; height: 96px;
   border-radius: var(--radius-sm);
   background: var(--surface-2);
   display: grid; place-items: center;
   overflow: hidden;
 }
-.detail__media img { width: 100%; height: 100%; object-fit: contain; }
 
 /* I titoli dei listini sono lunghissimi: qui bastano tre righe, la scheda
    tecnica sotto riporta comunque tutto in forma strutturata. */
