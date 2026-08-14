@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:37:51.910Z",
+  "generatedAt": "2026-08-14T08:52:39.184Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
@@ -13,30 +13,30 @@
       "euronics": 24,
       "comet": 18
     },
-    "discounted": 4,
-    "averageDiscount": 10,
-    "lowestEverCount": 37
+    "discounted": 1,
+    "averageDiscount": 19,
+    "lowestEverCount": 38
   },
   "sources": [
     {
       "store": "comet",
       "count": 60,
       "notes": [
-        "1917 in sitemap, 241 candidati, 60 scaricati (41 fissi disponibili)"
+        "1918 in sitemap, 240 candidati, 60 scaricati (42 fissi disponibili)"
       ]
     },
     {
       "store": "trony",
       "count": 60,
       "notes": [
-        "872 in sitemap, 74 candidati, 60 scaricati (10 fissi disponibili)"
+        "891 in sitemap, 73 candidati, 60 scaricati (10 fissi disponibili)"
       ]
     },
     {
       "store": "euronics",
       "count": 60,
       "notes": [
-        "4007 in sitemap, 222 candidati, 60 scaricati (35 fissi disponibili)"
+        "3998 in sitemap, 219 candidati, 60 scaricati (35 fissi disponibili)"
       ]
     },
     {
@@ -60,7 +60,7 @@
         "id": "trony",
         "name": "Trony"
       },
-      "price": 749,
+      "price": 713.38,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -90,7 +90,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -108,325 +108,40 @@
         {
           "d": "2026-08-13",
           "p": 749
+        },
+        {
+          "d": "2026-08-14",
+          "p": 713.38
         }
       ],
       "lowestEver": 713.38,
       "highestEver": 879.95,
-      "isLowestEver": false,
+      "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "priceChange": {
-        "from": 879.95,
-        "to": 749,
-        "deltaPct": -15,
-        "since": "2026-08-12T09:35:20.796Z"
+        "from": 749,
+        "to": 713.38,
+        "deltaPct": -5,
+        "since": "2026-08-13T09:37:51.910Z"
       },
       "verifiedDiscount": {
         "referencePrice": 879.95,
-        "discountPct": 15
+        "discountPct": 19
       },
-      "discountPct": 15,
+      "discountPct": 19,
       "listPrice": 879.95,
       "discountSource": "storico",
       "hardwareScore": 49,
-      "valueScore": 69,
-      "badges": [],
+      "valueScore": 73,
+      "badges": [
+        "minimo storico"
+      ],
       "highlights": [
         "Core Ultra 5",
         "16 GB",
         "512 GB SSD",
         "16\""
-      ]
-    },
-    {
-      "id": "8c6a826ad662a41b",
-      "modelKey": "d59c1536fd0ba3ef",
-      "category": "laptop",
-      "title": "ASUS Zenbook 14 UX3405CA-SU1389W, display 14\", Intel® Core™ Ultra 9 Processor 285H, 32GB RAM, 1TB SSD, Blue. - 2260003111",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/43555/7858505/ImageHttpHandler.ashx_operationcode_1%26productcode_2260003111%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__08408.1778652592.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-asus-zenbook-14-ux3405ca-su1389w-display-14-intel-core-ultra-9-processor-285h-32gb-ram-1tb-ssd-blue-2260003111/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 1377.32,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 9",
-          "model": null,
-          "tier": "Ultra 9",
-          "threads": 16,
-          "boostClock": 5.4,
-          "label": "Core Ultra 9"
-        },
-        "ram": {
-          "size": 32
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1024
-          }
-        ],
-        "display": {
-          "sizeInch": 14
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
-      "firstSeenAt": "2026-08-10T12:55:11.571Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-11",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-12",
-          "p": 1599.01
-        },
-        {
-          "d": "2026-08-13",
-          "p": 1377.32
-        }
-      ],
-      "lowestEver": 1377.32,
-      "highestEver": 1599.01,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 4,
-      "priceChange": {
-        "from": 1599.01,
-        "to": 1377.32,
-        "deltaPct": -14,
-        "since": "2026-08-12T09:35:20.796Z"
-      },
-      "verifiedDiscount": {
-        "referencePrice": 1599.01,
-        "discountPct": 14
-      },
-      "discountPct": 14,
-      "listPrice": 1599.01,
-      "discountSource": "storico",
-      "hardwareScore": 65,
-      "valueScore": 66,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core Ultra 9",
-        "32 GB",
-        "1 TB SSD",
-        "14\""
-      ]
-    },
-    {
-      "id": "4d24ac35517ee4b3",
-      "modelKey": "d08f24f5e677c655",
-      "category": "desktop",
-      "title": "Desktop OMEN TG03-0013NL-Black",
-      "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw7944d5cb/hi-res/252005739.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/hp---desktop-omen-tg03-0013nl-black/252005739.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 1349,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core i7",
-          "model": "14700F",
-          "tier": "i7",
-          "label": "Core i7-14700F"
-        },
-        "gpu": {
-          "brand": "NVIDIA",
-          "series": "GeForce RTX",
-          "model": "GeForce RTX 5060",
-          "type": "dedicata",
-          "generation": "RTX 5000"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1000
-          }
-        ],
-        "os": "Windows 11",
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
-      "firstSeenAt": "2026-08-10T12:58:37.779Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 1465
-        },
-        {
-          "d": "2026-08-11",
-          "p": 1349
-        },
-        {
-          "d": "2026-08-12",
-          "p": 1349
-        },
-        {
-          "d": "2026-08-13",
-          "p": 1349
-        }
-      ],
-      "lowestEver": 1349,
-      "highestEver": 1465,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 4,
-      "verifiedDiscount": {
-        "referencePrice": 1465,
-        "discountPct": 8
-      },
-      "discountPct": 8,
-      "listPrice": 1465,
-      "discountSource": "storico",
-      "hardwareScore": 72,
-      "valueScore": 94,
-      "badges": [
-        "minimo storico",
-        "ottimo affare"
-      ],
-      "highlights": [
-        "Core i7-14700F",
-        "GeForce RTX 5060",
-        "16 GB",
-        "1000 GB SSD"
-      ]
-    },
-    {
-      "id": "2d48311fa250eea4",
-      "modelKey": "2d72cef90f617fdc",
-      "category": "laptop",
-      "title": "Notebook Ideapad Slim 5 IPS55 16IMH10 32GB+1TB-silver",
-      "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw6adcf6de/hi-res/262001855.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-5-ips55-16imh10-32gb1tb-silver/262001855.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 1148,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 9",
-          "model": null,
-          "tier": "Ultra 9",
-          "boostClock": 5.1,
-          "label": "Core Ultra 9"
-        },
-        "gpu": {
-          "brand": null,
-          "series": "Integrata",
-          "model": "Scheda Grafica Integrata",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 32
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1024
-          },
-          {
-            "type": "SSD",
-            "sizeGb": 1000
-          }
-        ],
-        "display": {
-          "sizeInch": 16,
-          "width": 1920,
-          "height": 1200,
-          "resolution": "1920x1200",
-          "resolutionLabel": "Full HD+"
-        },
-        "os": "Windows 11",
-        "weightKg": 1.85,
-        "connectivity": {
-          "bluetooth": "5.2"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 89,
-      "seenAt": "2026-08-13T09:37:51.910Z",
-      "firstSeenAt": "2026-08-10T12:58:37.779Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 1199
-        },
-        {
-          "d": "2026-08-11",
-          "p": 1199
-        },
-        {
-          "d": "2026-08-12",
-          "p": 1148
-        },
-        {
-          "d": "2026-08-13",
-          "p": 1148
-        }
-      ],
-      "lowestEver": 1148,
-      "highestEver": 1199,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 4,
-      "verifiedDiscount": {
-        "referencePrice": 1199,
-        "discountPct": 4
-      },
-      "discountPct": 4,
-      "listPrice": 1199,
-      "discountSource": "storico",
-      "hardwareScore": 66,
-      "valueScore": 84,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core Ultra 9",
-        "Scheda Grafica Integrata",
-        "32 GB",
-        "1 TB SSD + 1000 GB SSD",
-        "16\" Full HD+"
       ]
     },
     {
@@ -487,7 +202,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -505,13 +220,17 @@
         {
           "d": "2026-08-13",
           "p": 999
+        },
+        {
+          "d": "2026-08-14",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
@@ -524,6 +243,116 @@
         "Scheda Grafica Integrata",
         "16 GB",
         "512 GB SSD",
+        "16\" Full HD+"
+      ]
+    },
+    {
+      "id": "2d48311fa250eea4",
+      "modelKey": "2d72cef90f617fdc",
+      "category": "laptop",
+      "title": "Notebook Ideapad Slim 5 IPS55 16IMH10 32GB+1TB-silver",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw6adcf6de/hi-res/262001855.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-5-ips55-16imh10-32gb1tb-silver/262001855.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1199,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 9",
+          "model": null,
+          "tier": "Ultra 9",
+          "boostClock": 5.1,
+          "label": "Core Ultra 9"
+        },
+        "gpu": {
+          "brand": null,
+          "series": "Integrata",
+          "model": "Scheda Grafica Integrata",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 32
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1024
+          },
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 16,
+          "width": 1920,
+          "height": 1200,
+          "resolution": "1920x1200",
+          "resolutionLabel": "Full HD+"
+        },
+        "os": "Windows 11",
+        "weightKg": 1.85,
+        "connectivity": {
+          "bluetooth": "5.2"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 89,
+      "seenAt": "2026-08-14T08:52:39.184Z",
+      "firstSeenAt": "2026-08-10T12:58:37.779Z",
+      "priceHistory": [
+        {
+          "d": "2026-08-10",
+          "p": 1199
+        },
+        {
+          "d": "2026-08-11",
+          "p": 1199
+        },
+        {
+          "d": "2026-08-12",
+          "p": 1148
+        },
+        {
+          "d": "2026-08-13",
+          "p": 1148
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1199
+        }
+      ],
+      "lowestEver": 1148,
+      "highestEver": 1199,
+      "isLowestEver": false,
+      "isNew": false,
+      "daysTracked": 5,
+      "priceChange": {
+        "from": 1148,
+        "to": 1199,
+        "deltaPct": 4,
+        "since": "2026-08-13T09:37:51.910Z"
+      },
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 66,
+      "valueScore": 80,
+      "badges": [],
+      "highlights": [
+        "Core Ultra 9",
+        "Scheda Grafica Integrata",
+        "32 GB",
+        "1 TB SSD + 1000 GB SSD",
         "16\" Full HD+"
       ]
     },
@@ -584,7 +413,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -602,13 +431,17 @@
         {
           "d": "2026-08-13",
           "p": 429
+        },
+        {
+          "d": "2026-08-14",
+          "p": 429
         }
       ],
       "lowestEver": 429,
       "highestEver": 429,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 37,
@@ -784,7 +617,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -802,13 +635,17 @@
         {
           "d": "2026-08-13",
           "p": 499.99
+        },
+        {
+          "d": "2026-08-14",
+          "p": 499.99
         }
       ],
       "lowestEver": 499.99,
       "highestEver": 499.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 45,
@@ -882,7 +719,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -900,13 +737,17 @@
         {
           "d": "2026-08-13",
           "p": 579
+        },
+        {
+          "d": "2026-08-14",
+          "p": 579
         }
       ],
       "lowestEver": 548,
       "highestEver": 579,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -980,7 +821,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -998,13 +839,17 @@
         {
           "d": "2026-08-13",
           "p": 649
+        },
+        {
+          "d": "2026-08-14",
+          "p": 649
         }
       ],
       "lowestEver": 649,
       "highestEver": 649,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 44,
@@ -1082,7 +927,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1100,13 +945,17 @@
         {
           "d": "2026-08-13",
           "p": 699
+        },
+        {
+          "d": "2026-08-14",
+          "p": 699
         }
       ],
       "lowestEver": 667,
       "highestEver": 699,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 48,
@@ -1177,7 +1026,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1195,13 +1044,17 @@
         {
           "d": "2026-08-13",
           "p": 732
+        },
+        {
+          "d": "2026-08-14",
+          "p": 732
         }
       ],
       "lowestEver": 732,
       "highestEver": 732,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 46,
@@ -1275,7 +1128,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1293,13 +1146,17 @@
         {
           "d": "2026-08-13",
           "p": 765
+        },
+        {
+          "d": "2026-08-14",
+          "p": 765
         }
       ],
       "lowestEver": 765,
       "highestEver": 765,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 50,
@@ -1371,7 +1228,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1389,13 +1246,17 @@
         {
           "d": "2026-08-13",
           "p": 799
+        },
+        {
+          "d": "2026-08-14",
+          "p": 799
         }
       ],
       "lowestEver": 799,
       "highestEver": 799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -1484,7 +1345,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1502,13 +1363,17 @@
         {
           "d": "2026-08-13",
           "p": 824
+        },
+        {
+          "d": "2026-08-14",
+          "p": 824
         }
       ],
       "lowestEver": 760,
       "highestEver": 824,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 55,
@@ -1582,7 +1447,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1592,18 +1457,24 @@
         {
           "d": "2026-08-13",
           "p": 897
+        },
+        {
+          "d": "2026-08-14",
+          "p": 897
         }
       ],
       "lowestEver": 897,
       "highestEver": 897,
-      "isLowestEver": false,
+      "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 2,
+      "daysTracked": 3,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
       "valueScore": 64,
-      "badges": [],
+      "badges": [
+        "minimo storico"
+      ],
       "highlights": [
         "Core Ultra 5",
         "Intel Arc Graphics",
@@ -1668,7 +1539,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1686,13 +1557,17 @@
         {
           "d": "2026-08-13",
           "p": 899
+        },
+        {
+          "d": "2026-08-14",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -1786,7 +1661,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1804,13 +1679,17 @@
         {
           "d": "2026-08-13",
           "p": 899
+        },
+        {
+          "d": "2026-08-14",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
@@ -1878,7 +1757,7 @@
         "weightKg": 1.85
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1896,13 +1775,17 @@
         {
           "d": "2026-08-13",
           "p": 999
+        },
+        {
+          "d": "2026-08-14",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
@@ -1981,7 +1864,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1999,13 +1882,17 @@
         {
           "d": "2026-08-13",
           "p": 1099.99
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1099.99
         }
       ],
       "lowestEver": 1099.99,
       "highestEver": 1099.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
@@ -2079,7 +1966,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2097,13 +1984,17 @@
         {
           "d": "2026-08-13",
           "p": 1199.99
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1199.99
         }
       ],
       "lowestEver": 1199.99,
       "highestEver": 1199.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 62,
@@ -2174,7 +2065,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-11T08:33:52.832Z",
       "priceHistory": [
         {
@@ -2188,13 +2079,17 @@
         {
           "d": "2026-08-13",
           "p": 1249
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1249
         }
       ],
       "lowestEver": 1249,
       "highestEver": 1249,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 3,
+      "daysTracked": 4,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
@@ -2272,7 +2167,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2286,13 +2181,17 @@
         {
           "d": "2026-08-13",
           "p": 1799
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1799
         }
       ],
       "lowestEver": 1799,
       "highestEver": 1799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 3,
+      "daysTracked": 4,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 71,
@@ -2359,7 +2258,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2377,13 +2276,17 @@
         {
           "d": "2026-08-13",
           "p": 244
+        },
+        {
+          "d": "2026-08-14",
+          "p": 244
         }
       ],
       "lowestEver": 244,
       "highestEver": 244,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 22,
@@ -2444,7 +2347,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2462,13 +2365,17 @@
         {
           "d": "2026-08-13",
           "p": 499
+        },
+        {
+          "d": "2026-08-14",
+          "p": 499
         }
       ],
       "lowestEver": 499,
       "highestEver": 499,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 35,
@@ -2533,7 +2440,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2551,13 +2458,17 @@
         {
           "d": "2026-08-13",
           "p": 729
+        },
+        {
+          "d": "2026-08-14",
+          "p": 729
         }
       ],
       "lowestEver": 729,
       "highestEver": 729,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 48,
@@ -2626,7 +2537,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2644,13 +2555,17 @@
         {
           "d": "2026-08-13",
           "p": 899
+        },
+        {
+          "d": "2026-08-14",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 44,
@@ -2718,7 +2633,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2736,13 +2651,17 @@
         {
           "d": "2026-08-13",
           "p": 999
+        },
+        {
+          "d": "2026-08-14",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -2863,7 +2782,7 @@
         "13\" 2.5K"
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "f3c42871b041386d",
@@ -2962,7 +2881,7 @@
         "15\" 3K"
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "33e99d9887385585",
@@ -3061,7 +2980,7 @@
         "13\" 2.5K"
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "68c7b88c45dc1ba7",
@@ -3160,7 +3079,7 @@
         "15\" 3K"
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "dfb05054601adbf2",
@@ -3253,7 +3172,9 @@
         "Apple GPU",
         "24 GB",
         "512 GB SSD + 512 GB Archiviazione"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
       "id": "b4d76ee23b1372b0",
@@ -3352,7 +3273,7 @@
         "15\" 3K"
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "9912c4949b1c7b59",
@@ -3405,7 +3326,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3423,13 +3344,17 @@
         {
           "d": "2026-08-13",
           "p": 1699
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1699
         }
       ],
       "lowestEver": 1699,
       "highestEver": 1699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 76,
@@ -3494,7 +3419,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3512,13 +3437,17 @@
         {
           "d": "2026-08-13",
           "p": 1929
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1929
         }
       ],
       "lowestEver": 1915.49,
       "highestEver": 1929,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
@@ -3661,7 +3590,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -3679,13 +3608,17 @@
         {
           "d": "2026-08-13",
           "p": 547.07
+        },
+        {
+          "d": "2026-08-14",
+          "p": 547.07
         }
       ],
       "lowestEver": 547.07,
       "highestEver": 547.07,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 30,
@@ -3742,7 +3675,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -3760,13 +3693,17 @@
         {
           "d": "2026-08-13",
           "p": 563.58
+        },
+        {
+          "d": "2026-08-14",
+          "p": 563.58
         }
       ],
       "lowestEver": 563.58,
       "highestEver": 563.58,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 46,
@@ -3824,7 +3761,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3842,13 +3779,17 @@
         {
           "d": "2026-08-13",
           "p": 594.15
+        },
+        {
+          "d": "2026-08-14",
+          "p": 594.15
         }
       ],
       "lowestEver": 594.15,
       "highestEver": 594.15,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -3908,7 +3849,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3926,13 +3867,17 @@
         {
           "d": "2026-08-13",
           "p": 599
+        },
+        {
+          "d": "2026-08-14",
+          "p": 599
         }
       ],
       "lowestEver": 599,
       "highestEver": 599,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 49,
@@ -3991,7 +3936,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4009,13 +3954,17 @@
         {
           "d": "2026-08-13",
           "p": 599.99
+        },
+        {
+          "d": "2026-08-14",
+          "p": 599.99
         }
       ],
       "lowestEver": 599.99,
       "highestEver": 599.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -4073,7 +4022,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4091,13 +4040,17 @@
         {
           "d": "2026-08-13",
           "p": 649.73
+        },
+        {
+          "d": "2026-08-14",
+          "p": 649.73
         }
       ],
       "lowestEver": 649.73,
       "highestEver": 649.73,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -4162,7 +4115,7 @@
         "os": "Windows 11"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4180,13 +4133,17 @@
         {
           "d": "2026-08-13",
           "p": 699
+        },
+        {
+          "d": "2026-08-14",
+          "p": 699
         }
       ],
       "lowestEver": 699,
       "highestEver": 699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 56,
@@ -4253,7 +4210,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4271,13 +4228,17 @@
         {
           "d": "2026-08-13",
           "p": 849
+        },
+        {
+          "d": "2026-08-14",
+          "p": 849
         }
       ],
       "lowestEver": 849,
       "highestEver": 849,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 51,
@@ -4339,7 +4300,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4357,13 +4318,17 @@
         {
           "d": "2026-08-13",
           "p": 1199
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1199
         }
       ],
       "lowestEver": 1199,
       "highestEver": 1199,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 67,
@@ -4377,6 +4342,182 @@
         "GeForce RTX 5060",
         "16 GB",
         "1 TB Archiviazione"
+      ]
+    },
+    {
+      "id": "4d24ac35517ee4b3",
+      "modelKey": "d08f24f5e677c655",
+      "category": "desktop",
+      "title": "Desktop OMEN TG03-0013NL-Black",
+      "brand": "HP",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw7944d5cb/hi-res/252005739.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/hp---desktop-omen-tg03-0013nl-black/252005739.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1349,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core i7",
+          "model": "14700F",
+          "tier": "i7",
+          "label": "Core i7-14700F"
+        },
+        "gpu": {
+          "brand": "NVIDIA",
+          "series": "GeForce RTX",
+          "model": "GeForce RTX 5060",
+          "type": "dedicata",
+          "generation": "RTX 5000"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "os": "Windows 11",
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 56,
+      "seenAt": "2026-08-14T08:52:39.184Z",
+      "firstSeenAt": "2026-08-10T12:58:37.779Z",
+      "priceHistory": [
+        {
+          "d": "2026-08-10",
+          "p": 1465
+        },
+        {
+          "d": "2026-08-11",
+          "p": 1349
+        },
+        {
+          "d": "2026-08-12",
+          "p": 1349
+        },
+        {
+          "d": "2026-08-13",
+          "p": 1349
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1349
+        }
+      ],
+      "lowestEver": 1349,
+      "highestEver": 1465,
+      "isLowestEver": true,
+      "isNew": false,
+      "daysTracked": 5,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 72,
+      "valueScore": 94,
+      "badges": [
+        "minimo storico",
+        "ottimo affare"
+      ],
+      "highlights": [
+        "Core i7-14700F",
+        "GeForce RTX 5060",
+        "16 GB",
+        "1000 GB SSD"
+      ]
+    },
+    {
+      "id": "8c6a826ad662a41b",
+      "modelKey": "d59c1536fd0ba3ef",
+      "category": "laptop",
+      "title": "ASUS Zenbook 14 UX3405CA-SU1389W, display 14\", Intel® Core™ Ultra 9 Processor 285H, 32GB RAM, 1TB SSD, Blue. - 2260003111",
+      "brand": "ASUS",
+      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/43555/7858505/ImageHttpHandler.ashx_operationcode_1%26productcode_2260003111%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__08408.1778652592.jpg?c&#x3D;1",
+      "url": "https://www.trony.it/informatica/asus-asus-zenbook-14-ux3405ca-su1389w-display-14-intel-core-ultra-9-processor-285h-32gb-ram-1tb-ssd-blue-2260003111/",
+      "store": {
+        "id": "trony",
+        "name": "Trony"
+      },
+      "price": 1377.32,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 9",
+          "model": null,
+          "tier": "Ultra 9",
+          "threads": 16,
+          "boostClock": 5.4,
+          "label": "Core Ultra 9"
+        },
+        "ram": {
+          "size": 32
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1024
+          }
+        ],
+        "display": {
+          "sizeInch": 14
+        },
+        "os": "Windows 11"
+      },
+      "specsCompleteness": 56,
+      "seenAt": "2026-08-14T08:52:39.184Z",
+      "firstSeenAt": "2026-08-10T12:55:11.571Z",
+      "priceHistory": [
+        {
+          "d": "2026-08-10",
+          "p": 1377.32
+        },
+        {
+          "d": "2026-08-11",
+          "p": 1377.32
+        },
+        {
+          "d": "2026-08-12",
+          "p": 1599.01
+        },
+        {
+          "d": "2026-08-13",
+          "p": 1377.32
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1377.32
+        }
+      ],
+      "lowestEver": 1377.32,
+      "highestEver": 1599.01,
+      "isLowestEver": true,
+      "isNew": false,
+      "daysTracked": 5,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 65,
+      "valueScore": 66,
+      "badges": [
+        "minimo storico"
+      ],
+      "highlights": [
+        "Core Ultra 9",
+        "32 GB",
+        "1 TB SSD",
+        "14\""
       ]
     },
     {
@@ -4426,7 +4567,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4444,13 +4585,17 @@
         {
           "d": "2026-08-13",
           "p": 1435.99
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1435.99
         }
       ],
       "lowestEver": 1435.99,
       "highestEver": 1435.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 72,
@@ -4557,7 +4702,7 @@
         "13\""
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "599353b96dc234be",
@@ -4642,7 +4787,7 @@
         "15\""
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "c9ee433d98daad68",
@@ -4735,7 +4880,7 @@
         "13\""
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "915cbf138c9fdb36",
@@ -4784,7 +4929,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-13T09:37:51.910Z",
+      "seenAt": "2026-08-14T08:52:39.184Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4802,13 +4947,17 @@
         {
           "d": "2026-08-13",
           "p": 3049
+        },
+        {
+          "d": "2026-08-14",
+          "p": 3049
         }
       ],
       "lowestEver": 3049,
       "highestEver": 3049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
