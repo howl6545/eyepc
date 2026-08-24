@@ -1,28 +1,27 @@
 {
-  "generatedAt": "2026-08-23T06:02:01.286Z",
+  "generatedAt": "2026-08-24T08:06:15.144Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
-    "total": 41,
+    "total": 32,
     "byCategory": {
-      "laptop": 31,
+      "laptop": 22,
       "desktop": 10
     },
     "byStore": {
       "euronics": 23,
-      "trony": 9,
       "comet": 9
     },
-    "discounted": 9,
-    "averageDiscount": 8,
-    "lowestEverCount": 29
+    "discounted": 7,
+    "averageDiscount": 10,
+    "lowestEverCount": 21
   },
   "sources": [
     {
       "store": "comet",
       "count": 60,
       "notes": [
-        "1894 in sitemap, 230 candidati, 60 scaricati (40 fissi disponibili)"
+        "1896 in sitemap, 230 candidati, 60 scaricati (40 fissi disponibili)"
       ]
     },
     {
@@ -36,7 +35,7 @@
       "store": "euronics",
       "count": 60,
       "notes": [
-        "3958 in sitemap, 218 candidati, 60 scaricati (38 fissi disponibili)"
+        "3952 in sitemap, 214 candidati, 60 scaricati (38 fissi disponibili)"
       ]
     },
     {
@@ -105,7 +104,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -163,13 +162,17 @@
         {
           "d": "2026-08-23",
           "p": 599.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 599.99
         }
       ],
       "lowestEver": 599,
       "highestEver": 732,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "verifiedDiscount": {
         "referencePrice": 732,
         "discountPct": 18
@@ -178,7 +181,7 @@
       "listPrice": 732,
       "discountSource": "storico",
       "hardwareScore": 46,
-      "valueScore": 77,
+      "valueScore": 80,
       "badges": [],
       "highlights": [
         "Core i5",
@@ -244,7 +247,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -302,13 +305,17 @@
         {
           "d": "2026-08-23",
           "p": 699.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 699.99
         }
       ],
       "lowestEver": 699.99,
       "highestEver": 824,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "verifiedDiscount": {
         "referencePrice": 824,
         "discountPct": 15
@@ -317,7 +324,7 @@
       "listPrice": 824,
       "discountSource": "storico",
       "hardwareScore": 55,
-      "valueScore": 96,
+      "valueScore": 99,
       "badges": [
         "minimo storico",
         "ottimo affare"
@@ -392,7 +399,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -446,13 +453,17 @@
         {
           "d": "2026-08-23",
           "p": 1599.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1599.99
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 13,
+      "daysTracked": 14,
       "verifiedDiscount": {
         "referencePrice": 1799,
         "discountPct": 11
@@ -461,7 +472,7 @@
       "listPrice": 1799,
       "discountSource": "storico",
       "hardwareScore": 71,
-      "valueScore": 68,
+      "valueScore": 70,
       "badges": [
         "minimo storico"
       ],
@@ -535,7 +546,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -593,13 +604,17 @@
         {
           "d": "2026-08-23",
           "p": 1099.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1099.99
         }
       ],
       "lowestEver": 1099.99,
       "highestEver": 1199,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "verifiedDiscount": {
         "referencePrice": 1199,
         "discountPct": 8
@@ -608,7 +623,7 @@
       "listPrice": 1199,
       "discountSource": "storico",
       "hardwareScore": 66,
-      "valueScore": 88,
+      "valueScore": 90,
       "badges": [
         "minimo storico",
         "ottimo affare"
@@ -627,7 +642,7 @@
       "category": "laptop",
       "title": "Ideapad Slim 3 15,6\" Intel i5 16GB 1TB 83EM00J7IX-Arctic Grey",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwe5f6a012/hi-res/242017364.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw480c74d5/hi-res/242017364.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---ideapad-slim-3-15-6-intel-i5-16gb-1tb-83em00j7ix-arctic-grey/242017364.html",
       "store": {
         "id": "euronics",
@@ -683,7 +698,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -741,13 +756,17 @@
         {
           "d": "2026-08-23",
           "p": 649.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 649.99
         }
       ],
       "lowestEver": 649,
       "highestEver": 699,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "verifiedDiscount": {
         "referencePrice": 699,
         "discountPct": 7
@@ -756,7 +775,7 @@
       "listPrice": 699,
       "discountSource": "storico",
       "hardwareScore": 48,
-      "valueScore": 78,
+      "valueScore": 80,
       "badges": [],
       "highlights": [
         "Core i5",
@@ -817,7 +836,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -875,13 +894,17 @@
         {
           "d": "2026-08-23",
           "p": 1599.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1599.99
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "verifiedDiscount": {
         "referencePrice": 1699,
         "discountPct": 6
@@ -960,7 +983,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1018,13 +1041,17 @@
         {
           "d": "2026-08-23",
           "p": 549.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 549.99
         }
       ],
       "lowestEver": 548,
       "highestEver": 579,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "verifiedDiscount": {
         "referencePrice": 579,
         "discountPct": 5
@@ -1033,7 +1060,7 @@
       "listPrice": 579,
       "discountSource": "storico",
       "hardwareScore": 47,
-      "valueScore": 89,
+      "valueScore": 92,
       "badges": [
         "ottimo affare"
       ],
@@ -1044,232 +1071,6 @@
         "512 GB SSD",
         "15,6\" Full HD"
       ]
-    },
-    {
-      "id": "32f0a41b783ee8e3",
-      "modelKey": "4ebd7d05be907bc5",
-      "category": "laptop",
-      "title": "Notebook ASUS Vivobook 16 F1607AA-MB034W, display 16\", processore Intel Intel® Core™ Ultra 5, RAM 16GB, 512GB SSD, Blue. - 2260003102",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/44647/7938273/ImageHttpHandler.ashx_operationcode_1%26productcode_2260003102%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__50101.1783490726.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-notebook-asus-vivobook-16-f1607aa-mb034w-display-16-processore-intel-intel-core-ultra-5-ram-16gb-512gb-ssd-blue-2260003102/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 713.38,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 5",
-          "model": null,
-          "tier": "Ultra 5",
-          "threads": 8,
-          "boostClock": 4.5,
-          "label": "Core Ultra 5"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 16
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:55:11.571Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 713.38
-        },
-        {
-          "d": "2026-08-11",
-          "p": 879.95
-        },
-        {
-          "d": "2026-08-12",
-          "p": 879.95
-        },
-        {
-          "d": "2026-08-13",
-          "p": 749
-        },
-        {
-          "d": "2026-08-14",
-          "p": 713.38
-        },
-        {
-          "d": "2026-08-15",
-          "p": 713.38
-        },
-        {
-          "d": "2026-08-16",
-          "p": 713.38
-        },
-        {
-          "d": "2026-08-17",
-          "p": 713.38
-        },
-        {
-          "d": "2026-08-18",
-          "p": 713.38
-        },
-        {
-          "d": "2026-08-19",
-          "p": 713.38
-        }
-      ],
-      "lowestEver": 713.38,
-      "highestEver": 879.95,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 10,
-      "verifiedDiscount": {
-        "referencePrice": 749,
-        "discountPct": 5
-      },
-      "discountPct": 5,
-      "listPrice": 749,
-      "discountSource": "storico",
-      "hardwareScore": 49,
-      "valueScore": 73,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core Ultra 5",
-        "16 GB",
-        "512 GB SSD",
-        "16\""
-      ],
-      "isStale": true,
-      "staleDays": 3
-    },
-    {
-      "id": "65685a7a4acd2819",
-      "modelKey": "7e0caed9926fb61a",
-      "category": "laptop",
-      "title": "ASUS Vivobook 15 M1502NAQ-BQ046W, display 15,6\", processore AMD Ryzen™ 5 150, RAM 8GB, 512GB SSD, Silver. - 2260002638",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/43553/7923414/ImageHttpHandler.ashx_operationcode_1%26productcode_2260002638%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__65950.1779346723.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-asus-vivobook-15-m1502naq-bq046w-display-15-6-processore-amd-ryzen-5-150-ram-8gb-512gb-ssd-silver-2260002638/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 557.46,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "AMD",
-          "family": "Ryzen 5",
-          "model": null,
-          "tier": "ryzen 5",
-          "threads": 12,
-          "boostClock": 4.55,
-          "label": "Ryzen 5"
-        },
-        "ram": {
-          "size": 8
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:55:11.571Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-11",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-12",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-13",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-14",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-15",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-16",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-17",
-          "p": 563.58
-        },
-        {
-          "d": "2026-08-19",
-          "p": 557.46
-        }
-      ],
-      "lowestEver": 557.46,
-      "highestEver": 563.58,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 9,
-      "priceChange": {
-        "from": 563.58,
-        "to": 557.46,
-        "deltaPct": -1,
-        "since": "2026-08-17T07:59:34.216Z"
-      },
-      "verifiedDiscount": {
-        "referencePrice": 563.58,
-        "discountPct": 1
-      },
-      "discountPct": 1,
-      "listPrice": 563.58,
-      "discountSource": "storico",
-      "hardwareScore": 46,
-      "valueScore": 84,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Ryzen 5",
-        "8 GB",
-        "512 GB SSD",
-        "15,6\""
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "7ba0a291247ca144",
@@ -1329,7 +1130,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1387,17 +1188,21 @@
         {
           "d": "2026-08-23",
           "p": 999
+        },
+        {
+          "d": "2026-08-24",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
-      "valueScore": 73,
+      "valueScore": 76,
       "badges": [
         "minimo storico"
       ],
@@ -1466,7 +1271,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1524,17 +1329,21 @@
         {
           "d": "2026-08-23",
           "p": 429
+        },
+        {
+          "d": "2026-08-24",
+          "p": 429
         }
       ],
       "lowestEver": 429,
       "highestEver": 429,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 37,
-      "valueScore": 69,
+      "valueScore": 71,
       "badges": [
         "minimo storico"
       ],
@@ -1604,26 +1413,28 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-23T06:02:01.286Z",
       "priceHistory": [
         {
           "d": "2026-08-23",
+          "p": 453
+        },
+        {
+          "d": "2026-08-24",
           "p": 453
         }
       ],
       "lowestEver": 453,
       "highestEver": 453,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 35,
-      "valueScore": 56,
-      "badges": [
-        "novita"
-      ],
+      "valueScore": 57,
+      "badges": [],
       "highlights": [
         "Core i3",
         "UHD Graphics",
@@ -1689,7 +1500,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1747,17 +1558,21 @@
         {
           "d": "2026-08-23",
           "p": 545
+        },
+        {
+          "d": "2026-08-24",
+          "p": 545
         }
       ],
       "lowestEver": 499.99,
       "highestEver": 545,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 45,
-      "valueScore": 82,
+      "valueScore": 84,
       "badges": [],
       "highlights": [
         "Ryzen 5",
@@ -1848,7 +1663,7 @@
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 49,
-      "valueScore": 97,
+      "valueScore": 100,
       "badges": [
         "minimo storico",
         "ottimo affare"
@@ -1859,7 +1674,9 @@
         "16 GB",
         "1000 GB SSD",
         "15,6\" Full HD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "7fba6ce6a79c7dff",
@@ -1919,7 +1736,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1977,17 +1794,21 @@
         {
           "d": "2026-08-23",
           "p": 765
+        },
+        {
+          "d": "2026-08-24",
+          "p": 765
         }
       ],
       "lowestEver": 765,
       "highestEver": 799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 50,
-      "valueScore": 71,
+      "valueScore": 73,
       "badges": [
         "minimo storico"
       ],
@@ -2055,7 +1876,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2113,13 +1934,17 @@
         {
           "d": "2026-08-23",
           "p": 799
+        },
+        {
+          "d": "2026-08-24",
+          "p": 799
         }
       ],
       "lowestEver": 799,
       "highestEver": 799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -2140,7 +1965,7 @@
         }
       ],
       "hardwareScore": 34,
-      "valueScore": 14,
+      "valueScore": 15,
       "badges": [
         "minimo storico"
       ],
@@ -2208,7 +2033,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2266,13 +2091,17 @@
         {
           "d": "2026-08-23",
           "p": 899
+        },
+        {
+          "d": "2026-08-24",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -2293,7 +2122,7 @@
         }
       ],
       "hardwareScore": 37,
-      "valueScore": 17,
+      "valueScore": 18,
       "badges": [
         "minimo storico"
       ],
@@ -2365,7 +2194,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2415,17 +2244,21 @@
         {
           "d": "2026-08-23",
           "p": 999
+        },
+        {
+          "d": "2026-08-24",
+          "p": 999
         }
       ],
       "lowestEver": 897,
       "highestEver": 999,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 12,
+      "daysTracked": 13,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
-      "valueScore": 56,
+      "valueScore": 57,
       "badges": [],
       "highlights": [
         "Core Ultra 5",
@@ -2434,123 +2267,6 @@
         "512 GB SSD",
         "14\" Full HD+"
       ]
-    },
-    {
-      "id": "52eeb6b45d43d102",
-      "modelKey": "64c2c25130ad94f1",
-      "category": "laptop",
-      "title": "IdeaPad Slim 5 NB 16'' INTEL ULT 9 16GB 512GB | Windows 11 Home | Caricatore non incluso - 2260006189",
-      "brand": "Lenovo",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/44297/7946506/ImageHttpHandler.ashx_operationcode_1%26productcode_2260006189%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__12844.1786169310.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/lenovo-ideapad-slim-5-notebook-15-3-intel-core-ultra-9-16gb-512gb-2260006189/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 999,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 9",
-          "model": "185H",
-          "tier": "Ultra 9",
-          "label": "Core Ultra 9-185H"
-        },
-        "gpu": {
-          "brand": null,
-          "series": "Integrata",
-          "model": "Scheda Grafica Integrata",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 16,
-          "width": 1920,
-          "height": 1200,
-          "resolution": "1920x1200",
-          "resolutionLabel": "Full HD+"
-        },
-        "os": "Windows 11 Home",
-        "weightKg": 1.85
-      },
-      "specsCompleteness": 78,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:55:11.571Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 999
-        },
-        {
-          "d": "2026-08-11",
-          "p": 999
-        },
-        {
-          "d": "2026-08-12",
-          "p": 999
-        },
-        {
-          "d": "2026-08-13",
-          "p": 999
-        },
-        {
-          "d": "2026-08-14",
-          "p": 999
-        },
-        {
-          "d": "2026-08-15",
-          "p": 999
-        },
-        {
-          "d": "2026-08-16",
-          "p": 999
-        },
-        {
-          "d": "2026-08-17",
-          "p": 999
-        },
-        {
-          "d": "2026-08-18",
-          "p": 999
-        },
-        {
-          "d": "2026-08-19",
-          "p": 999
-        }
-      ],
-      "lowestEver": 999,
-      "highestEver": 999,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 10,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 58,
-      "valueScore": 73,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core Ultra 9-185H",
-        "Scheda Grafica Integrata",
-        "16 GB",
-        "512 GB SSD",
-        "16\" Full HD+"
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "4210eca810285e9a",
@@ -2613,7 +2329,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2671,17 +2387,21 @@
         {
           "d": "2026-08-23",
           "p": 1039
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1039
         }
       ],
       "lowestEver": 899,
       "highestEver": 1039,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
-      "valueScore": 76,
+      "valueScore": 78,
       "badges": [],
       "highlights": [
         "Core Ultra 7",
@@ -2754,7 +2474,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2812,17 +2532,21 @@
         {
           "d": "2026-08-23",
           "p": 1099
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1099
         }
       ],
       "lowestEver": 1099,
       "highestEver": 1099.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
-      "valueScore": 71,
+      "valueScore": 73,
       "badges": [
         "minimo storico"
       ],
@@ -2889,7 +2613,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-11T08:33:52.832Z",
       "priceHistory": [
         {
@@ -2943,17 +2667,21 @@
         {
           "d": "2026-08-23",
           "p": 1249
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1249
         }
       ],
       "lowestEver": 1249,
       "highestEver": 1249,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 13,
+      "daysTracked": 14,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
-      "valueScore": 53,
+      "valueScore": 54,
       "badges": [
         "minimo storico"
       ],
@@ -3023,7 +2751,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3081,17 +2809,21 @@
         {
           "d": "2026-08-23",
           "p": 1259
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1259
         }
       ],
       "lowestEver": 1105,
       "highestEver": 1259,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 62,
-      "valueScore": 65,
+      "valueScore": 67,
       "badges": [],
       "highlights": [
         "Ryzen 7",
@@ -3152,7 +2884,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3210,17 +2942,21 @@
         {
           "d": "2026-08-23",
           "p": 244
+        },
+        {
+          "d": "2026-08-24",
+          "p": 244
         }
       ],
       "lowestEver": 244,
       "highestEver": 244,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 22,
-      "valueScore": 33,
+      "valueScore": 34,
       "badges": [
         "minimo storico"
       ],
@@ -3230,118 +2966,6 @@
         "64 GB eMMC",
         "14\" HD"
       ]
-    },
-    {
-      "id": "ef26e5a6b8135f8c",
-      "modelKey": "d5d20b875cfb60d4",
-      "category": "laptop",
-      "title": "ASUS Vivobook Go 15 E1504GA-BQ834W, notebook 15.6\", Intel® Core™ i3-N305 Processor, RAM 8GB, 512GB SSD, Black. - 2250005745",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/41317/7911730/ImageHttpHandler.ashx_operationcode_1%26productcode_2250005745%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__17487.1779341909.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-asus-vivobook-go-15-e1504ga-bq834w-notebook-15-6-intel-core-i3-n305-processor-ram-8gb-512gb-ssd-black-2250005745/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 499,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core i3",
-          "model": null,
-          "tier": "i3",
-          "label": "Core i3"
-        },
-        "gpu": {
-          "brand": "Intel",
-          "series": "Integrata",
-          "model": "UHD Graphics",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 8
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 67,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:55:11.571Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 499
-        },
-        {
-          "d": "2026-08-11",
-          "p": 499
-        },
-        {
-          "d": "2026-08-12",
-          "p": 499
-        },
-        {
-          "d": "2026-08-13",
-          "p": 499
-        },
-        {
-          "d": "2026-08-14",
-          "p": 499
-        },
-        {
-          "d": "2026-08-15",
-          "p": 499
-        },
-        {
-          "d": "2026-08-16",
-          "p": 499
-        },
-        {
-          "d": "2026-08-17",
-          "p": 499
-        },
-        {
-          "d": "2026-08-18",
-          "p": 499
-        },
-        {
-          "d": "2026-08-19",
-          "p": 499
-        }
-      ],
-      "lowestEver": 499,
-      "highestEver": 499,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 10,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 35,
-      "valueScore": 48,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core i3",
-        "UHD Graphics",
-        "8 GB",
-        "512 GB SSD",
-        "15,6\""
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "2bded896e7ce1ac6",
@@ -3392,7 +3016,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3450,13 +3074,17 @@
         {
           "d": "2026-08-23",
           "p": 729
+        },
+        {
+          "d": "2026-08-24",
+          "p": 729
         }
       ],
       "lowestEver": 729,
       "highestEver": 729,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 48,
@@ -3524,7 +3152,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -3582,13 +3210,17 @@
         {
           "d": "2026-08-23",
           "p": 999
+        },
+        {
+          "d": "2026-08-24",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -3604,7 +3236,7 @@
         }
       ],
       "hardwareScore": 52,
-      "valueScore": 56,
+      "valueScore": 57,
       "badges": [
         "minimo storico",
         "esaurito"
@@ -3666,7 +3298,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3724,13 +3356,17 @@
         {
           "d": "2026-08-23",
           "p": 1929
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1929
         }
       ],
       "lowestEver": 1915.49,
       "highestEver": 1929,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
@@ -3744,116 +3380,6 @@
         "24 GB",
         "512 GB Archiviazione"
       ]
-    },
-    {
-      "id": "04a0722e1b001162",
-      "modelKey": "9d8a8ea5869504d0",
-      "category": "laptop",
-      "title": "ASUS Vivobook 15 F1504VA-NJ2338W, Notebook con display 15.6, processore Intel® i3-1315U, RAM 8GB, 512GB SSD, Blue. - 2240023669",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/38557/7894614/ImageHttpHandler.ashx_operationcode_1%26productcode_2240023669%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__40750.1779326606.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-asus-vivobook-15-f1504va-nj2338w-notebook-con-display-15-6-processore-intel-i3-1315u-ram-8gb-512gb-ssd-blue-2240023669/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 547.07,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core i3",
-          "model": null,
-          "tier": "i3",
-          "threads": 8,
-          "boostClock": 4.5,
-          "label": "Core i3"
-        },
-        "gpu": {
-          "brand": "Intel",
-          "series": "Integrata",
-          "model": "UHD Graphics",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 8
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:55:11.571Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-11",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-12",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-13",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-14",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-15",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-16",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-17",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-18",
-          "p": 547.07
-        },
-        {
-          "d": "2026-08-19",
-          "p": 547.07
-        }
-      ],
-      "lowestEver": 547.07,
-      "highestEver": 547.07,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 10,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 30,
-      "valueScore": 22,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core i3",
-        "UHD Graphics",
-        "8 GB",
-        "512 GB SSD"
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "f5692cb0b6991540",
@@ -3975,7 +3501,7 @@
         "Tower"
       ],
       "isStale": true,
-      "staleDays": 1
+      "staleDays": 2
     },
     {
       "id": "ee06db989c29e488",
@@ -4020,7 +3546,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4078,13 +3604,17 @@
         {
           "d": "2026-08-23",
           "p": 649
+        },
+        {
+          "d": "2026-08-24",
+          "p": 649
         }
       ],
       "lowestEver": 594.15,
       "highestEver": 649,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -4140,7 +3670,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4198,13 +3728,17 @@
         {
           "d": "2026-08-23",
           "p": 649
+        },
+        {
+          "d": "2026-08-24",
+          "p": 649
         }
       ],
       "lowestEver": 599.99,
       "highestEver": 649,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -4216,235 +3750,6 @@
         "512 GB SSD",
         "All-in-One"
       ]
-    },
-    {
-      "id": "fd00887b9e284cee",
-      "modelKey": "850655101747dee3",
-      "category": "laptop",
-      "title": "ASUS Notebook M1502NAQ-BQ050W display 15,6\", processore AMD Ryzen™ 7 170, RAM 16GB, 512GB SSD, Silver - 2250017293",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/43426/7916691/ImageHttpHandler.ashx_operationcode_1%26productcode_2250017293%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__06611.1779344106.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-asus-notebook-m1502naq-bq050w-display-15-6-processore-amd-ryzen-7-170-ram-16gb-512gb-ssd-silver-2250017293/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 649,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "AMD",
-          "family": "Ryzen 7",
-          "model": null,
-          "tier": "ryzen 7",
-          "threads": 16,
-          "boostClock": 4.75,
-          "label": "Ryzen 7"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:58:37.779Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-11",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-12",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-13",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-14",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-15",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-16",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-17",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-18",
-          "p": 649.73
-        },
-        {
-          "d": "2026-08-19",
-          "p": 649
-        }
-      ],
-      "lowestEver": 649,
-      "highestEver": 649.73,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 10,
-      "priceChange": {
-        "from": 649.73,
-        "to": 649,
-        "deltaPct": 0,
-        "since": "2026-08-18T06:02:23.195Z"
-      },
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "variants": [
-        {
-          "title": "Notebook M1502YA-BQ137W display 15,6\" con processore AMD Ryzen™ 7 7730U, RAM 16GB, 512GB SSD, Blue. - 2250011088",
-          "price": 651.09,
-          "url": "https://www.trony.it/informatica/asus-notebook-m1502ya-bq137w-display-15-6-con-processore-amd-ryzen-7-7730u-ram-16gb-512gb-ssd-blue-2250011088/"
-        }
-      ],
-      "hardwareScore": 54,
-      "valueScore": 100,
-      "badges": [
-        "minimo storico",
-        "ottimo affare"
-      ],
-      "highlights": [
-        "Ryzen 7",
-        "16 GB",
-        "512 GB SSD",
-        "15,6\""
-      ],
-      "isStale": true,
-      "staleDays": 3
-    },
-    {
-      "id": "65083e6f228bf281",
-      "modelKey": "1e55c83a684728ba",
-      "category": "laptop",
-      "title": "ASUS Vivobook 15 F1504VA-BQ132W, notebook con display 15.6\", RAM 16GB, 1TB SSD, Blue. - 2250006265",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/42302/7919987/ImageHttpHandler.ashx_operationcode_1%26productcode_2250006265%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__84546.1779345384.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-asus-vivobook-15-f1504va-bq132w-notebook-con-display-15-6-ram-16gb-1tb-ssd-blue-2250006265/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 699,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core i7",
-          "model": null,
-          "tier": "i7",
-          "threads": 12,
-          "boostClock": 5,
-          "label": "Core i7"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1024
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:58:37.779Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 699
-        },
-        {
-          "d": "2026-08-11",
-          "p": 699
-        },
-        {
-          "d": "2026-08-12",
-          "p": 699
-        },
-        {
-          "d": "2026-08-13",
-          "p": 699
-        },
-        {
-          "d": "2026-08-14",
-          "p": 699
-        },
-        {
-          "d": "2026-08-15",
-          "p": 699
-        },
-        {
-          "d": "2026-08-16",
-          "p": 699
-        },
-        {
-          "d": "2026-08-17",
-          "p": 699
-        },
-        {
-          "d": "2026-08-18",
-          "p": 699
-        },
-        {
-          "d": "2026-08-19",
-          "p": 699
-        }
-      ],
-      "lowestEver": 699,
-      "highestEver": 699,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 10,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 56,
-      "valueScore": 100,
-      "badges": [
-        "minimo storico",
-        "ottimo affare"
-      ],
-      "highlights": [
-        "Core i7",
-        "16 GB",
-        "1 TB SSD",
-        "15,6\""
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "ff45e66ef708726c",
@@ -4497,7 +3802,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4555,13 +3860,17 @@
         {
           "d": "2026-08-23",
           "p": 849
+        },
+        {
+          "d": "2026-08-24",
+          "p": 849
         }
       ],
       "lowestEver": 849,
       "highestEver": 849,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 51,
@@ -4575,77 +3884,6 @@
         "512 GB SSD",
         "All-in-One"
       ]
-    },
-    {
-      "id": "69e53bbb78752b85",
-      "modelKey": "43bb0b2cdea46ec6",
-      "category": "laptop",
-      "title": "Notebook ASUS Vivobook 16 F1607AA-MB036W, display 16\", processore Intel PTL U5-404 (8C), RAM 32GB, 1TB SSD, Blue. - 2250015404",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/44785/7939393/ImageHttpHandler.ashx_operationcode_1%26productcode_2250015404%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__92740.1783664013.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-notebook-asus-vivobook-16-f1607aa-mb036w-display-16-processore-intel-ptl-u5-404-8c-ram-32gb-1tb-ssd-blue-2250015404/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 987.34,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 5",
-          "model": null,
-          "tier": "Ultra 5",
-          "label": "Core Ultra 5"
-        },
-        "ram": {
-          "size": 32
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1024
-          }
-        ],
-        "display": {
-          "sizeInch": 16
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-18T06:02:23.195Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-18",
-          "p": 987.34
-        },
-        {
-          "d": "2026-08-19",
-          "p": 987.34
-        }
-      ],
-      "lowestEver": 987.34,
-      "highestEver": 987.34,
-      "isLowestEver": false,
-      "isNew": false,
-      "daysTracked": 2,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 55,
-      "valueScore": 65,
-      "badges": [],
-      "highlights": [
-        "Core Ultra 5",
-        "32 GB",
-        "1 TB SSD",
-        "16\""
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "e0608b8bfe599152",
@@ -4694,7 +3932,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4752,13 +3990,17 @@
         {
           "d": "2026-08-23",
           "p": 1199
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1199
         }
       ],
       "lowestEver": 1199,
       "highestEver": 1199,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 67,
@@ -4821,7 +4063,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4879,13 +4121,17 @@
         {
           "d": "2026-08-23",
           "p": 1349
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1349
         }
       ],
       "lowestEver": 1349,
       "highestEver": 1465,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 72,
@@ -4900,113 +4146,6 @@
         "16 GB",
         "1000 GB SSD"
       ]
-    },
-    {
-      "id": "8c6a826ad662a41b",
-      "modelKey": "d59c1536fd0ba3ef",
-      "category": "laptop",
-      "title": "ASUS Zenbook 14 UX3405CA-SU1389W, display 14\", Intel® Core™ Ultra 9 Processor 285H, 32GB RAM, 1TB SSD, Blue. - 2260003111",
-      "brand": "ASUS",
-      "image": "https://cdn11.bigcommerce.com/s-2cvjcuc0hg/images/stencil/{:size}/products/43555/7858505/ImageHttpHandler.ashx_operationcode_1%26productcode_2260003111%26imageorder_0%26thumbnailsize_1200%26usercode_421%26ip_80.90.95__08408.1778652592.jpg?c&#x3D;1",
-      "url": "https://www.trony.it/informatica/asus-asus-zenbook-14-ux3405ca-su1389w-display-14-intel-core-ultra-9-processor-285h-32gb-ram-1tb-ssd-blue-2260003111/",
-      "store": {
-        "id": "trony",
-        "name": "Trony"
-      },
-      "price": 1377.32,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 9",
-          "model": null,
-          "tier": "Ultra 9",
-          "threads": 16,
-          "boostClock": 5.4,
-          "label": "Core Ultra 9"
-        },
-        "ram": {
-          "size": 32
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1024
-          }
-        ],
-        "display": {
-          "sizeInch": 14
-        },
-        "os": "Windows 11"
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-08-19T06:03:04.925Z",
-      "firstSeenAt": "2026-08-10T12:55:11.571Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-11",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-12",
-          "p": 1599.01
-        },
-        {
-          "d": "2026-08-13",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-14",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-15",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-16",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-17",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-18",
-          "p": 1377.32
-        },
-        {
-          "d": "2026-08-19",
-          "p": 1377.32
-        }
-      ],
-      "lowestEver": 1377.32,
-      "highestEver": 1599.01,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 10,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 65,
-      "valueScore": 66,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core Ultra 9",
-        "32 GB",
-        "1 TB SSD",
-        "14\""
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "6c6d6cc1f2aca4fc",
@@ -5055,7 +4194,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -5113,13 +4252,17 @@
         {
           "d": "2026-08-23",
           "p": 1435.99
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1435.99
         }
       ],
       "lowestEver": 1435.99,
       "highestEver": 1435.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 72,
@@ -5182,7 +4325,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-23T06:02:01.286Z",
+      "seenAt": "2026-08-24T08:06:15.144Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -5240,13 +4383,17 @@
         {
           "d": "2026-08-23",
           "p": 3049
+        },
+        {
+          "d": "2026-08-24",
+          "p": 3049
         }
       ],
       "lowestEver": 3049,
       "highestEver": 3049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 14,
+      "daysTracked": 15,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
