@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-31T05:17:31.287Z",
+  "generatedAt": "2026-09-01T05:22:38.985Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
-    "total": 28,
+    "total": 29,
     "byCategory": {
-      "laptop": 15,
+      "laptop": 16,
       "desktop": 13
     },
     "byStore": {
-      "euronics": 15,
+      "euronics": 16,
       "comet": 13
     },
-    "discounted": 5,
-    "averageDiscount": 8,
+    "discounted": 4,
+    "averageDiscount": 7,
     "lowestEverCount": 22
   },
   "sources": [
@@ -21,7 +21,7 @@
       "store": "comet",
       "count": 60,
       "notes": [
-        "1912 in sitemap, 239 candidati, 60 scaricati (48 fissi disponibili)"
+        "1910 in sitemap, 237 candidati, 60 scaricati (48 fissi disponibili)"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "store": "euronics",
       "count": 60,
       "notes": [
-        "3977 in sitemap, 180 candidati, 60 scaricati (35 fissi disponibili)"
+        "3989 in sitemap, 175 candidati, 60 scaricati (33 fissi disponibili)"
       ]
     },
     {
@@ -47,177 +47,6 @@
     }
   ],
   "offers": [
-    {
-      "id": "519d7b423ec7dbe5",
-      "modelKey": "75624eee9bb47207",
-      "category": "laptop",
-      "title": "Notebook LOQ 83JG00B6IX 15,6\" AMD Ryzen7-Luna Grey",
-      "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwe2247b4c/hi-res/252014098.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/lenovo---notebook-loq-83jg00b6ix-15-6-amd-ryzen7-luna-grey/252014098.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 1115,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "AMD",
-          "family": "Ryzen 7",
-          "model": null,
-          "tier": "ryzen 7",
-          "boostClock": 5.1,
-          "label": "Ryzen 7"
-        },
-        "gpu": {
-          "brand": "NVIDIA",
-          "series": "GeForce RTX",
-          "model": "GeForce RTX 5050",
-          "type": "dedicata",
-          "generation": "RTX 5000"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6,
-          "width": 1920,
-          "height": 1080,
-          "resolution": "1920x1080",
-          "resolutionLabel": "Full HD"
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.3"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
-      "firstSeenAt": "2026-08-10T12:58:37.779Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-11",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-12",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-13",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-14",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-15",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-16",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-17",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-18",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-19",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-20",
-          "p": 1199.99
-        },
-        {
-          "d": "2026-08-21",
-          "p": 1105
-        },
-        {
-          "d": "2026-08-22",
-          "p": 1259
-        },
-        {
-          "d": "2026-08-23",
-          "p": 1259
-        },
-        {
-          "d": "2026-08-24",
-          "p": 1259
-        },
-        {
-          "d": "2026-08-25",
-          "p": 1255
-        },
-        {
-          "d": "2026-08-26",
-          "p": 1255
-        },
-        {
-          "d": "2026-08-28",
-          "p": 1255
-        },
-        {
-          "d": "2026-08-29",
-          "p": 1115
-        },
-        {
-          "d": "2026-08-30",
-          "p": 1115
-        },
-        {
-          "d": "2026-08-31",
-          "p": 1115
-        }
-      ],
-      "lowestEver": 1105,
-      "highestEver": 1259,
-      "isLowestEver": false,
-      "isNew": false,
-      "daysTracked": 21,
-      "verifiedDiscount": {
-        "referencePrice": 1255,
-        "discountPct": 11
-      },
-      "discountPct": 11,
-      "listPrice": 1255,
-      "discountSource": "storico",
-      "hardwareScore": 62,
-      "valueScore": 86,
-      "badges": [
-        "ottimo affare"
-      ],
-      "highlights": [
-        "Ryzen 7",
-        "GeForce RTX 5050",
-        "16 GB",
-        "512 GB SSD",
-        "15,6\" Full HD"
-      ]
-    },
     {
       "id": "766187d2466bc50c",
       "modelKey": "b8bca9f4c6e7a9d6",
@@ -280,7 +109,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -362,13 +191,17 @@
         {
           "d": "2026-08-31",
           "p": 1599.99
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1599.99
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 20,
+      "daysTracked": 21,
       "verifiedDiscount": {
         "referencePrice": 1799,
         "discountPct": 11
@@ -451,7 +284,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -537,13 +370,17 @@
         {
           "d": "2026-08-31",
           "p": 1099.99
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1099.99
         }
       ],
       "lowestEver": 1099.99,
       "highestEver": 1199,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "verifiedDiscount": {
         "referencePrice": 1199,
         "discountPct": 8
@@ -616,7 +453,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -702,13 +539,17 @@
         {
           "d": "2026-08-31",
           "p": 1599.99
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1599.99
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "verifiedDiscount": {
         "referencePrice": 1699,
         "discountPct": 6
@@ -781,7 +622,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -867,13 +708,17 @@
         {
           "d": "2026-08-31",
           "p": 236
+        },
+        {
+          "d": "2026-09-01",
+          "p": 236
         }
       ],
       "lowestEver": 236,
       "highestEver": 244,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "verifiedDiscount": {
         "referencePrice": 244,
         "discountPct": 3
@@ -951,7 +796,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1037,13 +882,17 @@
         {
           "d": "2026-08-31",
           "p": 999
+        },
+        {
+          "d": "2026-09-01",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
@@ -1116,7 +965,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1202,13 +1051,17 @@
         {
           "d": "2026-08-31",
           "p": 429
+        },
+        {
+          "d": "2026-09-01",
+          "p": 429
         }
       ],
       "lowestEver": 429,
       "highestEver": 429,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 37,
@@ -1219,6 +1072,92 @@
       "highlights": [
         "Ryzen 3",
         "Radeon Graphics",
+        "8 GB",
+        "512 GB SSD",
+        "15,6\" Full HD"
+      ]
+    },
+    {
+      "id": "49a1dbbcdb08a8a6",
+      "modelKey": "89ec51332b7f213f",
+      "category": "laptop",
+      "title": "IDEAPAD SLIM 3 82XB00C7IX-Arctic Grey",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw2eb05c06/hi-res/242017366.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---ideapad-slim-3-82xb00c7ix-arctic-grey/242017366.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 449.99,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core i3",
+          "model": null,
+          "tier": "i3",
+          "boostClock": 3.8,
+          "label": "Core i3"
+        },
+        "gpu": {
+          "brand": "Intel",
+          "series": "Integrata",
+          "model": "UHD Graphics",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 8
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 15.6,
+          "width": 1920,
+          "height": 1080,
+          "resolution": "1920x1080",
+          "resolutionLabel": "Full HD"
+        },
+        "os": "Windows 11",
+        "fingerprint": true,
+        "connectivity": {
+          "bluetooth": "5.2"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-09-01T05:22:38.985Z",
+      "firstSeenAt": "2026-09-01T05:22:38.985Z",
+      "priceHistory": [
+        {
+          "d": "2026-09-01",
+          "p": 449.99
+        }
+      ],
+      "lowestEver": 449.99,
+      "highestEver": 449.99,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 35,
+      "valueScore": 64,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core i3",
+        "UHD Graphics",
         "8 GB",
         "512 GB SSD",
         "15,6\" Full HD"
@@ -1236,7 +1175,7 @@
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 529,
+      "price": 549,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -1281,7 +1220,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -1367,17 +1306,27 @@
         {
           "d": "2026-08-31",
           "p": 529
+        },
+        {
+          "d": "2026-09-01",
+          "p": 549
         }
       ],
       "lowestEver": 499.99,
       "highestEver": 563,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
+      "priceChange": {
+        "from": 529,
+        "to": 549,
+        "deltaPct": 4,
+        "since": "2026-08-31T05:17:31.287Z"
+      },
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 45,
-      "valueScore": 96,
+      "valueScore": 93,
       "badges": [
         "ottimo affare"
       ],
@@ -1445,7 +1394,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1531,13 +1480,17 @@
         {
           "d": "2026-08-31",
           "p": 799
+        },
+        {
+          "d": "2026-09-01",
+          "p": 799
         }
       ],
       "lowestEver": 799,
       "highestEver": 799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -1626,7 +1579,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -1712,13 +1665,17 @@
         {
           "d": "2026-08-31",
           "p": 899
+        },
+        {
+          "d": "2026-09-01",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -1805,7 +1762,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -1823,13 +1780,17 @@
         {
           "d": "2026-08-31",
           "p": 899
+        },
+        {
+          "d": "2026-09-01",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 35,
@@ -2012,7 +1973,9 @@
         "32 GB",
         "1 TB SSD + 1000 GB SSD",
         "15,6\" Full HD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "57af1e7c71094272",
@@ -2069,7 +2032,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-11T08:33:52.832Z",
       "priceHistory": [
         {
@@ -2151,13 +2114,17 @@
         {
           "d": "2026-08-31",
           "p": 1249
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1249
         }
       ],
       "lowestEver": 1249,
       "highestEver": 1249,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 20,
+      "daysTracked": 21,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
@@ -2171,6 +2138,180 @@
         "16 GB",
         "1000 GB SSD",
         "14\""
+      ]
+    },
+    {
+      "id": "519d7b423ec7dbe5",
+      "modelKey": "75624eee9bb47207",
+      "category": "laptop",
+      "title": "Notebook LOQ 83JG00B6IX 15,6\" AMD Ryzen7-Luna Grey",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwe2247b4c/hi-res/252014098.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/lenovo---notebook-loq-83jg00b6ix-15-6-amd-ryzen7-luna-grey/252014098.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1249,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "AMD",
+          "family": "Ryzen 7",
+          "model": null,
+          "tier": "ryzen 7",
+          "boostClock": 5.1,
+          "label": "Ryzen 7"
+        },
+        "gpu": {
+          "brand": "NVIDIA",
+          "series": "GeForce RTX",
+          "model": "GeForce RTX 5050",
+          "type": "dedicata",
+          "generation": "RTX 5000"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 15.6,
+          "width": 1920,
+          "height": 1080,
+          "resolution": "1920x1080",
+          "resolutionLabel": "Full HD"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.3"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-09-01T05:22:38.985Z",
+      "firstSeenAt": "2026-08-10T12:58:37.779Z",
+      "priceHistory": [
+        {
+          "d": "2026-08-10",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-11",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-12",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-13",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-14",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-15",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-16",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-17",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-18",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-19",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-20",
+          "p": 1199.99
+        },
+        {
+          "d": "2026-08-21",
+          "p": 1105
+        },
+        {
+          "d": "2026-08-22",
+          "p": 1259
+        },
+        {
+          "d": "2026-08-23",
+          "p": 1259
+        },
+        {
+          "d": "2026-08-24",
+          "p": 1259
+        },
+        {
+          "d": "2026-08-25",
+          "p": 1255
+        },
+        {
+          "d": "2026-08-26",
+          "p": 1255
+        },
+        {
+          "d": "2026-08-28",
+          "p": 1255
+        },
+        {
+          "d": "2026-08-29",
+          "p": 1115
+        },
+        {
+          "d": "2026-08-30",
+          "p": 1115
+        },
+        {
+          "d": "2026-08-31",
+          "p": 1115
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1249
+        }
+      ],
+      "lowestEver": 1105,
+      "highestEver": 1259,
+      "isLowestEver": false,
+      "isNew": false,
+      "daysTracked": 22,
+      "priceChange": {
+        "from": 1115,
+        "to": 1249,
+        "deltaPct": 12,
+        "since": "2026-08-31T05:17:31.287Z"
+      },
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 62,
+      "valueScore": 75,
+      "badges": [],
+      "highlights": [
+        "Ryzen 7",
+        "GeForce RTX 5050",
+        "16 GB",
+        "512 GB SSD",
+        "15,6\" Full HD"
       ]
     },
     {
@@ -2224,7 +2365,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2242,13 +2383,17 @@
         {
           "d": "2026-08-31",
           "p": 449
+        },
+        {
+          "d": "2026-09-01",
+          "p": 449
         }
       ],
       "lowestEver": 449,
       "highestEver": 449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 26,
@@ -2312,7 +2457,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2398,13 +2543,17 @@
         {
           "d": "2026-08-31",
           "p": 729
+        },
+        {
+          "d": "2026-09-01",
+          "p": 729
         }
       ],
       "lowestEver": 729,
       "highestEver": 729,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 48,
@@ -2472,7 +2621,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:55:11.571Z",
       "priceHistory": [
         {
@@ -2558,13 +2707,17 @@
         {
           "d": "2026-08-31",
           "p": 999
+        },
+        {
+          "d": "2026-09-01",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -2642,7 +2795,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2728,13 +2881,17 @@
         {
           "d": "2026-08-31",
           "p": 1929
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1929
         }
       ],
       "lowestEver": 1915.49,
       "highestEver": 1929,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
@@ -2761,7 +2918,7 @@
         "id": "comet",
         "name": "Comet"
       },
-      "price": 649,
+      "price": 699,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -2792,7 +2949,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -2878,20 +3035,28 @@
         {
           "d": "2026-08-31",
           "p": 649
+        },
+        {
+          "d": "2026-09-01",
+          "p": 699
         }
       ],
       "lowestEver": 594.15,
-      "highestEver": 649,
+      "highestEver": 699,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
+      "priceChange": {
+        "from": 649,
+        "to": 699,
+        "deltaPct": 8,
+        "since": "2026-08-31T05:17:31.287Z"
+      },
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
-      "valueScore": 90,
-      "badges": [
-        "ottimo affare"
-      ],
+      "valueScore": 84,
+      "badges": [],
       "highlights": [
         "Ryzen 5-7520U",
         "8 GB",
@@ -2905,13 +3070,13 @@
       "category": "desktop",
       "title": "Desktop ALL IN ONE 24-CR0071NL-Shell White",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw54177119/hi-res/252005725.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw3c2b57dc/hi-res/252005725.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/all-in-one/hp---desktop-all-in-one-24-cr0071nl-shell-white/252005725.html",
       "store": {
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 649,
+      "price": 714,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -2942,7 +3107,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3028,20 +3193,28 @@
         {
           "d": "2026-08-31",
           "p": 649
+        },
+        {
+          "d": "2026-09-01",
+          "p": 714
         }
       ],
       "lowestEver": 599.99,
-      "highestEver": 649,
+      "highestEver": 714,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
+      "priceChange": {
+        "from": 649,
+        "to": 714,
+        "deltaPct": 10,
+        "since": "2026-08-31T05:17:31.287Z"
+      },
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
-      "valueScore": 90,
-      "badges": [
-        "ottimo affare"
-      ],
+      "valueScore": 82,
+      "badges": [],
       "highlights": [
         "Ryzen 5",
         "8 GB",
@@ -3100,7 +3273,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3186,13 +3359,17 @@
         {
           "d": "2026-08-31",
           "p": 849
+        },
+        {
+          "d": "2026-09-01",
+          "p": 849
         }
       ],
       "lowestEver": 849,
       "highestEver": 849,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 51,
@@ -3250,7 +3427,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3268,13 +3445,17 @@
         {
           "d": "2026-08-31",
           "p": 1079
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1079
         }
       ],
       "lowestEver": 1079,
       "highestEver": 1079,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 34,
@@ -3332,7 +3513,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3350,13 +3531,17 @@
         {
           "d": "2026-08-31",
           "p": 1299
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1299
         }
       ],
       "lowestEver": 1299,
       "highestEver": 1299,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 37,
@@ -3418,7 +3603,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3504,13 +3689,17 @@
         {
           "d": "2026-08-31",
           "p": 1349
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1349
         }
       ],
       "lowestEver": 1349,
       "highestEver": 1465,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 72,
@@ -3569,7 +3758,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3587,13 +3776,17 @@
         {
           "d": "2026-08-31",
           "p": 1519
+        },
+        {
+          "d": "2026-09-01",
+          "p": 1519
         }
       ],
       "lowestEver": 1519,
       "highestEver": 1519,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 39,
@@ -3651,7 +3844,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3669,13 +3862,17 @@
         {
           "d": "2026-08-31",
           "p": 2029
+        },
+        {
+          "d": "2026-09-01",
+          "p": 2029
         }
       ],
       "lowestEver": 2029,
       "highestEver": 2029,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
@@ -3737,7 +3934,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3823,13 +4020,17 @@
         {
           "d": "2026-08-31",
           "p": 3049
+        },
+        {
+          "d": "2026-09-01",
+          "p": 3049
         }
       ],
       "lowestEver": 3049,
       "highestEver": 3049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 21,
+      "daysTracked": 22,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
@@ -3888,7 +4089,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3906,13 +4107,17 @@
         {
           "d": "2026-08-31",
           "p": 3049
+        },
+        {
+          "d": "2026-09-01",
+          "p": 3049
         }
       ],
       "lowestEver": 3049,
       "highestEver": 3049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 64,
@@ -3974,7 +4179,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-08-31T05:17:31.287Z",
+      "seenAt": "2026-09-01T05:22:38.985Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3992,13 +4197,17 @@
         {
           "d": "2026-08-31",
           "p": 6699
+        },
+        {
+          "d": "2026-09-01",
+          "p": 6699
         }
       ],
       "lowestEver": 6699,
       "highestEver": 6699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 4,
+      "daysTracked": 5,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 69,
