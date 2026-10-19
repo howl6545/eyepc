@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T09:31:51.113Z",
+  "generatedAt": "2026-10-19T10:42:44.113Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
@@ -21,7 +21,7 @@
       "store": "comet",
       "count": 60,
       "notes": [
-        "1657 in sitemap, 141 candidati, 60 scaricati (31 fissi disponibili)"
+        "1655 in sitemap, 141 candidati, 60 scaricati (31 fissi disponibili)"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "store": "euronics",
       "count": 60,
       "notes": [
-        "3848 in sitemap, 182 candidati, 60 scaricati (43 fissi disponibili)"
+        "3838 in sitemap, 180 candidati, 60 scaricati (43 fissi disponibili)"
       ]
     },
     {
@@ -106,7 +106,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-09-03T05:42:03.993Z",
       "priceHistory": [
         {
@@ -276,13 +276,17 @@
         {
           "d": "2026-10-18",
           "p": 799.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 799.99
         }
       ],
       "lowestEver": 799.99,
       "highestEver": 1329,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 42,
+      "daysTracked": 43,
       "verifiedDiscount": {
         "referencePrice": 1199,
         "discountPct": 33
@@ -551,7 +555,9 @@
         "8 GB",
         "512 GB SSD",
         "16\""
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "dd09d600fca236ca",
@@ -607,7 +613,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -817,13 +823,17 @@
         {
           "d": "2026-10-18",
           "p": 749
+        },
+        {
+          "d": "2026-10-19",
+          "p": 749
         }
       ],
       "lowestEver": 649.99,
       "highestEver": 904,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 52,
+      "daysTracked": 53,
       "verifiedDiscount": {
         "referencePrice": 899,
         "discountPct": 17
@@ -1190,7 +1200,7 @@
         "All-in-One"
       ],
       "isStale": true,
-      "staleDays": 1
+      "staleDays": 3
     },
     {
       "id": "3087abec679014d2",
@@ -1240,7 +1250,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-06T11:59:58.759Z",
       "priceHistory": [
         {
@@ -1294,13 +1304,17 @@
         {
           "d": "2026-10-18",
           "p": 1499
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1499
         }
       ],
       "lowestEver": 1499,
       "highestEver": 1799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 13,
+      "daysTracked": 14,
       "verifiedDiscount": {
         "referencePrice": 1799,
         "discountPct": 17
@@ -1375,7 +1389,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-09-22T09:54:21.453Z",
       "priceHistory": [
         {
@@ -1481,13 +1495,17 @@
         {
           "d": "2026-10-18",
           "p": 1099.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1099.99
         }
       ],
       "lowestEver": 1099.99,
       "highestEver": 1349,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 26,
+      "daysTracked": 27,
       "verifiedDiscount": {
         "referencePrice": 1299,
         "discountPct": 15
@@ -1859,7 +1877,9 @@
         "16 GB",
         "512 GB SSD",
         "15,6\" Full HD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "20308dfa488e692a",
@@ -1918,7 +1938,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-09-10T05:22:58.249Z",
       "priceHistory": [
         {
@@ -2076,13 +2096,17 @@
         {
           "d": "2026-10-18",
           "p": 649.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 649.99
         }
       ],
       "lowestEver": 579.99,
       "highestEver": 799,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 39,
+      "daysTracked": 40,
       "verifiedDiscount": {
         "referencePrice": 709,
         "discountPct": 8
@@ -2146,7 +2170,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2352,13 +2376,17 @@
         {
           "d": "2026-10-18",
           "p": 1199
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1199
         }
       ],
       "lowestEver": 1199,
       "highestEver": 1299,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 51,
+      "daysTracked": 52,
       "verifiedDiscount": {
         "referencePrice": 1299,
         "discountPct": 8
@@ -2421,7 +2449,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2627,13 +2655,17 @@
         {
           "d": "2026-10-18",
           "p": 999
+        },
+        {
+          "d": "2026-10-19",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 1079,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 51,
+      "daysTracked": 52,
       "verifiedDiscount": {
         "referencePrice": 1079,
         "discountPct": 7
@@ -2696,7 +2728,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2902,13 +2934,17 @@
         {
           "d": "2026-10-18",
           "p": 1897.49
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1897.49
         }
       ],
       "lowestEver": 1897,
       "highestEver": 2029,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 51,
+      "daysTracked": 52,
       "verifiedDiscount": {
         "referencePrice": 2029,
         "discountPct": 6
@@ -2977,7 +3013,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3255,13 +3291,17 @@
         {
           "d": "2026-10-18",
           "p": 229
+        },
+        {
+          "d": "2026-10-19",
+          "p": 229
         }
       ],
       "lowestEver": 199.99,
       "highestEver": 269,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 69,
+      "daysTracked": 70,
       "verifiedDiscount": {
         "referencePrice": 238,
         "discountPct": 4
@@ -3327,7 +3367,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -3369,13 +3409,17 @@
         {
           "d": "2026-10-18",
           "p": 1399
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1399
         }
       ],
       "lowestEver": 1399,
       "highestEver": 1449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "verifiedDiscount": {
         "referencePrice": 1449,
         "discountPct": 3
@@ -3472,7 +3516,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-04T11:05:05.392Z",
       "priceHistory": [
         {
@@ -3534,13 +3578,17 @@
         {
           "d": "2026-10-18",
           "p": 849
+        },
+        {
+          "d": "2026-10-19",
+          "p": 849
         }
       ],
       "lowestEver": 599.99,
       "highestEver": 933,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 15,
+      "daysTracked": 16,
       "verifiedDiscount": {
         "referencePrice": 869,
         "discountPct": 2
@@ -3654,7 +3702,7 @@
         "15\""
       ],
       "isStale": true,
-      "staleDays": 1
+      "staleDays": 3
     },
     {
       "id": "c539af76a9c4b6cb",
@@ -3699,7 +3747,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3905,13 +3953,17 @@
         {
           "d": "2026-10-18",
           "p": 2999
+        },
+        {
+          "d": "2026-10-19",
+          "p": 2999
         }
       ],
       "lowestEver": 2999,
       "highestEver": 3049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 51,
+      "daysTracked": 52,
       "verifiedDiscount": {
         "referencePrice": 3049,
         "discountPct": 2
@@ -3989,7 +4041,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4255,13 +4307,17 @@
         {
           "d": "2026-10-18",
           "p": 999
+        },
+        {
+          "d": "2026-10-19",
+          "p": 999
         }
       ],
       "lowestEver": 899.99,
       "highestEver": 999,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 66,
+      "daysTracked": 67,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
@@ -4367,7 +4423,9 @@
         "32 GB",
         "1 TB SSD + 1000 GB SSD",
         "16\" Full HD+"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "cd5145659365b956",
@@ -4426,7 +4484,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4700,13 +4758,17 @@
         {
           "d": "2026-10-18",
           "p": 573
+        },
+        {
+          "d": "2026-10-19",
+          "p": 573
         }
       ],
       "lowestEver": 499.99,
       "highestEver": 573,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 68,
+      "daysTracked": 69,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 45,
@@ -4774,7 +4836,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-16T09:44:32.178Z",
       "priceHistory": [
         {
@@ -4788,13 +4850,17 @@
         {
           "d": "2026-10-18",
           "p": 649.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 649.99
         }
       ],
       "lowestEver": 649.99,
       "highestEver": 649.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 3,
+      "daysTracked": 4,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 35,
@@ -4866,7 +4932,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-13T12:40:26.052Z",
       "priceHistory": [
         {
@@ -4888,13 +4954,17 @@
         {
           "d": "2026-10-18",
           "p": 799
+        },
+        {
+          "d": "2026-10-19",
+          "p": 799
         }
       ],
       "lowestEver": 799,
       "highestEver": 799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 5,
+      "daysTracked": 6,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -4978,19 +5048,23 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-18T09:31:51.113Z",
       "priceHistory": [
         {
           "d": "2026-10-18",
+          "p": 899
+        },
+        {
+          "d": "2026-10-19",
           "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -4998,18 +5072,11 @@
           "title": "Apple MacBook Neo 13\" A18 Pro Core 6 CPU 5 GPU 8/ 512GB Mhfj4t/a Rosa pastello",
           "price": 899,
           "url": "https://www.comet.it/apple-macbook-neo-13-a18-pro-core-6-cpu-5-gpu-8-512gb-mhfj4t-a-rosa-pastello-APL04757G-prdtt"
-        },
-        {
-          "title": "Apple MacBook Neo 13\" A18 Pro Core 6 CPU 5 GPU 8/ 512GB Mhfg4t/a Indaco",
-          "price": 899,
-          "url": "https://www.comet.it/apple-macbook-neo-13-a18-pro-core-6-cpu-5-gpu-8-512gb-mhfg4t-a-indaco-APL04755Y-prdtt"
         }
       ],
       "hardwareScore": 37,
       "valueScore": 9,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Apple A18 Pro",
         "GPU Apple A18 Pro",
@@ -5076,7 +5143,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-06T11:59:58.759Z",
       "priceHistory": [
         {
@@ -5130,13 +5197,17 @@
         {
           "d": "2026-10-18",
           "p": 899.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 899.99
         }
       ],
       "lowestEver": 899.99,
       "highestEver": 999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 13,
+      "daysTracked": 14,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 42,
@@ -5212,7 +5283,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-09-05T05:21:05.065Z",
       "priceHistory": [
         {
@@ -5362,13 +5433,17 @@
         {
           "d": "2026-10-18",
           "p": 999
+        },
+        {
+          "d": "2026-10-19",
+          "p": 999
         }
       ],
       "lowestEver": 973,
       "highestEver": 1099,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 37,
+      "daysTracked": 38,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
@@ -5440,7 +5515,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-13T12:40:26.052Z",
       "priceHistory": [
         {
@@ -5462,13 +5537,17 @@
         {
           "d": "2026-10-18",
           "p": 1449
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1449
         }
       ],
       "lowestEver": 1449,
       "highestEver": 1449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 5,
+      "daysTracked": 6,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
@@ -5546,7 +5625,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -5816,13 +5895,17 @@
         {
           "d": "2026-10-18",
           "p": 1849
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1849
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1899,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 67,
+      "daysTracked": 68,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 71,
@@ -5887,7 +5970,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-09-25T10:09:47.538Z",
       "priceHistory": [
         {
@@ -5985,13 +6068,17 @@
         {
           "d": "2026-10-18",
           "p": 349
+        },
+        {
+          "d": "2026-10-19",
+          "p": 349
         }
       ],
       "lowestEver": 349,
       "highestEver": 349,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 24,
+      "daysTracked": 25,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 30,
@@ -6059,7 +6146,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -6101,13 +6188,17 @@
         {
           "d": "2026-10-18",
           "p": 1419
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1419
         }
       ],
       "lowestEver": 1419,
       "highestEver": 1419,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
@@ -6174,7 +6265,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -6452,13 +6543,17 @@
         {
           "d": "2026-10-18",
           "p": 1699.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1699.99
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1749,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 69,
+      "daysTracked": 70,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 76,
@@ -6530,7 +6625,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-09-03T05:42:03.993Z",
       "priceHistory": [
         {
@@ -6716,13 +6811,17 @@
         {
           "d": "2026-10-18",
           "p": 2315
+        },
+        {
+          "d": "2026-10-19",
+          "p": 2315
         }
       ],
       "lowestEver": 2315,
       "highestEver": 2449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 46,
+      "daysTracked": 47,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 77,
@@ -6781,7 +6880,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -7059,13 +7158,17 @@
         {
           "d": "2026-10-18",
           "p": 677.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 677.99
         }
       ],
       "lowestEver": 594.15,
       "highestEver": 699,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 69,
+      "daysTracked": 70,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -7121,7 +7224,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-09-04T05:22:32.335Z",
       "priceHistory": [
         {
@@ -7303,13 +7406,17 @@
         {
           "d": "2026-10-18",
           "p": 679
+        },
+        {
+          "d": "2026-10-19",
+          "p": 679
         }
       ],
       "lowestEver": 629.99,
       "highestEver": 779,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 45,
+      "daysTracked": 46,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -7373,7 +7480,7 @@
         "os": "Windows 11 Home"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -7415,13 +7522,17 @@
         {
           "d": "2026-10-18",
           "p": 1349
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1349
         }
       ],
       "lowestEver": 1349,
       "highestEver": 1349,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 72,
@@ -7484,7 +7595,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -7526,13 +7637,17 @@
         {
           "d": "2026-10-18",
           "p": 1435.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1435.99
         }
       ],
       "lowestEver": 1435.99,
       "highestEver": 1435.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 72,
@@ -7591,7 +7706,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -7797,13 +7912,17 @@
         {
           "d": "2026-10-18",
           "p": 1519
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1519
         }
       ],
       "lowestEver": 1421,
       "highestEver": 1519,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 51,
+      "daysTracked": 52,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 39,
@@ -7864,7 +7983,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -7906,13 +8025,17 @@
         {
           "d": "2026-10-18",
           "p": 1699
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1699
         }
       ],
       "lowestEver": 1699,
       "highestEver": 1699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -7993,7 +8116,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -8035,13 +8158,17 @@
         {
           "d": "2026-10-18",
           "p": 1749
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1749
         }
       ],
       "lowestEver": 1749,
       "highestEver": 1749,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -8122,7 +8249,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -8164,13 +8291,17 @@
         {
           "d": "2026-10-18",
           "p": 1999
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1999
         }
       ],
       "lowestEver": 1999,
       "highestEver": 1999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -8246,33 +8377,28 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-18T09:31:51.113Z",
       "priceHistory": [
         {
           "d": "2026-10-18",
+          "p": 2075.49
+        },
+        {
+          "d": "2026-10-19",
           "p": 2075.49
         }
       ],
       "lowestEver": 2075.49,
       "highestEver": 2075.49,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
-      "variants": [
-        {
-          "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdve4t/a Starlight",
-          "price": 2075.49,
-          "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-1tb-mdve4t-a-starlight-APL047155-prdtt"
-        }
-      ],
       "hardwareScore": 53,
       "valueScore": 1,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Apple M5",
         "GPU Apple M5",
@@ -8318,7 +8444,7 @@
         "os": "Windows 11 Home"
       },
       "specsCompleteness": 44,
-      "seenAt": "2026-10-18T09:31:51.113Z",
+      "seenAt": "2026-10-19T10:42:44.113Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -8360,13 +8486,17 @@
         {
           "d": "2026-10-18",
           "p": 729
+        },
+        {
+          "d": "2026-10-19",
+          "p": 729
         }
       ],
       "lowestEver": 729,
       "highestEver": 729,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 10,
+      "daysTracked": 11,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 51,
