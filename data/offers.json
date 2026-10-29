@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-10-28T11:17:57.779Z",
+  "generatedAt": "2026-10-29T11:29:24.517Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
-    "total": 38,
+    "total": 37,
     "byCategory": {
-      "laptop": 23,
+      "laptop": 22,
       "desktop": 15
     },
     "byStore": {
-      "euronics": 21,
+      "euronics": 20,
       "comet": 17
     },
-    "discounted": 15,
-    "averageDiscount": 9,
-    "lowestEverCount": 18
+    "discounted": 17,
+    "averageDiscount": 11,
+    "lowestEverCount": 21
   },
   "sources": [
     {
       "store": "comet",
       "count": 60,
       "notes": [
-        "1686 in sitemap, 143 candidati, 60 scaricati (32 fissi disponibili)"
+        "1724 in sitemap, 168 candidati, 60 scaricati (49 fissi disponibili)"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "store": "euronics",
       "count": 60,
       "notes": [
-        "3905 in sitemap, 172 candidati, 60 scaricati (42 fissi disponibili)"
+        "3899 in sitemap, 169 candidati, 60 scaricati (41 fissi disponibili)"
       ]
     },
     {
@@ -48,315 +48,18 @@
   ],
   "offers": [
     {
-      "id": "d1d6a57769034db8",
-      "modelKey": "8c61df0455c47c2d",
-      "category": "laptop",
-      "title": "Notebook IDEAPAD SLIM 3 83UR0095IX INTEL CORE U7-Luna Grey",
-      "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwa7053921/hi-res/262005243.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-83ur0095ix-intel-core-u7-luna-grey/262005243.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 799.99,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 7",
-          "model": null,
-          "tier": "Ultra 7",
-          "boostClock": 4.7,
-          "label": "Core Ultra 7"
-        },
-        "gpu": {
-          "brand": "Intel",
-          "series": "Integrata",
-          "model": "Intel Graphics",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 15.3,
-          "width": 1920,
-          "height": 1200,
-          "resolution": "1920x1200",
-          "resolutionLabel": "Full HD+",
-          "panel": "OLED",
-          "touch": true
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.3"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
-      "firstSeenAt": "2026-09-03T05:42:03.993Z",
-      "priceHistory": [
-        {
-          "d": "2026-09-03",
-          "p": 1329
-        },
-        {
-          "d": "2026-09-04",
-          "p": 1329
-        },
-        {
-          "d": "2026-09-05",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-06",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-07",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-08",
-          "p": 1199
-        },
-        {
-          "d": "2026-09-09",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-10",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-11",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-15",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-16",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-17",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-18",
-          "p": 1077
-        },
-        {
-          "d": "2026-09-19",
-          "p": 1199
-        },
-        {
-          "d": "2026-09-20",
-          "p": 1199
-        },
-        {
-          "d": "2026-09-21",
-          "p": 1199
-        },
-        {
-          "d": "2026-09-22",
-          "p": 1199
-        },
-        {
-          "d": "2026-09-23",
-          "p": 1199
-        },
-        {
-          "d": "2026-09-25",
-          "p": 1199
-        },
-        {
-          "d": "2026-09-26",
-          "p": 1149
-        },
-        {
-          "d": "2026-09-27",
-          "p": 1149
-        },
-        {
-          "d": "2026-09-28",
-          "p": 1149
-        },
-        {
-          "d": "2026-09-29",
-          "p": 1149
-        },
-        {
-          "d": "2026-09-30",
-          "p": 1199
-        },
-        {
-          "d": "2026-10-01",
-          "p": 1149
-        },
-        {
-          "d": "2026-10-02",
-          "p": 1149
-        },
-        {
-          "d": "2026-10-03",
-          "p": 1199
-        },
-        {
-          "d": "2026-10-04",
-          "p": 1199
-        },
-        {
-          "d": "2026-10-05",
-          "p": 1199
-        },
-        {
-          "d": "2026-10-06",
-          "p": 862
-        },
-        {
-          "d": "2026-10-07",
-          "p": 841
-        },
-        {
-          "d": "2026-10-08",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-09",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-10",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-11",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-12",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-13",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-14",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-15",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-16",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-17",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-18",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-19",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-21",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-22",
-          "p": 799
-        },
-        {
-          "d": "2026-10-23",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-24",
-          "p": 799
-        },
-        {
-          "d": "2026-10-25",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-26",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-27",
-          "p": 799.99
-        },
-        {
-          "d": "2026-10-28",
-          "p": 799.99
-        }
-      ],
-      "lowestEver": 799,
-      "highestEver": 1329,
-      "isLowestEver": false,
-      "isNew": false,
-      "daysTracked": 52,
-      "verifiedDiscount": {
-        "referencePrice": 1199,
-        "discountPct": 33
-      },
-      "discountPct": 33,
-      "listPrice": 1199,
-      "discountSource": "storico",
-      "hardwareScore": 57,
-      "valueScore": 100,
-      "badges": [
-        "super sconto",
-        "ottimo affare"
-      ],
-      "highlights": [
-        "Core Ultra 7",
-        "Intel Graphics",
-        "16 GB",
-        "512 GB SSD",
-        "15,3\" Full HD+"
-      ]
-    },
-    {
       "id": "dd09d600fca236ca",
       "modelKey": "dc617054e9bb2040",
       "category": "laptop",
       "title": "Notebook OMNIBOOK 5 X360 14-FP0008NL Intel Core i3-Glacier Silver",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw8e6fe237/hi-res/262007100.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw41d5d78a/hi-res/262007100.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook-convertibili-2-in-1/hp---notebook-omnibook-5-x360-14-fp0008nl-intel-core-i3-glacier-silver/262007100.html",
       "store": {
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 749,
+      "price": 599.99,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -398,7 +101,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -648,29 +351,709 @@
         {
           "d": "2026-10-28",
           "p": 749
+        },
+        {
+          "d": "2026-10-29",
+          "p": 599.99
         }
       ],
-      "lowestEver": 649.99,
+      "lowestEver": 599.99,
       "highestEver": 904,
-      "isLowestEver": false,
+      "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 62,
+      "daysTracked": 63,
+      "priceChange": {
+        "from": 749,
+        "to": 599.99,
+        "deltaPct": -20,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
       "verifiedDiscount": {
         "referencePrice": 899,
-        "discountPct": 17
+        "discountPct": 33
       },
-      "discountPct": 17,
+      "discountPct": 33,
       "listPrice": 899,
       "discountSource": "storico",
       "hardwareScore": 35,
-      "valueScore": 13,
-      "badges": [],
+      "valueScore": 31,
+      "badges": [
+        "minimo storico",
+        "super sconto"
+      ],
       "highlights": [
         "Core i3",
         "UHD Graphics",
         "8 GB",
         "512 GB SSD",
         "14\""
+      ]
+    },
+    {
+      "id": "d1d6a57769034db8",
+      "modelKey": "8c61df0455c47c2d",
+      "category": "laptop",
+      "title": "Notebook IDEAPAD SLIM 3 83UR0095IX INTEL CORE U7-Luna Grey",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwa0256d6d/hi-res/262005243.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-83ur0095ix-intel-core-u7-luna-grey/262005243.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 799,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 7",
+          "model": null,
+          "tier": "Ultra 7",
+          "boostClock": 4.7,
+          "label": "Core Ultra 7"
+        },
+        "gpu": {
+          "brand": "Intel",
+          "series": "Integrata",
+          "model": "Intel Graphics",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 15.3,
+          "width": 1920,
+          "height": 1200,
+          "resolution": "1920x1200",
+          "resolutionLabel": "Full HD+",
+          "panel": "OLED",
+          "touch": true
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.3"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-10-29T11:29:24.517Z",
+      "firstSeenAt": "2026-09-03T05:42:03.993Z",
+      "priceHistory": [
+        {
+          "d": "2026-09-03",
+          "p": 1329
+        },
+        {
+          "d": "2026-09-04",
+          "p": 1329
+        },
+        {
+          "d": "2026-09-05",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-06",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-07",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-08",
+          "p": 1199
+        },
+        {
+          "d": "2026-09-09",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-10",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-11",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-15",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-16",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-17",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-18",
+          "p": 1077
+        },
+        {
+          "d": "2026-09-19",
+          "p": 1199
+        },
+        {
+          "d": "2026-09-20",
+          "p": 1199
+        },
+        {
+          "d": "2026-09-21",
+          "p": 1199
+        },
+        {
+          "d": "2026-09-22",
+          "p": 1199
+        },
+        {
+          "d": "2026-09-23",
+          "p": 1199
+        },
+        {
+          "d": "2026-09-25",
+          "p": 1199
+        },
+        {
+          "d": "2026-09-26",
+          "p": 1149
+        },
+        {
+          "d": "2026-09-27",
+          "p": 1149
+        },
+        {
+          "d": "2026-09-28",
+          "p": 1149
+        },
+        {
+          "d": "2026-09-29",
+          "p": 1149
+        },
+        {
+          "d": "2026-09-30",
+          "p": 1199
+        },
+        {
+          "d": "2026-10-01",
+          "p": 1149
+        },
+        {
+          "d": "2026-10-02",
+          "p": 1149
+        },
+        {
+          "d": "2026-10-03",
+          "p": 1199
+        },
+        {
+          "d": "2026-10-04",
+          "p": 1199
+        },
+        {
+          "d": "2026-10-05",
+          "p": 1199
+        },
+        {
+          "d": "2026-10-06",
+          "p": 862
+        },
+        {
+          "d": "2026-10-07",
+          "p": 841
+        },
+        {
+          "d": "2026-10-08",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-09",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-10",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-11",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-12",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-13",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-14",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-15",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-16",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-17",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-18",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-22",
+          "p": 799
+        },
+        {
+          "d": "2026-10-23",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-24",
+          "p": 799
+        },
+        {
+          "d": "2026-10-25",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-26",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-27",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-28",
+          "p": 799.99
+        },
+        {
+          "d": "2026-10-29",
+          "p": 799
+        }
+      ],
+      "lowestEver": 799,
+      "highestEver": 1329,
+      "isLowestEver": true,
+      "isNew": false,
+      "daysTracked": 53,
+      "priceChange": {
+        "from": 799.99,
+        "to": 799,
+        "deltaPct": 0,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
+      "verifiedDiscount": {
+        "referencePrice": 1149,
+        "discountPct": 30
+      },
+      "discountPct": 30,
+      "listPrice": 1149,
+      "discountSource": "storico",
+      "hardwareScore": 57,
+      "valueScore": 100,
+      "badges": [
+        "minimo storico",
+        "super sconto",
+        "ottimo affare"
+      ],
+      "highlights": [
+        "Core Ultra 7",
+        "Intel Graphics",
+        "16 GB",
+        "512 GB SSD",
+        "15,3\" Full HD+"
+      ]
+    },
+    {
+      "id": "9fa71710055669cf",
+      "modelKey": "744c9b6e5374bbe9",
+      "category": "laptop",
+      "title": "Notebook OMNIBOOK 5 NG AI 16-BP0016NLX 16GB RAM-Meteor Silver AI logo",
+      "brand": "HP",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw87f24fe2/hi-res/262007182.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/hp---notebook-omnibook-5-ng-ai--16-bp0016nlx-16gb-ram-meteor-silver-ai-logo/262007182.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 999.99,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "AMD",
+          "family": "Ryzen AI 7",
+          "model": null,
+          "tier": "ryzen 7",
+          "boostClock": 4.6,
+          "label": "Ryzen AI 7"
+        },
+        "gpu": {
+          "brand": "AMD",
+          "series": "Integrata",
+          "model": "Radeon 840M",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 16,
+          "panel": "OLED"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-10-29T11:29:24.517Z",
+      "firstSeenAt": "2026-09-22T09:54:21.453Z",
+      "priceHistory": [
+        {
+          "d": "2026-09-22",
+          "p": 1299
+        },
+        {
+          "d": "2026-09-23",
+          "p": 1299
+        },
+        {
+          "d": "2026-09-25",
+          "p": 1299
+        },
+        {
+          "d": "2026-09-26",
+          "p": 1299
+        },
+        {
+          "d": "2026-09-27",
+          "p": 1299
+        },
+        {
+          "d": "2026-09-28",
+          "p": 1299
+        },
+        {
+          "d": "2026-09-29",
+          "p": 1299
+        },
+        {
+          "d": "2026-09-30",
+          "p": 1299
+        },
+        {
+          "d": "2026-10-01",
+          "p": 1299
+        },
+        {
+          "d": "2026-10-02",
+          "p": 1299
+        },
+        {
+          "d": "2026-10-03",
+          "p": 1299
+        },
+        {
+          "d": "2026-10-04",
+          "p": 1299
+        },
+        {
+          "d": "2026-10-05",
+          "p": 1299
+        },
+        {
+          "d": "2026-10-06",
+          "p": 1349
+        },
+        {
+          "d": "2026-10-07",
+          "p": 1349
+        },
+        {
+          "d": "2026-10-08",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-09",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-10",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-11",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-12",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-13",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-14",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-15",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-16",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-17",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-18",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-22",
+          "p": 1099
+        },
+        {
+          "d": "2026-10-23",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-24",
+          "p": 1099
+        },
+        {
+          "d": "2026-10-25",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-26",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-27",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-28",
+          "p": 1099.99
+        },
+        {
+          "d": "2026-10-29",
+          "p": 999.99
+        }
+      ],
+      "lowestEver": 999.99,
+      "highestEver": 1349,
+      "isLowestEver": true,
+      "isNew": false,
+      "daysTracked": 37,
+      "priceChange": {
+        "from": 1099.99,
+        "to": 999.99,
+        "deltaPct": -9,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
+      "verifiedDiscount": {
+        "referencePrice": 1299,
+        "discountPct": 23
+      },
+      "discountPct": 23,
+      "listPrice": 1299,
+      "discountSource": "storico",
+      "hardwareScore": 60,
+      "valueScore": 86,
+      "badges": [
+        "minimo storico",
+        "ottimo affare"
+      ],
+      "highlights": [
+        "Ryzen AI 7",
+        "Radeon 840M",
+        "16 GB",
+        "1000 GB SSD",
+        "16\""
+      ]
+    },
+    {
+      "id": "4f15391abde2daaa",
+      "modelKey": "54d2a6c1330651d6",
+      "category": "laptop",
+      "title": "Notebook gaming HYPERX OMEN 15-GA0028NLX-Shadow Black",
+      "brand": "HP",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwbe5d908c/hi-res/262007183.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/hp---notebook-gaming-hyperx-omen-15-ga0028nlx-shadow-black/262007183.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1599.99,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 7",
+          "model": null,
+          "tier": "Ultra 7",
+          "boostClock": 5.1,
+          "label": "Core Ultra 7"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 15.3
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 67,
+      "seenAt": "2026-10-29T11:29:24.517Z",
+      "firstSeenAt": "2026-10-20T09:59:33.292Z",
+      "priceHistory": [
+        {
+          "d": "2026-10-20",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-21",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-22",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-23",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-24",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-25",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-26",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-27",
+          "p": 2016
+        },
+        {
+          "d": "2026-10-28",
+          "p": 1932
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1599.99
+        }
+      ],
+      "lowestEver": 1599.99,
+      "highestEver": 2049,
+      "isLowestEver": true,
+      "isNew": false,
+      "daysTracked": 10,
+      "priceChange": {
+        "from": 1932,
+        "to": 1599.99,
+        "deltaPct": -17,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
+      "verifiedDiscount": {
+        "referencePrice": 2049,
+        "discountPct": 22
+      },
+      "discountPct": 22,
+      "listPrice": 2049,
+      "discountSource": "storico",
+      "hardwareScore": 57,
+      "valueScore": 30,
+      "badges": [
+        "minimo storico"
+      ],
+      "highlights": [
+        "Core Ultra 7",
+        "16 GB",
+        "1000 GB SSD",
+        "15,3\""
       ]
     },
     {
@@ -838,232 +1221,7 @@
         "512 GB SSD"
       ],
       "isStale": true,
-      "staleDays": 1
-    },
-    {
-      "id": "9fa71710055669cf",
-      "modelKey": "744c9b6e5374bbe9",
-      "category": "laptop",
-      "title": "Notebook OMNIBOOK 5 NG AI 16-BP0016NLX 16GB RAM-Meteor Silver AI logo",
-      "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwed2b5649/hi-res/262007182.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/hp---notebook-omnibook-5-ng-ai--16-bp0016nlx-16gb-ram-meteor-silver-ai-logo/262007182.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 1099.99,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "AMD",
-          "family": "Ryzen AI 7",
-          "model": null,
-          "tier": "ryzen 7",
-          "boostClock": 4.6,
-          "label": "Ryzen AI 7"
-        },
-        "gpu": {
-          "brand": "AMD",
-          "series": "Integrata",
-          "model": "Radeon 840M",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1000
-          }
-        ],
-        "display": {
-          "sizeInch": 16,
-          "panel": "OLED"
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.4"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
-      "firstSeenAt": "2026-09-22T09:54:21.453Z",
-      "priceHistory": [
-        {
-          "d": "2026-09-22",
-          "p": 1299
-        },
-        {
-          "d": "2026-09-23",
-          "p": 1299
-        },
-        {
-          "d": "2026-09-25",
-          "p": 1299
-        },
-        {
-          "d": "2026-09-26",
-          "p": 1299
-        },
-        {
-          "d": "2026-09-27",
-          "p": 1299
-        },
-        {
-          "d": "2026-09-28",
-          "p": 1299
-        },
-        {
-          "d": "2026-09-29",
-          "p": 1299
-        },
-        {
-          "d": "2026-09-30",
-          "p": 1299
-        },
-        {
-          "d": "2026-10-01",
-          "p": 1299
-        },
-        {
-          "d": "2026-10-02",
-          "p": 1299
-        },
-        {
-          "d": "2026-10-03",
-          "p": 1299
-        },
-        {
-          "d": "2026-10-04",
-          "p": 1299
-        },
-        {
-          "d": "2026-10-05",
-          "p": 1299
-        },
-        {
-          "d": "2026-10-06",
-          "p": 1349
-        },
-        {
-          "d": "2026-10-07",
-          "p": 1349
-        },
-        {
-          "d": "2026-10-08",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-09",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-10",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-11",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-12",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-13",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-14",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-15",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-16",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-17",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-18",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-19",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-21",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-22",
-          "p": 1099
-        },
-        {
-          "d": "2026-10-23",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-24",
-          "p": 1099
-        },
-        {
-          "d": "2026-10-25",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-26",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-27",
-          "p": 1099.99
-        },
-        {
-          "d": "2026-10-28",
-          "p": 1099.99
-        }
-      ],
-      "lowestEver": 1099,
-      "highestEver": 1349,
-      "isLowestEver": false,
-      "isNew": false,
-      "daysTracked": 36,
-      "verifiedDiscount": {
-        "referencePrice": 1299,
-        "discountPct": 15
-      },
-      "discountPct": 15,
-      "listPrice": 1299,
-      "discountSource": "storico",
-      "hardwareScore": 60,
-      "valueScore": 76,
-      "badges": [],
-      "highlights": [
-        "Ryzen AI 7",
-        "Radeon 840M",
-        "16 GB",
-        "1000 GB SSD",
-        "16\""
-      ]
+      "staleDays": 2
     },
     {
       "id": "1ba6626ae8e98376",
@@ -1118,7 +1276,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-09-03T05:42:03.993Z",
       "priceHistory": [
         {
@@ -1324,13 +1482,17 @@
         {
           "d": "2026-10-28",
           "p": 549
+        },
+        {
+          "d": "2026-10-29",
+          "p": 549
         }
       ],
       "lowestEver": 479.99,
       "highestEver": 699,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 51,
+      "daysTracked": 52,
       "verifiedDiscount": {
         "referencePrice": 642,
         "discountPct": 14
@@ -1355,13 +1517,13 @@
       "category": "desktop",
       "title": "PC Desktop AIO A105 F0JS0021IX-Cloud Grey",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw11cc82bc/hi-res/262005255.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwff798232/hi-res/262005255.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/all-in-one/lenovo---pc-desktop-aio-a105-f0js0021ix-cloud-grey/262005255.html",
       "store": {
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 649.99,
+      "price": 649,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -1406,7 +1568,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-09-10T05:22:58.249Z",
       "priceHistory": [
         {
@@ -1604,13 +1766,23 @@
         {
           "d": "2026-10-28",
           "p": 649.99
+        },
+        {
+          "d": "2026-10-29",
+          "p": 649
         }
       ],
       "lowestEver": 579.99,
       "highestEver": 799,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 49,
+      "daysTracked": 50,
+      "priceChange": {
+        "from": 649.99,
+        "to": 649,
+        "deltaPct": 0,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
       "verifiedDiscount": {
         "referencePrice": 709,
         "discountPct": 8
@@ -1674,7 +1846,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -1920,13 +2092,17 @@
         {
           "d": "2026-10-28",
           "p": 1199
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1199
         }
       ],
       "lowestEver": 1199,
       "highestEver": 1299,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 61,
+      "daysTracked": 62,
       "verifiedDiscount": {
         "referencePrice": 1299,
         "discountPct": 8
@@ -1989,7 +2165,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2235,13 +2411,17 @@
         {
           "d": "2026-10-28",
           "p": 999
+        },
+        {
+          "d": "2026-10-29",
+          "p": 999
         }
       ],
       "lowestEver": 999,
       "highestEver": 1079,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 61,
+      "daysTracked": 62,
       "verifiedDiscount": {
         "referencePrice": 1079,
         "discountPct": 7
@@ -2262,30 +2442,35 @@
       ]
     },
     {
-      "id": "4f15391abde2daaa",
-      "modelKey": "54d2a6c1330651d6",
+      "id": "c9ee433d98daad68",
+      "modelKey": "11859433f7fa811c",
       "category": "laptop",
-      "title": "Notebook gaming HYPERX OMEN 15-GA0028NLX-Shadow Black",
-      "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwd673bcec/hi-res/262007183.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/hp---notebook-gaming-hyperx-omen-15-ga0028nlx-shadow-black/262007183.html",
+      "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdh84t/a Silver",
+      "brand": "Apple",
+      "image": "https://static.comet.it/b2c/public/e-cat/APL047026/APL047026-6d9d55231b-0.jpg",
+      "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdh84t-a-silver-APL047026-prdtt",
       "store": {
-        "id": "euronics",
-        "name": "Euronics"
+        "id": "comet",
+        "name": "Comet"
       },
-      "price": 1932,
+      "price": 1599,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
       "reviewCount": null,
       "specs": {
         "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 7",
+          "brand": "Apple",
+          "family": "Apple M5",
           "model": null,
-          "tier": "Ultra 7",
-          "boostClock": 5.1,
-          "label": "Core Ultra 7"
+          "tier": "apple m5",
+          "label": "Apple M5"
+        },
+        "gpu": {
+          "brand": "Apple",
+          "series": "Integrata",
+          "model": "GPU Apple M5",
+          "type": "integrata"
         },
         "ram": {
           "size": 16
@@ -2293,89 +2478,151 @@
         "storage": [
           {
             "type": "SSD",
-            "sizeGb": 1000
+            "sizeGb": 1024
           }
         ],
         "display": {
-          "sizeInch": 15.3
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.4"
-        },
-        "ports": [
-          "HDMI"
-        ]
+          "sizeInch": 13,
+          "panel": "Liquid Retina",
+          "touch": true,
+          "brightnessNits": 500
+        }
       },
-      "specsCompleteness": 67,
-      "seenAt": "2026-10-28T11:17:57.779Z",
-      "firstSeenAt": "2026-10-20T09:59:33.292Z",
+      "specsCompleteness": 56,
+      "seenAt": "2026-10-29T11:29:24.517Z",
+      "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
+          "d": "2026-10-09",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-10",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-11",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-12",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-13",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-14",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-15",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-16",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-17",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-18",
+          "p": 1699
+        },
+        {
+          "d": "2026-10-19",
+          "p": 1699
+        },
+        {
           "d": "2026-10-20",
-          "p": 2049
+          "p": 1699
         },
         {
           "d": "2026-10-21",
-          "p": 2049
+          "p": 1699
         },
         {
           "d": "2026-10-22",
-          "p": 2049
+          "p": 1699
         },
         {
           "d": "2026-10-23",
-          "p": 2049
+          "p": 1699
         },
         {
           "d": "2026-10-24",
-          "p": 2049
+          "p": 1699
         },
         {
           "d": "2026-10-25",
-          "p": 2049
+          "p": 1699
         },
         {
           "d": "2026-10-26",
-          "p": 2049
+          "p": 1699
         },
         {
           "d": "2026-10-27",
-          "p": 2016
+          "p": 1699
         },
         {
           "d": "2026-10-28",
-          "p": 1932
+          "p": 1699
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1599
         }
       ],
-      "lowestEver": 1932,
-      "highestEver": 2049,
+      "lowestEver": 1599,
+      "highestEver": 1699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 9,
+      "daysTracked": 21,
       "priceChange": {
-        "from": 2016,
-        "to": 1932,
-        "deltaPct": -4,
-        "since": "2026-10-27T10:29:49.098Z"
+        "from": 1699,
+        "to": 1599,
+        "deltaPct": -6,
+        "since": "2026-10-28T11:17:57.779Z"
       },
       "verifiedDiscount": {
-        "referencePrice": 2049,
+        "referencePrice": 1699,
         "discountPct": 6
       },
       "discountPct": 6,
-      "listPrice": 2049,
+      "listPrice": 1699,
       "discountSource": "storico",
-      "hardwareScore": 57,
-      "valueScore": 15,
+      "variants": [
+        {
+          "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhc4t/a Starlight",
+          "price": 1599,
+          "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhc4t-a-starlight-APL04703F-prdtt"
+        },
+        {
+          "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhf4t/a Midnight",
+          "price": 1599,
+          "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhf4t-a-midnight-APL04704P-prdtt"
+        },
+        {
+          "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhj4t/a Sky Blue",
+          "price": 1599,
+          "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhj4t-a-sky-blue-APL04705Y-prdtt"
+        }
+      ],
+      "hardwareScore": 53,
+      "valueScore": 19,
       "badges": [
         "minimo storico"
       ],
       "highlights": [
-        "Core Ultra 7",
+        "Apple M5",
+        "GPU Apple M5",
         "16 GB",
-        "1000 GB SSD",
-        "15,3\""
+        "1 TB SSD",
+        "13\""
       ]
     },
     {
@@ -2421,7 +2668,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2667,13 +2914,17 @@
         {
           "d": "2026-10-28",
           "p": 1899
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1899
         }
       ],
       "lowestEver": 1897,
       "highestEver": 2029,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 61,
+      "daysTracked": 62,
       "verifiedDiscount": {
         "referencePrice": 2029,
         "discountPct": 6
@@ -2742,7 +2993,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3060,13 +3311,17 @@
         {
           "d": "2026-10-28",
           "p": 229
+        },
+        {
+          "d": "2026-10-29",
+          "p": 229
         }
       ],
       "lowestEver": 199.99,
       "highestEver": 269,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 79,
+      "daysTracked": 80,
       "verifiedDiscount": {
         "referencePrice": 236,
         "discountPct": 3
@@ -3132,7 +3387,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -3214,13 +3469,17 @@
         {
           "d": "2026-10-28",
           "p": 1399
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1399
         }
       ],
       "lowestEver": 1399,
       "highestEver": 1449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 20,
+      "daysTracked": 21,
       "verifiedDiscount": {
         "referencePrice": 1449,
         "discountPct": 3
@@ -3438,7 +3697,7 @@
         "15,3\" Full HD+"
       ],
       "isStale": true,
-      "staleDays": 2
+      "staleDays": 3
     },
     {
       "id": "c539af76a9c4b6cb",
@@ -3483,7 +3742,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -3729,13 +3988,17 @@
         {
           "d": "2026-10-28",
           "p": 2999
+        },
+        {
+          "d": "2026-10-29",
+          "p": 2999
         }
       ],
       "lowestEver": 2999,
       "highestEver": 3049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 61,
+      "daysTracked": 62,
       "verifiedDiscount": {
         "referencePrice": 3049,
         "discountPct": 2
@@ -3753,6 +4016,112 @@
         "Apple GPU",
         "36 GB",
         "512 GB Archiviazione"
+      ]
+    },
+    {
+      "id": "599353b96dc234be",
+      "modelKey": "cb82588caf8059db",
+      "category": "laptop",
+      "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdv94t/a Silver",
+      "brand": "Apple",
+      "image": "https://static.comet.it/b2c/public/e-cat/APL047067/APL047067-63dda5ac69-0.jpg",
+      "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdv94t-a-silver-APL047067-prdtt",
+      "store": {
+        "id": "comet",
+        "name": "Comet"
+      },
+      "price": 1723.89,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Apple",
+          "family": "Apple M5",
+          "model": null,
+          "tier": "apple m5",
+          "label": "Apple M5"
+        },
+        "gpu": {
+          "brand": "Apple",
+          "series": "Integrata",
+          "model": "GPU Apple M5",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 15,
+          "panel": "Liquid Retina",
+          "touch": true,
+          "brightnessNits": 500
+        }
+      },
+      "specsCompleteness": 56,
+      "seenAt": "2026-10-29T11:29:24.517Z",
+      "firstSeenAt": "2026-10-28T11:17:57.779Z",
+      "priceHistory": [
+        {
+          "d": "2026-10-28",
+          "p": 1749
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1723.89
+        }
+      ],
+      "lowestEver": 1723.89,
+      "highestEver": 1749,
+      "isLowestEver": false,
+      "isNew": false,
+      "daysTracked": 2,
+      "priceChange": {
+        "from": 1749,
+        "to": 1723.89,
+        "deltaPct": -1,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
+      "verifiedDiscount": {
+        "referencePrice": 1749,
+        "discountPct": 1
+      },
+      "discountPct": 1,
+      "listPrice": 1749,
+      "discountSource": "storico",
+      "variants": [
+        {
+          "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdvd4t/a Starlight",
+          "price": 1749,
+          "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdvd4t-a-starlight-APL04707G-prdtt"
+        },
+        {
+          "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdvh4t/a Midnight",
+          "price": 1749,
+          "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdvh4t-a-midnight-APL04708Q-prdtt"
+        },
+        {
+          "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdvq4t/a Sky Blue",
+          "price": 1749,
+          "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdvq4t-a-sky-blue-APL04709Z-prdtt"
+        }
+      ],
+      "hardwareScore": 51,
+      "valueScore": 7,
+      "badges": [],
+      "highlights": [
+        "Apple M5",
+        "GPU Apple M5",
+        "16 GB",
+        "512 GB SSD",
+        "15\""
       ]
     },
     {
@@ -3877,7 +4246,9 @@
         "16 GB",
         "1 TB SSD",
         "15\""
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "7ba0a291247ca144",
@@ -3937,7 +4308,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4243,13 +4614,17 @@
         {
           "d": "2026-10-28",
           "p": 999
+        },
+        {
+          "d": "2026-10-29",
+          "p": 999
         }
       ],
       "lowestEver": 899.99,
       "highestEver": 999,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 76,
+      "daysTracked": 77,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
@@ -4320,7 +4695,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -4634,13 +5009,17 @@
         {
           "d": "2026-10-28",
           "p": 574
+        },
+        {
+          "d": "2026-10-29",
+          "p": 574
         }
       ],
       "lowestEver": 499.99,
       "highestEver": 599,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 78,
+      "daysTracked": 79,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 45,
@@ -4778,16 +5157,18 @@
         "8 GB",
         "512 GB SSD",
         "14\""
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
-      "id": "48e4996315a0fd3d",
+      "id": "7ada8b9ab06f2bb3",
       "modelKey": "2d1c08823a0c7862",
       "category": "laptop",
-      "title": "Apple MacBook Neo 13\" A18 Pro Core 6 CPU 5 GPU 8/ 256GB Mhfd4t/a Giallo agrume",
+      "title": "Apple MacBook Neo 13\" A18 Pro Core 6 CPU 5 GPU 8/ 256GB Mhfa4t/a Argento",
       "brand": "Apple",
-      "image": "https://static.comet.it/b2c/public/e-cat/APL047526/APL047526-af8a4ad505-0.jpg",
-      "url": "https://www.comet.it/apple-macbook-neo-13-a18-pro-core-6-cpu-5-gpu-8-256gb-mhfd4t-a-giallo-agrume-APL047526-prdtt",
+      "image": "https://static.comet.it/b2c/public/e-cat/APL04750N/APL04750N-4eeb889639-0.jpg",
+      "url": "https://www.comet.it/apple-macbook-neo-13-a18-pro-core-6-cpu-5-gpu-8-256gb-mhfa4t-a-argento-APL04750N-prdtt",
       "store": {
         "id": "comet",
         "name": "Comet"
@@ -4836,37 +5217,42 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
-      "firstSeenAt": "2026-10-25T09:46:23.367Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
+      "firstSeenAt": "2026-10-29T11:29:24.517Z",
       "priceHistory": [
         {
-          "d": "2026-10-25",
-          "p": 799
-        },
-        {
-          "d": "2026-10-26",
-          "p": 799
-        },
-        {
-          "d": "2026-10-27",
-          "p": 799
-        },
-        {
-          "d": "2026-10-28",
+          "d": "2026-10-29",
           "p": 799
         }
       ],
       "lowestEver": 799,
       "highestEver": 799,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 4,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
+      "variants": [
+        {
+          "title": "Apple MacBook Neo 13\" A18 Pro Core 6 CPU 5 GPU 8/ 256GB Mhfd4t/a Giallo agrume",
+          "price": 799,
+          "url": "https://www.comet.it/apple-macbook-neo-13-a18-pro-core-6-cpu-5-gpu-8-256gb-mhfd4t-a-giallo-agrume-APL047526-prdtt"
+        },
+        {
+          "title": "Apple MacBook Neo 13\" A18 Pro Core 6 CPU 5 GPU 8/ 256GB Mhff4t/a Indaco",
+          "price": 799,
+          "url": "https://www.comet.it/apple-macbook-neo-13-a18-pro-core-6-cpu-5-gpu-8-256gb-mhff4t-a-indaco-APL04754P-prdtt"
+        },
+        {
+          "title": "Apple MacBook Neo 13\" A18 Pro Core 6 CPU 5 GPU 8/ 256GB Mhfh4t/a Rosa pastello",
+          "price": 799,
+          "url": "https://www.comet.it/apple-macbook-neo-13-a18-pro-core-6-cpu-5-gpu-8-256gb-mhfh4t-a-rosa-pastello-APL047567-prdtt"
+        }
+      ],
       "hardwareScore": 34,
       "valueScore": 4,
       "badges": [
-        "minimo storico"
+        "novita"
       ],
       "highlights": [
         "Apple A18 Pro",
@@ -4932,7 +5318,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-10-18T09:31:51.113Z",
       "priceHistory": [
         {
@@ -4978,13 +5364,17 @@
         {
           "d": "2026-10-28",
           "p": 899
+        },
+        {
+          "d": "2026-10-29",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 11,
+      "daysTracked": 12,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -5013,13 +5403,13 @@
       "category": "laptop",
       "title": "Notebook IDEAPAD 5 2-IN-1 83KX008GIX-Luna Grey",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwcdddab91/hi-res/262005244.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw7dfcf8e7/hi-res/262005244.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook-convertibili-2-in-1/lenovo---notebook-ideapad-5-2-in-1-83kx008gix-luna-grey/262005244.html",
       "store": {
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 899.99,
+      "price": 899,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -5065,7 +5455,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-10-06T11:59:58.759Z",
       "priceHistory": [
         {
@@ -5159,18 +5549,30 @@
         {
           "d": "2026-10-28",
           "p": 899.99
+        },
+        {
+          "d": "2026-10-29",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 999,
-      "isLowestEver": false,
+      "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 23,
+      "daysTracked": 24,
+      "priceChange": {
+        "from": 899.99,
+        "to": 899,
+        "deltaPct": 0,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 42,
       "valueScore": 28,
-      "badges": [],
+      "badges": [
+        "minimo storico"
+      ],
       "highlights": [
         "Core i5",
         "UHD Graphics",
@@ -5239,7 +5641,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-09-05T05:21:05.065Z",
       "priceHistory": [
         {
@@ -5429,13 +5831,17 @@
         {
           "d": "2026-10-28",
           "p": 999
+        },
+        {
+          "d": "2026-10-29",
+          "p": 999
         }
       ],
       "lowestEver": 973,
       "highestEver": 1099,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 47,
+      "daysTracked": 48,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
@@ -5507,7 +5913,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-10-13T12:40:26.052Z",
       "priceHistory": [
         {
@@ -5569,13 +5975,17 @@
         {
           "d": "2026-10-28",
           "p": 1449
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1449
         }
       ],
       "lowestEver": 1449,
       "highestEver": 1449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 15,
+      "daysTracked": 16,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
@@ -5592,394 +6002,12 @@
       ]
     },
     {
-      "id": "766187d2466bc50c",
-      "modelKey": "b8bca9f4c6e7a9d6",
-      "category": "laptop",
-      "title": "Notebook LOQ 15IRX10 15,6\" Intel i7 32GB 1TB 5060-nero",
-      "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwcb034e24/hi-res/262001864.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-loq-15irx10-15-6-intel-i7-32gb-1tb-5060-nero/262001864.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 1899,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core i7",
-          "model": null,
-          "tier": "i7",
-          "boostClock": 4.9,
-          "label": "Core i7"
-        },
-        "gpu": {
-          "brand": "NVIDIA",
-          "series": "GeForce RTX",
-          "model": "GeForce RTX 5060",
-          "type": "dedicata",
-          "generation": "RTX 5000"
-        },
-        "ram": {
-          "size": 32
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1024
-          },
-          {
-            "type": "SSD",
-            "sizeGb": 1000
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6,
-          "width": 1920,
-          "height": 1080,
-          "resolution": "1920x1080",
-          "resolutionLabel": "Full HD"
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.2"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 78,
-      "seenAt": "2026-10-25T09:46:23.367Z",
-      "firstSeenAt": "2026-08-10T12:58:37.779Z",
-      "priceHistory": [
-        {
-          "d": "2026-08-10",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-12",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-13",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-14",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-15",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-16",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-17",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-18",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-19",
-          "p": 1799
-        },
-        {
-          "d": "2026-08-20",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-21",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-22",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-23",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-24",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-25",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-26",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-28",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-29",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-30",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-08-31",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-01",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-02",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-03",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-04",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-05",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-06",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-07",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-08",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-09",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-10",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-09-11",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-12",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-13",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-14",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-15",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-16",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-17",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-18",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-19",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-20",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-21",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-22",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-23",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-25",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-26",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-27",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-28",
-          "p": 1799
-        },
-        {
-          "d": "2026-09-29",
-          "p": 1899
-        },
-        {
-          "d": "2026-09-30",
-          "p": 1899
-        },
-        {
-          "d": "2026-10-01",
-          "p": 1777
-        },
-        {
-          "d": "2026-10-02",
-          "p": 1777
-        },
-        {
-          "d": "2026-10-03",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-04",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-05",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-06",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-07",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-08",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-09",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-10",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-11",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-12",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-13",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-14",
-          "p": 1899
-        },
-        {
-          "d": "2026-10-15",
-          "p": 1899
-        },
-        {
-          "d": "2026-10-16",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-17",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-18",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-19",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-20",
-          "p": 1849
-        },
-        {
-          "d": "2026-10-21",
-          "p": 1899
-        },
-        {
-          "d": "2026-10-22",
-          "p": 1899
-        },
-        {
-          "d": "2026-10-23",
-          "p": 1899
-        },
-        {
-          "d": "2026-10-24",
-          "p": 1899
-        },
-        {
-          "d": "2026-10-25",
-          "p": 1899
-        }
-      ],
-      "lowestEver": 1599.99,
-      "highestEver": 1899,
-      "isLowestEver": false,
-      "isNew": false,
-      "daysTracked": 74,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 71,
-      "valueScore": 55,
-      "badges": [],
-      "highlights": [
-        "Core i7",
-        "GeForce RTX 5060",
-        "32 GB",
-        "1 TB SSD + 1000 GB SSD",
-        "15,6\" Full HD"
-      ],
-      "isStale": true,
-      "staleDays": 3
-    },
-    {
       "id": "82e496c9205e0469",
       "modelKey": "359a1761fea2a56c",
       "category": "laptop",
       "title": "Notebook B9YT6ET 250RT G9 15,6\"-Dark ash silver",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwcfe2d726/hi-res/262004242.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwd103cd32/hi-res/262004242.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook/hp---notebook-b9yt6et-250rt-g9-15-6-dark-ash-silver/262004242.html",
       "store": {
         "id": "euronics",
@@ -6024,7 +6052,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-09-25T10:09:47.538Z",
       "priceHistory": [
         {
@@ -6158,13 +6186,17 @@
         {
           "d": "2026-10-28",
           "p": 349
+        },
+        {
+          "d": "2026-10-29",
+          "p": 349
         }
       ],
       "lowestEver": 349,
       "highestEver": 349,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 33,
+      "daysTracked": 34,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 30,
@@ -6334,7 +6366,9 @@
         "Apple GPU",
         "24 GB",
         "512 GB SSD + 512 GB Archiviazione"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "f6173e0a3037a771",
@@ -6400,21 +6434,21 @@
       "lowestEver": 1481,
       "highestEver": 1481,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 54,
       "valueScore": 28,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 7",
         "16 GB",
         "512 GB SSD",
         "14\" Full HD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "9912c4949b1c7b59",
@@ -6422,13 +6456,13 @@
       "category": "desktop",
       "title": "Desktop 17L Intel Core Ultra 7 LOQ TOWER 17IAX10-nero",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwd83f8506/hi-res/262001985.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw867b3daf/hi-res/262001985.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/lenovo---desktop-17l-intel-core-ultra-7-loq-tower-17iax10-nero/262001985.html",
       "store": {
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 1699.99,
+      "price": 1699,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -6467,7 +6501,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -6785,13 +6819,23 @@
         {
           "d": "2026-10-28",
           "p": 1699.99
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1699
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1749,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 79,
+      "daysTracked": 80,
+      "priceChange": {
+        "from": 1699.99,
+        "to": 1699,
+        "deltaPct": 0,
+        "since": "2026-10-28T11:17:57.779Z"
+      },
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 76,
@@ -6863,7 +6907,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-09-03T05:42:03.993Z",
       "priceHistory": [
         {
@@ -7089,13 +7133,17 @@
         {
           "d": "2026-10-28",
           "p": 2315
+        },
+        {
+          "d": "2026-10-29",
+          "p": 2315
         }
       ],
       "lowestEver": 2315,
       "highestEver": 2449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 56,
+      "daysTracked": 57,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 77,
@@ -7154,7 +7202,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -7472,13 +7520,17 @@
         {
           "d": "2026-10-28",
           "p": 677.99
+        },
+        {
+          "d": "2026-10-29",
+          "p": 677.99
         }
       ],
       "lowestEver": 594.15,
       "highestEver": 699,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 79,
+      "daysTracked": 80,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -7534,7 +7586,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-09-04T05:22:32.335Z",
       "priceHistory": [
         {
@@ -7756,13 +7808,17 @@
         {
           "d": "2026-10-28",
           "p": 679
+        },
+        {
+          "d": "2026-10-29",
+          "p": 679
         }
       ],
       "lowestEver": 629.99,
       "highestEver": 779,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 55,
+      "daysTracked": 56,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -7928,7 +7984,9 @@
         "GeForce RTX 5060",
         "16 GB",
         "1 TB SSD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "6c6d6cc1f2aca4fc",
@@ -8079,7 +8137,9 @@
         "GeForce RTX 5060",
         "16 GB",
         "1 TB Archiviazione"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "8dc631fb3d581f65",
@@ -8124,7 +8184,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -8370,13 +8430,17 @@
         {
           "d": "2026-10-28",
           "p": 1519
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1519
         }
       ],
       "lowestEver": 1421,
       "highestEver": 1519,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 61,
+      "daysTracked": 62,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 39,
@@ -8387,268 +8451,6 @@
         "Apple GPU",
         "24 GB",
         "512 GB Archiviazione"
-      ]
-    },
-    {
-      "id": "c9ee433d98daad68",
-      "modelKey": "11859433f7fa811c",
-      "category": "laptop",
-      "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdh84t/a Silver",
-      "brand": "Apple",
-      "image": "https://static.comet.it/b2c/public/e-cat/APL047026/APL047026-6d9d55231b-0.jpg",
-      "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdh84t-a-silver-APL047026-prdtt",
-      "store": {
-        "id": "comet",
-        "name": "Comet"
-      },
-      "price": 1699,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Apple",
-          "family": "Apple M5",
-          "model": null,
-          "tier": "apple m5",
-          "label": "Apple M5"
-        },
-        "gpu": {
-          "brand": "Apple",
-          "series": "Integrata",
-          "model": "GPU Apple M5",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1024
-          }
-        ],
-        "display": {
-          "sizeInch": 13,
-          "panel": "Liquid Retina",
-          "touch": true,
-          "brightnessNits": 500
-        }
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
-      "firstSeenAt": "2026-10-09T11:52:11.008Z",
-      "priceHistory": [
-        {
-          "d": "2026-10-09",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-10",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-11",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-12",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-13",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-14",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-15",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-16",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-17",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-18",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-19",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-20",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-21",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-22",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-23",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-24",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-25",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-26",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-27",
-          "p": 1699
-        },
-        {
-          "d": "2026-10-28",
-          "p": 1699
-        }
-      ],
-      "lowestEver": 1699,
-      "highestEver": 1699,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 20,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "variants": [
-        {
-          "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhc4t/a Starlight",
-          "price": 1699,
-          "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhc4t-a-starlight-APL04703F-prdtt"
-        },
-        {
-          "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhf4t/a Midnight",
-          "price": 1699,
-          "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhf4t-a-midnight-APL04704P-prdtt"
-        },
-        {
-          "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhj4t/a Sky Blue",
-          "price": 1699,
-          "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhj4t-a-sky-blue-APL04705Y-prdtt"
-        }
-      ],
-      "hardwareScore": 53,
-      "valueScore": 14,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Apple M5",
-        "GPU Apple M5",
-        "16 GB",
-        "1 TB SSD",
-        "13\""
-      ]
-    },
-    {
-      "id": "599353b96dc234be",
-      "modelKey": "cb82588caf8059db",
-      "category": "laptop",
-      "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdv94t/a Silver",
-      "brand": "Apple",
-      "image": "https://static.comet.it/b2c/public/e-cat/APL047067/APL047067-63dda5ac69-0.jpg",
-      "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdv94t-a-silver-APL047067-prdtt",
-      "store": {
-        "id": "comet",
-        "name": "Comet"
-      },
-      "price": 1749,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Apple",
-          "family": "Apple M5",
-          "model": null,
-          "tier": "apple m5",
-          "label": "Apple M5"
-        },
-        "gpu": {
-          "brand": "Apple",
-          "series": "Integrata",
-          "model": "GPU Apple M5",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 15,
-          "panel": "Liquid Retina",
-          "touch": true,
-          "brightnessNits": 500
-        }
-      },
-      "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
-      "firstSeenAt": "2026-10-28T11:17:57.779Z",
-      "priceHistory": [
-        {
-          "d": "2026-10-28",
-          "p": 1749
-        }
-      ],
-      "lowestEver": 1749,
-      "highestEver": 1749,
-      "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "variants": [
-        {
-          "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdvd4t/a Starlight",
-          "price": 1749,
-          "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdvd4t-a-starlight-APL04707G-prdtt"
-        },
-        {
-          "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdvh4t/a Midnight",
-          "price": 1749,
-          "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdvh4t-a-midnight-APL04708Q-prdtt"
-        },
-        {
-          "title": "Apple MacBook Air 15'' M5 CORE 10 CPU CORE 10 GPU 512GB Mdvq4t/a Sky Blue",
-          "price": 1749,
-          "url": "https://www.comet.it/apple-macbook-air-15-m5-core-10-cpu-core-10-gpu-512gb-mdvq4t-a-sky-blue-APL04709Z-prdtt"
-        }
-      ],
-      "hardwareScore": 51,
-      "valueScore": 6,
-      "badges": [
-        "novita"
-      ],
-      "highlights": [
-        "Apple M5",
-        "GPU Apple M5",
-        "16 GB",
-        "512 GB SSD",
-        "15\""
       ]
     },
     {
@@ -8699,7 +8501,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-10-28T11:17:57.779Z",
+      "seenAt": "2026-10-29T11:29:24.517Z",
       "firstSeenAt": "2026-10-23T10:00:07.482Z",
       "priceHistory": [
         {
@@ -8725,13 +8527,17 @@
         {
           "d": "2026-10-28",
           "p": 1999
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1999
         }
       ],
       "lowestEver": 1999,
       "highestEver": 1999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 6,
+      "daysTracked": 7,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -8744,11 +8550,6 @@
           "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhg4t/a Midnight",
           "price": 1999,
           "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhg4t-a-midnight-APL04712D-prdtt"
-        },
-        {
-          "title": "Apple MacBook Air 13'' M5 CORE 10 CPU CORE 10 GPU 1TB Mdhk4t/a Sky Blue",
-          "price": 1999,
-          "url": "https://www.comet.it/apple-macbook-air-13-m5-core-10-cpu-core-10-gpu-1tb-mdhk4t-a-sky-blue-APL04713M-prdtt"
         }
       ],
       "hardwareScore": 55,
@@ -8902,7 +8703,9 @@
         "Core Ultra 5",
         "16 GB",
         "512 GB SSD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     }
   ]
 }
