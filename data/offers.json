@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-04T12:57:13.650Z",
+  "generatedAt": "2026-11-05T13:08:21.794Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
-    "total": 32,
+    "total": 33,
     "byCategory": {
-      "laptop": 20,
+      "laptop": 21,
       "desktop": 12
     },
     "byStore": {
-      "euronics": 19,
+      "euronics": 20,
       "comet": 13
     },
     "discounted": 12,
@@ -21,7 +21,7 @@
       "store": "comet",
       "count": 60,
       "notes": [
-        "1751 in sitemap, 173 candidati, 60 scaricati (44 fissi disponibili)"
+        "1761 in sitemap, 176 candidati, 60 scaricati (46 fissi disponibili)"
       ]
     },
     {
@@ -33,9 +33,9 @@
     },
     {
       "store": "euronics",
-      "count": 60,
+      "count": 59,
       "notes": [
-        "3865 in sitemap, 167 candidati, 60 scaricati (41 fissi disponibili)"
+        "3883 in sitemap, 171 candidati, 60 scaricati (43 fissi disponibili)"
       ]
     },
     {
@@ -53,7 +53,7 @@
       "category": "laptop",
       "title": "Notebook OMNIBOOK 5 X360 14-FP0008NL Intel Core i3-Glacier Silver",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw4bc255d0/hi-res/262007100.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwe55c2d1e/hi-res/262007100.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook-convertibili-2-in-1/hp---notebook-omnibook-5-x360-14-fp0008nl-intel-core-i3-glacier-silver/262007100.html",
       "store": {
         "id": "euronics",
@@ -101,7 +101,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -379,13 +379,17 @@
         {
           "d": "2026-11-04",
           "p": 599.99
+        },
+        {
+          "d": "2026-11-05",
+          "p": 599.99
         }
       ],
       "lowestEver": 599.99,
       "highestEver": 904,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 69,
+      "daysTracked": 70,
       "verifiedDiscount": {
         "referencePrice": 849,
         "discountPct": 29
@@ -412,7 +416,7 @@
       "category": "laptop",
       "title": "Notebook OMNIBOOK 5 NG AI 16-BP0016NLX 16GB RAM-Meteor Silver AI logo",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw1e793dd5/hi-res/262007182.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw6dcc6298/hi-res/262007182.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook/hp---notebook-omnibook-5-ng-ai--16-bp0016nlx-16gb-ram-meteor-silver-ai-logo/262007182.html",
       "store": {
         "id": "euronics",
@@ -460,7 +464,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-09-22T09:54:21.453Z",
       "priceHistory": [
         {
@@ -634,13 +638,17 @@
         {
           "d": "2026-11-04",
           "p": 999.99
+        },
+        {
+          "d": "2026-11-05",
+          "p": 999.99
         }
       ],
       "lowestEver": 999.99,
       "highestEver": 1349,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 43,
+      "daysTracked": 44,
       "verifiedDiscount": {
         "referencePrice": 1299,
         "discountPct": 23
@@ -667,7 +675,7 @@
       "category": "laptop",
       "title": "Notebook gaming HYPERX OMEN 15-GA0028NLX-Shadow Black",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw07c4f9e1/hi-res/262007183.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw8b276a85/hi-res/262007183.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/hp---notebook-gaming-hyperx-omen-15-ga0028nlx-shadow-black/262007183.html",
       "store": {
         "id": "euronics",
@@ -708,7 +716,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-20T09:59:33.292Z",
       "priceHistory": [
         {
@@ -774,13 +782,17 @@
         {
           "d": "2026-11-04",
           "p": 1599.99
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1599.99
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 2049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 16,
+      "daysTracked": 17,
       "verifiedDiscount": {
         "referencePrice": 2049,
         "discountPct": 22
@@ -843,7 +855,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -1117,13 +1129,17 @@
         {
           "d": "2026-11-04",
           "p": 899
+        },
+        {
+          "d": "2026-11-05",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 1079,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 68,
+      "daysTracked": 69,
       "verifiedDiscount": {
         "referencePrice": 1079,
         "discountPct": 17
@@ -1149,7 +1165,7 @@
       "category": "desktop",
       "title": "Desktop OMEN 16L GAMING TG03-0053NL",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw7841ce02/hi-res/262007186.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwf6a56d75/hi-res/262007186.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/hp---desktop-omen-16l-gaming-tg03-0053nl/262007186.html",
       "store": {
         "id": "euronics",
@@ -1191,7 +1207,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-06T11:59:58.759Z",
       "priceHistory": [
         {
@@ -1301,13 +1317,17 @@
         {
           "d": "2026-11-04",
           "p": 1499
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1499
         }
       ],
       "lowestEver": 1499,
       "highestEver": 1799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 27,
+      "daysTracked": 28,
       "verifiedDiscount": {
         "referencePrice": 1799,
         "discountPct": 17
@@ -1371,7 +1391,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -1645,13 +1665,17 @@
         {
           "d": "2026-11-04",
           "p": 1199
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1199
         }
       ],
       "lowestEver": 1199,
       "highestEver": 1299,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 68,
+      "daysTracked": 69,
       "verifiedDiscount": {
         "referencePrice": 1299,
         "discountPct": 8
@@ -1719,7 +1743,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -1829,13 +1853,17 @@
         {
           "d": "2026-11-04",
           "p": 1599
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1599
         }
       ],
       "lowestEver": 1599,
       "highestEver": 1699,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 27,
+      "daysTracked": 28,
       "verifiedDiscount": {
         "referencePrice": 1699,
         "discountPct": 6
@@ -1916,7 +1944,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2190,13 +2218,17 @@
         {
           "d": "2026-11-04",
           "p": 1899
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1899
         }
       ],
       "lowestEver": 1897,
       "highestEver": 2029,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 68,
+      "daysTracked": 69,
       "verifiedDiscount": {
         "referencePrice": 2029,
         "discountPct": 6
@@ -2262,7 +2294,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-23T10:00:07.482Z",
       "priceHistory": [
         {
@@ -2316,13 +2348,17 @@
         {
           "d": "2026-11-04",
           "p": 1899
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1899
         }
       ],
       "lowestEver": 1899,
       "highestEver": 1999,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 13,
+      "daysTracked": 14,
       "verifiedDiscount": {
         "referencePrice": 1999,
         "discountPct": 5
@@ -2398,7 +2434,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2672,19 +2708,17 @@
         {
           "d": "2026-11-04",
           "p": 2899
+        },
+        {
+          "d": "2026-11-05",
+          "p": 2899
         }
       ],
       "lowestEver": 2899,
       "highestEver": 3049,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 68,
-      "priceChange": {
-        "from": 2999,
-        "to": 2899,
-        "deltaPct": -3,
-        "since": "2026-11-03T12:45:03.235Z"
-      },
+      "daysTracked": 69,
       "verifiedDiscount": {
         "referencePrice": 3049,
         "discountPct": 5
@@ -2752,7 +2786,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -2862,13 +2896,17 @@
         {
           "d": "2026-11-04",
           "p": 1399
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1399
         }
       ],
       "lowestEver": 1399,
       "highestEver": 1449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 27,
+      "daysTracked": 28,
       "verifiedDiscount": {
         "referencePrice": 1449,
         "discountPct": 3
@@ -2954,7 +2992,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-28T11:17:57.779Z",
       "priceHistory": [
         {
@@ -2988,19 +3026,23 @@
         {
           "d": "2026-11-04",
           "p": 1713
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1713
         }
       ],
       "lowestEver": 1713,
       "highestEver": 1749,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 8,
+      "daysTracked": 9,
       "verifiedDiscount": {
-        "referencePrice": 1733.88,
+        "referencePrice": 1723.89,
         "discountPct": 1
       },
       "discountPct": 1,
-      "listPrice": 1733.88,
+      "listPrice": 1723.89,
       "discountSource": "storico",
       "variants": [
         {
@@ -3090,7 +3132,7 @@
         ]
       },
       "specsCompleteness": 89,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3424,13 +3466,17 @@
         {
           "d": "2026-11-04",
           "p": 999
+        },
+        {
+          "d": "2026-11-05",
+          "p": 999
         }
       ],
       "lowestEver": 899.99,
       "highestEver": 999,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 83,
+      "daysTracked": 84,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
@@ -3530,7 +3576,7 @@
         "15,6\" Full HD"
       ],
       "isStale": true,
-      "staleDays": 1
+      "staleDays": 2
     },
     {
       "id": "cd5145659365b956",
@@ -3538,7 +3584,7 @@
       "category": "laptop",
       "title": "Notebook Ideapad Slim 3 IPS3 15ARP10 15,3\"-silver",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwd9ad602a/hi-res/262001861.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw651cbca4/hi-res/262001861.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-ips3-15arp10-15-3-silver/262001861.html",
       "store": {
         "id": "euronics",
@@ -3589,7 +3635,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -3931,13 +3977,17 @@
         {
           "d": "2026-11-04",
           "p": 599
+        },
+        {
+          "d": "2026-11-05",
+          "p": 599
         }
       ],
       "lowestEver": 499.99,
       "highestEver": 599,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 85,
+      "daysTracked": 86,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 45,
@@ -4007,7 +4057,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-11-03T12:45:03.235Z",
       "priceHistory": [
         {
@@ -4017,13 +4067,17 @@
         {
           "d": "2026-11-04",
           "p": 799
+        },
+        {
+          "d": "2026-11-05",
+          "p": 799
         }
       ],
       "lowestEver": 799,
       "highestEver": 799,
-      "isLowestEver": false,
+      "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 2,
+      "daysTracked": 3,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -4035,7 +4089,9 @@
       ],
       "hardwareScore": 34,
       "valueScore": 0,
-      "badges": [],
+      "badges": [
+        "minimo storico"
+      ],
       "highlights": [
         "Apple A18 Pro",
         "GPU Apple A18 Pro",
@@ -4100,7 +4156,7 @@
         }
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-30T11:21:07.574Z",
       "priceHistory": [
         {
@@ -4126,13 +4182,17 @@
         {
           "d": "2026-11-04",
           "p": 899
+        },
+        {
+          "d": "2026-11-05",
+          "p": 899
         }
       ],
       "lowestEver": 899,
       "highestEver": 899,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 6,
+      "daysTracked": 7,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -4223,7 +4283,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-06T11:59:58.759Z",
       "priceHistory": [
         {
@@ -4345,13 +4405,17 @@
         {
           "d": "2026-11-04",
           "p": 999
+        },
+        {
+          "d": "2026-11-05",
+          "p": 999
         }
       ],
       "lowestEver": 899,
       "highestEver": 999,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 30,
+      "daysTracked": 31,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 42,
@@ -4371,7 +4435,7 @@
       "category": "laptop",
       "title": "Notebook YG7 2IN1 14ILL10 16GB+512GB-silver",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwc491500c/hi-res/262001866.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw76ac9e74/hi-res/262001866.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook-convertibili-2-in-1/lenovo---notebook-yg7-2in1-14ill10-16gb512gb-silver/262001866.html",
       "store": {
         "id": "euronics",
@@ -4425,7 +4489,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-09-05T05:21:05.065Z",
       "priceHistory": [
         {
@@ -4643,19 +4707,17 @@
         {
           "d": "2026-11-04",
           "p": 1049
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1049
         }
       ],
       "lowestEver": 973,
       "highestEver": 1099,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 54,
-      "priceChange": {
-        "from": 999,
-        "to": 1049,
-        "deltaPct": 5,
-        "since": "2026-11-03T12:45:03.235Z"
-      },
+      "daysTracked": 55,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
@@ -4675,7 +4737,7 @@
       "category": "laptop",
       "title": "Notebook IDEAPAD SLIM 3 83UR0095IX INTEL CORE U7-Luna Grey",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwa0256d6d/hi-res/262005243.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwbcd49ef4/hi-res/262005243.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-83ur0095ix-intel-core-u7-luna-grey/262005243.html",
       "store": {
         "id": "euronics",
@@ -4728,7 +4790,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-09-03T05:42:03.993Z",
       "priceHistory": [
         {
@@ -4966,13 +5028,17 @@
         {
           "d": "2026-11-04",
           "p": 1199
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1199
         }
       ],
       "lowestEver": 799,
       "highestEver": 1329,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 59,
+      "daysTracked": 60,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
@@ -5044,7 +5110,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-13T12:40:26.052Z",
       "priceHistory": [
         {
@@ -5134,13 +5200,17 @@
         {
           "d": "2026-11-04",
           "p": 1449
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1449
         }
       ],
       "lowestEver": 1449,
       "highestEver": 1449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 22,
+      "daysTracked": 23,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
@@ -5162,7 +5232,7 @@
       "category": "laptop",
       "title": "Notebook CHROMEBOOK 14A-NE1000NL 4GB+64GB eMMC-Modern Grey",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwb4db1a4d/hi-res/252015799.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw3ac93f52/hi-res/252015799.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/chromebook/hp---notebook-chromebook-14a-ne1000nl-4gb64gb-emmc-modern-grey/252015799.html",
       "store": {
         "id": "euronics",
@@ -5207,7 +5277,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -5553,19 +5623,17 @@
         {
           "d": "2026-11-04",
           "p": 229
+        },
+        {
+          "d": "2026-11-05",
+          "p": 229
         }
       ],
       "lowestEver": 199.99,
       "highestEver": 284,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 86,
-      "priceChange": {
-        "from": 284,
-        "to": 229,
-        "deltaPct": -19,
-        "since": "2026-11-03T12:45:03.235Z"
-      },
+      "daysTracked": 87,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 22,
@@ -5577,226 +5645,6 @@
         "64 GB eMMC",
         "14\" HD"
       ]
-    },
-    {
-      "id": "82e496c9205e0469",
-      "modelKey": "359a1761fea2a56c",
-      "category": "laptop",
-      "title": "Notebook B9YT6ET 250RT G9 15,6\"-Dark ash silver",
-      "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwd103cd32/hi-res/262004242.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/hp---notebook-b9yt6et-250rt-g9-15-6-dark-ash-silver/262004242.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 349,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Intel N150",
-          "model": null,
-          "tier": "entry",
-          "boostClock": 3.6,
-          "label": "Intel N150"
-        },
-        "ram": {
-          "size": 8
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 256
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6,
-          "width": 1366,
-          "height": 768,
-          "resolution": "1366x768",
-          "resolutionLabel": "HD"
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.4"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 67,
-      "seenAt": "2026-11-01T11:48:10.646Z",
-      "firstSeenAt": "2026-09-25T10:09:47.538Z",
-      "priceHistory": [
-        {
-          "d": "2026-09-25",
-          "p": 349
-        },
-        {
-          "d": "2026-09-26",
-          "p": 349
-        },
-        {
-          "d": "2026-09-27",
-          "p": 349
-        },
-        {
-          "d": "2026-09-28",
-          "p": 349
-        },
-        {
-          "d": "2026-09-29",
-          "p": 349
-        },
-        {
-          "d": "2026-09-30",
-          "p": 349
-        },
-        {
-          "d": "2026-10-01",
-          "p": 349
-        },
-        {
-          "d": "2026-10-02",
-          "p": 349
-        },
-        {
-          "d": "2026-10-03",
-          "p": 349
-        },
-        {
-          "d": "2026-10-04",
-          "p": 349
-        },
-        {
-          "d": "2026-10-05",
-          "p": 349
-        },
-        {
-          "d": "2026-10-06",
-          "p": 349
-        },
-        {
-          "d": "2026-10-07",
-          "p": 349
-        },
-        {
-          "d": "2026-10-08",
-          "p": 349
-        },
-        {
-          "d": "2026-10-09",
-          "p": 349
-        },
-        {
-          "d": "2026-10-10",
-          "p": 349
-        },
-        {
-          "d": "2026-10-11",
-          "p": 349
-        },
-        {
-          "d": "2026-10-12",
-          "p": 349
-        },
-        {
-          "d": "2026-10-13",
-          "p": 349
-        },
-        {
-          "d": "2026-10-14",
-          "p": 349
-        },
-        {
-          "d": "2026-10-15",
-          "p": 349
-        },
-        {
-          "d": "2026-10-16",
-          "p": 349
-        },
-        {
-          "d": "2026-10-17",
-          "p": 349
-        },
-        {
-          "d": "2026-10-18",
-          "p": 349
-        },
-        {
-          "d": "2026-10-19",
-          "p": 349
-        },
-        {
-          "d": "2026-10-20",
-          "p": 349
-        },
-        {
-          "d": "2026-10-21",
-          "p": 349
-        },
-        {
-          "d": "2026-10-22",
-          "p": 349
-        },
-        {
-          "d": "2026-10-23",
-          "p": 349
-        },
-        {
-          "d": "2026-10-24",
-          "p": 349
-        },
-        {
-          "d": "2026-10-25",
-          "p": 349
-        },
-        {
-          "d": "2026-10-27",
-          "p": 349
-        },
-        {
-          "d": "2026-10-28",
-          "p": 349
-        },
-        {
-          "d": "2026-10-29",
-          "p": 349
-        },
-        {
-          "d": "2026-10-31",
-          "p": 349
-        },
-        {
-          "d": "2026-11-01",
-          "p": 349
-        }
-      ],
-      "lowestEver": 349,
-      "highestEver": 349,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 36,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 30,
-      "valueScore": 35,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Intel N150",
-        "8 GB",
-        "256 GB SSD",
-        "15,6\" HD"
-      ],
-      "isStale": true,
-      "staleDays": 3
     },
     {
       "id": "20308dfa488e692a",
@@ -5855,7 +5703,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-09-10T05:22:58.249Z",
       "priceHistory": [
         {
@@ -6081,13 +5929,17 @@
         {
           "d": "2026-11-04",
           "p": 849
+        },
+        {
+          "d": "2026-11-05",
+          "p": 849
         }
       ],
       "lowestEver": 579.99,
       "highestEver": 849,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 56,
+      "daysTracked": 57,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -6177,7 +6029,87 @@
         "16\" Full HD+"
       ],
       "isStale": true,
-      "staleDays": 1
+      "staleDays": 2
+    },
+    {
+      "id": "f6173e0a3037a771",
+      "modelKey": "a8c51c3311de9b44",
+      "category": "laptop",
+      "title": "GALAXY BOOK5 PRO 14\"-Gray",
+      "brand": "Samsung",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw5a9da2f0/hi-res/252000581.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/samsung---galaxy-book5-pro-14-gray/252000581.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1299,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 7",
+          "model": null,
+          "tier": "Ultra 7",
+          "boostClock": 4.8,
+          "label": "Core Ultra 7"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 14,
+          "width": 1920,
+          "height": 1080,
+          "resolution": "1920x1080",
+          "resolutionLabel": "Full HD",
+          "touch": true
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "wifi": "Wi-Fi 6E",
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 67,
+      "seenAt": "2026-11-05T13:08:21.794Z",
+      "firstSeenAt": "2026-11-05T13:08:21.794Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-05",
+          "p": 1299
+        }
+      ],
+      "lowestEver": 1299,
+      "highestEver": 1299,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 54,
+      "valueScore": 26,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core Ultra 7",
+        "16 GB",
+        "512 GB SSD",
+        "14\" Full HD"
+      ]
     },
     {
       "id": "9912c4949b1c7b59",
@@ -6185,7 +6117,7 @@
       "category": "desktop",
       "title": "Desktop 17L Intel Core Ultra 7 LOQ TOWER 17IAX10-nero",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw867b3daf/hi-res/262001985.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwbfef0613/hi-res/262001985.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/lenovo---desktop-17l-intel-core-ultra-7-loq-tower-17iax10-nero/262001985.html",
       "store": {
         "id": "euronics",
@@ -6230,7 +6162,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -6576,13 +6508,17 @@
         {
           "d": "2026-11-04",
           "p": 1799
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1799
         }
       ],
       "lowestEver": 1599.99,
       "highestEver": 1799,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 86,
+      "daysTracked": 87,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 76,
@@ -6674,7 +6610,87 @@
         "16\" QHD"
       ],
       "isStale": true,
-      "staleDays": 1
+      "staleDays": 2
+    },
+    {
+      "id": "5f97a20c895137cf",
+      "modelKey": "211e76c96af81d03",
+      "category": "laptop",
+      "title": "Notebook GALAXY BOOK6 PRO 14\"-Gray",
+      "brand": "Samsung",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw965568d9/hi-res/262002383.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/samsung---notebook-galaxy-book6-pro-14-gray/262002383.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 2299,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 7",
+          "model": null,
+          "tier": "Ultra 7",
+          "boostClock": 4.8,
+          "label": "Core Ultra 7"
+        },
+        "ram": {
+          "size": 32
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 14,
+          "width": 2560,
+          "height": 1600,
+          "resolution": "2560x1600",
+          "resolutionLabel": "WQXGA",
+          "touch": true
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "wifi": "Wi-Fi 6E",
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 67,
+      "seenAt": "2026-11-05T13:08:21.794Z",
+      "firstSeenAt": "2026-11-05T13:08:21.794Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-05",
+          "p": 2299
+        }
+      ],
+      "lowestEver": 2299,
+      "highestEver": 2299,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 64,
+      "valueScore": 12,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core Ultra 7",
+        "32 GB",
+        "1000 GB SSD",
+        "14\" WQXGA"
+      ]
     },
     {
       "id": "bc3c735ed26df90b",
@@ -6682,7 +6698,7 @@
       "category": "desktop",
       "title": "PC Desktop LOQ 91AY007AYD-Luna Grey (Front Bezel), Raven",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwf1447e86/hi-res/262005248.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwee608a77/hi-res/262005248.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/lenovo---pc-desktop-loq-91ay007ayd-luna-grey-%28front-bezel%29--raven/262005248.html",
       "store": {
         "id": "euronics",
@@ -6732,7 +6748,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-09-03T05:42:03.993Z",
       "priceHistory": [
         {
@@ -6986,13 +7002,17 @@
         {
           "d": "2026-11-04",
           "p": 2315
+        },
+        {
+          "d": "2026-11-05",
+          "p": 2315
         }
       ],
       "lowestEver": 2315,
       "highestEver": 2449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 63,
+      "daysTracked": 64,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 77,
@@ -7051,7 +7071,7 @@
         }
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
         {
@@ -7397,13 +7417,17 @@
         {
           "d": "2026-11-04",
           "p": 677.99
+        },
+        {
+          "d": "2026-11-05",
+          "p": 677.99
         }
       ],
       "lowestEver": 594.15,
       "highestEver": 699,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 86,
+      "daysTracked": 87,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -7424,7 +7448,7 @@
       "category": "desktop",
       "title": "Desktop ALL IN ONE 24-CR0071NL-Shell White",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwc7862f9d/hi-res/252005725.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw8940877f/hi-res/252005725.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/all-in-one/hp---desktop-all-in-one-24-cr0071nl-shell-white/252005725.html",
       "store": {
         "id": "euronics",
@@ -7461,7 +7485,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-09-04T05:22:32.335Z",
       "priceHistory": [
         {
@@ -7711,25 +7735,23 @@
         {
           "d": "2026-11-04",
           "p": 679
+        },
+        {
+          "d": "2026-11-05",
+          "p": 679
         }
       ],
       "lowestEver": 629.99,
       "highestEver": 779,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 62,
-      "priceChange": {
-        "from": 779,
-        "to": 679,
-        "deltaPct": -13,
-        "since": "2026-11-03T12:45:03.235Z"
-      },
+      "daysTracked": 63,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
         {
           "title": "PC Desktop OMNIDESK M02-0044NL-Gray Wood",
-          "price": 824,
+          "price": 874,
           "url": "https://www.euronics.it/informatica/pc-desktop/desktop/hp---pc-desktop-omnidesk-m02-0044nl-gray-wood/262002692.html"
         }
       ],
@@ -7792,7 +7814,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-10-09T11:52:11.008Z",
       "priceHistory": [
         {
@@ -7890,13 +7912,17 @@
         {
           "d": "2026-11-04",
           "p": 1435.99
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1435.99
         }
       ],
       "lowestEver": 1435.99,
       "highestEver": 1435.99,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 24,
+      "daysTracked": 25,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 72,
@@ -7955,7 +7981,7 @@
         "os": "macOS"
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-04T12:57:13.650Z",
+      "seenAt": "2026-11-05T13:08:21.794Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -8229,13 +8255,17 @@
         {
           "d": "2026-11-04",
           "p": 1519
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1519
         }
       ],
       "lowestEver": 1421,
       "highestEver": 1519,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 68,
+      "daysTracked": 69,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 39,
