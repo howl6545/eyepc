@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:17:14.697Z",
+  "generatedAt": "2026-11-23T15:54:18.331Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
@@ -12,8 +12,8 @@
       "euronics": 18
     },
     "discounted": 7,
-    "averageDiscount": 13,
-    "lowestEverCount": 7
+    "averageDiscount": 12,
+    "lowestEverCount": 5
   },
   "sources": [
     {
@@ -34,7 +34,7 @@
       "store": "euronics",
       "count": 60,
       "notes": [
-        "3599 in sitemap, 196 candidati, 60 scaricati (46 fissi disponibili)"
+        "3896 in sitemap, 209 candidati, 60 scaricati (54 fissi disponibili)"
       ]
     },
     {
@@ -102,7 +102,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-09-03T05:42:03.993Z",
       "priceHistory": [
         {
@@ -428,13 +428,17 @@
         {
           "d": "2026-11-22",
           "p": 1699
+        },
+        {
+          "d": "2026-11-23",
+          "p": 1699
         }
       ],
       "lowestEver": 1699,
       "highestEver": 2449,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 81,
+      "daysTracked": 82,
       "verifiedDiscount": {
         "referencePrice": 2315,
         "discountPct": 27
@@ -603,7 +607,9 @@
         "16 GB",
         "512 GB SSD",
         "16\" Full HD+"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "3087abec679014d2",
@@ -611,7 +617,7 @@
       "category": "desktop",
       "title": "Desktop OMEN 16L GAMING TG03-0053NL",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw5b0a680d/hi-res/262007186.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw2747d4d2/hi-res/262007186.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/hp---desktop-omen-16l-gaming-tg03-0053nl/262007186.html",
       "store": {
         "id": "euronics",
@@ -653,7 +659,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-10-06T11:59:58.759Z",
       "priceHistory": [
         {
@@ -835,13 +841,17 @@
         {
           "d": "2026-11-22",
           "p": 1299.99
+        },
+        {
+          "d": "2026-11-23",
+          "p": 1299.99
         }
       ],
       "lowestEver": 1299.99,
       "highestEver": 1799,
       "isLowestEver": true,
       "isNew": false,
-      "daysTracked": 45,
+      "daysTracked": 46,
       "verifiedDiscount": {
         "referencePrice": 1499,
         "discountPct": 13
@@ -1248,208 +1258,9 @@
         "16 GB",
         "512 GB SSD",
         "15,3\" Full HD+"
-      ]
-    },
-    {
-      "id": "4f15391abde2daaa",
-      "modelKey": "54d2a6c1330651d6",
-      "category": "laptop",
-      "title": "Notebook gaming HYPERX OMEN 15-GA0028NLX-Shadow Black",
-      "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw25c5229d/hi-res/262007183.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/hp---notebook-gaming-hyperx-omen-15-ga0028nlx-shadow-black/262007183.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 1799,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core Ultra 7",
-          "model": null,
-          "tier": "Ultra 7",
-          "boostClock": 5.1,
-          "label": "Core Ultra 7"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 1000
-          }
-        ],
-        "display": {
-          "sizeInch": 15.3
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.4"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 67,
-      "seenAt": "2026-11-22T13:17:14.697Z",
-      "firstSeenAt": "2026-10-20T09:59:33.292Z",
-      "priceHistory": [
-        {
-          "d": "2026-10-20",
-          "p": 2049
-        },
-        {
-          "d": "2026-10-21",
-          "p": 2049
-        },
-        {
-          "d": "2026-10-22",
-          "p": 2049
-        },
-        {
-          "d": "2026-10-23",
-          "p": 2049
-        },
-        {
-          "d": "2026-10-24",
-          "p": 2049
-        },
-        {
-          "d": "2026-10-25",
-          "p": 2049
-        },
-        {
-          "d": "2026-10-26",
-          "p": 2049
-        },
-        {
-          "d": "2026-10-27",
-          "p": 2016
-        },
-        {
-          "d": "2026-10-28",
-          "p": 1932
-        },
-        {
-          "d": "2026-10-29",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-10-30",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-10-31",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-01",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-02",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-03",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-04",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-05",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-06",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-07",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-08",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-10",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-11",
-          "p": 1599.99
-        },
-        {
-          "d": "2026-11-13",
-          "p": 1692
-        },
-        {
-          "d": "2026-11-14",
-          "p": 1692
-        },
-        {
-          "d": "2026-11-15",
-          "p": 1692
-        },
-        {
-          "d": "2026-11-16",
-          "p": 1692
-        },
-        {
-          "d": "2026-11-17",
-          "p": 1674
-        },
-        {
-          "d": "2026-11-18",
-          "p": 1782
-        },
-        {
-          "d": "2026-11-19",
-          "p": 1799
-        },
-        {
-          "d": "2026-11-20",
-          "p": 1799
-        },
-        {
-          "d": "2026-11-21",
-          "p": 1799
-        },
-        {
-          "d": "2026-11-22",
-          "p": 1799
-        }
       ],
-      "lowestEver": 1599.99,
-      "highestEver": 2049,
-      "isLowestEver": false,
-      "isNew": false,
-      "daysTracked": 32,
-      "verifiedDiscount": {
-        "referencePrice": 2016,
-        "discountPct": 11
-      },
-      "discountPct": 11,
-      "listPrice": 2016,
-      "discountSource": "storico",
-      "hardwareScore": 57,
-      "valueScore": 13,
-      "badges": [],
-      "highlights": [
-        "Core Ultra 7",
-        "16 GB",
-        "1000 GB SSD",
-        "15,3\""
-      ]
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "49d9d30961650de5",
@@ -1716,6 +1527,213 @@
         "8 GB",
         "512 GB SSD",
         "14\" Full HD+"
+      ],
+      "isStale": true,
+      "staleDays": 1
+    },
+    {
+      "id": "4f15391abde2daaa",
+      "modelKey": "54d2a6c1330651d6",
+      "category": "laptop",
+      "title": "Notebook gaming HYPERX OMEN 15-GA0028NLX-Shadow Black",
+      "brand": "HP",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw25c5229d/hi-res/262007183.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/hp---notebook-gaming-hyperx-omen-15-ga0028nlx-shadow-black/262007183.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1799,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 7",
+          "model": null,
+          "tier": "Ultra 7",
+          "boostClock": 5.1,
+          "label": "Core Ultra 7"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 15.3
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 67,
+      "seenAt": "2026-11-23T15:54:18.331Z",
+      "firstSeenAt": "2026-10-20T09:59:33.292Z",
+      "priceHistory": [
+        {
+          "d": "2026-10-20",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-21",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-22",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-23",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-24",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-25",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-26",
+          "p": 2049
+        },
+        {
+          "d": "2026-10-27",
+          "p": 2016
+        },
+        {
+          "d": "2026-10-28",
+          "p": 1932
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-10-30",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-10-31",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-01",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-02",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-03",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-04",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-05",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-06",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-07",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-08",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-10",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-11",
+          "p": 1599.99
+        },
+        {
+          "d": "2026-11-13",
+          "p": 1692
+        },
+        {
+          "d": "2026-11-14",
+          "p": 1692
+        },
+        {
+          "d": "2026-11-15",
+          "p": 1692
+        },
+        {
+          "d": "2026-11-16",
+          "p": 1692
+        },
+        {
+          "d": "2026-11-17",
+          "p": 1674
+        },
+        {
+          "d": "2026-11-18",
+          "p": 1782
+        },
+        {
+          "d": "2026-11-19",
+          "p": 1799
+        },
+        {
+          "d": "2026-11-20",
+          "p": 1799
+        },
+        {
+          "d": "2026-11-21",
+          "p": 1799
+        },
+        {
+          "d": "2026-11-22",
+          "p": 1799
+        },
+        {
+          "d": "2026-11-23",
+          "p": 1799
+        }
+      ],
+      "lowestEver": 1599.99,
+      "highestEver": 2049,
+      "isLowestEver": false,
+      "isNew": false,
+      "daysTracked": 33,
+      "verifiedDiscount": {
+        "referencePrice": 1932,
+        "discountPct": 7
+      },
+      "discountPct": 7,
+      "listPrice": 1932,
+      "discountSource": "storico",
+      "hardwareScore": 57,
+      "valueScore": 13,
+      "badges": [],
+      "highlights": [
+        "Core Ultra 7",
+        "16 GB",
+        "1000 GB SSD",
+        "15,3\""
       ]
     },
     {
@@ -1724,7 +1742,7 @@
       "category": "laptop",
       "title": "Notebook Ideapad Slim 3 IPS3 15ARP10 15,3\"-silver",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw651cbca4/hi-res/262001861.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw8be32390/hi-res/262001861.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-ips3-15arp10-15-3-silver/262001861.html",
       "store": {
         "id": "euronics",
@@ -1775,13 +1793,9 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
-        {
-          "d": "2026-08-24",
-          "p": 545
-        },
         {
           "d": "2026-08-25",
           "p": 563
@@ -2125,6 +2139,10 @@
         {
           "d": "2026-11-22",
           "p": 574
+        },
+        {
+          "d": "2026-11-23",
+          "p": 574
         }
       ],
       "lowestEver": 529,
@@ -2151,233 +2169,6 @@
         "512 GB SSD",
         "15,3\" Full HD+"
       ]
-    },
-    {
-      "id": "1f01283153716fda",
-      "modelKey": "5e6a69cabc050342",
-      "category": "laptop",
-      "title": "Laptop 15-FD0098NL Intel® Core™ i5 Windows 11 Home-Natural Silver",
-      "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw556c7855/hi-res/252005697.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/hp---laptop-15-fd0098nl-intel%C2%AE-core-i5-windows-11-home-natural-silver/252005697.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 599,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core i5",
-          "model": null,
-          "tier": "i5",
-          "label": "Core i5"
-        },
-        "gpu": {
-          "brand": "Intel",
-          "series": "Integrata",
-          "model": "Iris Xe",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 16
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 15.6,
-          "width": 1920,
-          "height": 1080,
-          "resolution": "1920x1080",
-          "resolutionLabel": "Full HD"
-        },
-        "os": "Windows 11 Home",
-        "connectivity": {
-          "bluetooth": "5.3"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 78,
-      "seenAt": "2026-11-18T13:54:16.025Z",
-      "firstSeenAt": "2026-11-10T13:25:39.982Z",
-      "priceHistory": [
-        {
-          "d": "2026-11-10",
-          "p": 599
-        },
-        {
-          "d": "2026-11-11",
-          "p": 599
-        },
-        {
-          "d": "2026-11-12",
-          "p": 599
-        },
-        {
-          "d": "2026-11-13",
-          "p": 599
-        },
-        {
-          "d": "2026-11-14",
-          "p": 599
-        },
-        {
-          "d": "2026-11-15",
-          "p": 599
-        },
-        {
-          "d": "2026-11-16",
-          "p": 599
-        },
-        {
-          "d": "2026-11-17",
-          "p": 599
-        },
-        {
-          "d": "2026-11-18",
-          "p": 599
-        }
-      ],
-      "lowestEver": 599,
-      "highestEver": 599,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 9,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 46,
-      "valueScore": 100,
-      "badges": [
-        "minimo storico",
-        "ottimo affare"
-      ],
-      "highlights": [
-        "Core i5",
-        "Iris Xe",
-        "16 GB",
-        "512 GB SSD",
-        "15,6\" Full HD"
-      ],
-      "isStale": true,
-      "staleDays": 3
-    },
-    {
-      "id": "926be50b469a48f8",
-      "modelKey": "3c91da3ae45fed3c",
-      "category": "laptop",
-      "title": "Notebook OMNIBOOK 5 X360 14-FP0007NLX IntelCore i3-Sky blue",
-      "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwb0b56186/hi-res/262007099.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-convertibili-2-in-1/hp---notebook-omnibook-5-x360-14-fp0007nlx-intelcore-i3-sky-blue/262007099.html",
-      "store": {
-        "id": "euronics",
-        "name": "Euronics"
-      },
-      "price": 649.99,
-      "currency": "EUR",
-      "availability": "disponibile",
-      "rating": null,
-      "reviewCount": null,
-      "specs": {
-        "cpu": {
-          "brand": "Intel",
-          "family": "Core i3",
-          "model": "1315U",
-          "tier": "i3",
-          "boostClock": 4.5,
-          "label": "Core i3-1315U"
-        },
-        "gpu": {
-          "brand": "Intel",
-          "series": "Integrata",
-          "model": "UHD Graphics",
-          "type": "integrata"
-        },
-        "ram": {
-          "size": 8
-        },
-        "storage": [
-          {
-            "type": "SSD",
-            "sizeGb": 512
-          }
-        ],
-        "display": {
-          "sizeInch": 14,
-          "touch": true
-        },
-        "os": "Windows 11",
-        "connectivity": {
-          "bluetooth": "5.4"
-        },
-        "ports": [
-          "HDMI"
-        ]
-      },
-      "specsCompleteness": 78,
-      "seenAt": "2026-11-19T14:22:09.437Z",
-      "firstSeenAt": "2026-11-13T13:03:02.289Z",
-      "priceHistory": [
-        {
-          "d": "2026-11-13",
-          "p": 649.99
-        },
-        {
-          "d": "2026-11-14",
-          "p": 649.99
-        },
-        {
-          "d": "2026-11-15",
-          "p": 649.99
-        },
-        {
-          "d": "2026-11-16",
-          "p": 649.99
-        },
-        {
-          "d": "2026-11-17",
-          "p": 649.99
-        },
-        {
-          "d": "2026-11-18",
-          "p": 649.99
-        },
-        {
-          "d": "2026-11-19",
-          "p": 649.99
-        }
-      ],
-      "lowestEver": 649.99,
-      "highestEver": 649.99,
-      "isLowestEver": true,
-      "isNew": false,
-      "daysTracked": 7,
-      "discountPct": 0,
-      "discountSource": "nessuno",
-      "hardwareScore": 35,
-      "valueScore": 18,
-      "badges": [
-        "minimo storico"
-      ],
-      "highlights": [
-        "Core i3-1315U",
-        "UHD Graphics",
-        "8 GB",
-        "512 GB SSD",
-        "14\""
-      ],
-      "isStale": true,
-      "staleDays": 2
     },
     {
       "id": "dd09d600fca236ca",
@@ -2433,7 +2224,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-08-28T21:26:29.676Z",
       "priceHistory": [
         {
@@ -2783,13 +2574,17 @@
         {
           "d": "2026-11-22",
           "p": 766
+        },
+        {
+          "d": "2026-11-23",
+          "p": 766
         }
       ],
       "lowestEver": 599,
       "highestEver": 904,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 87,
+      "daysTracked": 88,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 35,
@@ -2801,6 +2596,92 @@
         "8 GB",
         "512 GB SSD",
         "14\""
+      ]
+    },
+    {
+      "id": "2402412bc906cb5e",
+      "modelKey": "e77dc73123a1a1f4",
+      "category": "laptop",
+      "title": "PORTATILE ASPIRE GO 15 AG15-71P-56N9 - 15.6\"-Silver",
+      "brand": "Acer",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw4a5572c0/hi-res/252001236.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/acer---portatile-aspire-go-15-ag15-71p-56n9---15.6-silver/252001236.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 799,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core i5",
+          "model": "1334U",
+          "tier": "i5",
+          "boostClock": 4.6,
+          "label": "Core i5-1334U"
+        },
+        "gpu": {
+          "brand": "Intel",
+          "series": "Integrata",
+          "model": "Iris Xe",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 32
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1024
+          }
+        ],
+        "display": {
+          "sizeInch": 15.6,
+          "width": 1920,
+          "height": 1080,
+          "resolution": "1920x1080",
+          "resolutionLabel": "Full HD"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.0"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-23T15:54:18.331Z",
+      "firstSeenAt": "2026-11-23T15:54:18.331Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-23",
+          "p": 799
+        }
+      ],
+      "lowestEver": 799,
+      "highestEver": 799,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 52,
+      "valueScore": 94,
+      "badges": [
+        "ottimo affare",
+        "novita"
+      ],
+      "highlights": [
+        "Core i5-1334U",
+        "Iris Xe",
+        "32 GB",
+        "1 TB SSD",
+        "15,6\" Full HD"
       ]
     },
     {
@@ -3147,7 +3028,7 @@
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
-      "valueScore": 49,
+      "valueScore": 50,
       "badges": [],
       "highlights": [
         "Core Ultra 5",
@@ -3157,7 +3038,7 @@
         "14\" Full HD+"
       ],
       "isStale": true,
-      "staleDays": 1
+      "staleDays": 3
     },
     {
       "id": "9fa71710055669cf",
@@ -3213,7 +3094,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-09-22T09:54:21.453Z",
       "priceHistory": [
         {
@@ -3451,13 +3332,17 @@
         {
           "d": "2026-11-22",
           "p": 1202
+        },
+        {
+          "d": "2026-11-23",
+          "p": 1202
         }
       ],
       "lowestEver": 999.99,
       "highestEver": 1349,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 59,
+      "daysTracked": 60,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
@@ -3477,7 +3362,7 @@
       "category": "laptop",
       "title": "Notebook LOQ 83JG00B6IX 15,6\" AMD Ryzen7-Luna Grey",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw8a3461f3/hi-res/252014098.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw1174cfb0/hi-res/252014098.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/lenovo---notebook-loq-83jg00b6ix-15-6-amd-ryzen7-luna-grey/252014098.html",
       "store": {
         "id": "euronics",
@@ -3529,7 +3414,7 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-11-18T13:54:16.025Z",
       "priceHistory": [
         {
@@ -3551,13 +3436,17 @@
         {
           "d": "2026-11-22",
           "p": 1299
+        },
+        {
+          "d": "2026-11-23",
+          "p": 1299
         }
       ],
       "lowestEver": 1159,
       "highestEver": 1299,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 5,
+      "daysTracked": 6,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 62,
@@ -3673,7 +3562,9 @@
         "16 GB",
         "512 GB SSD",
         "14\" Full HD+"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "7108e1f54f6e5032",
@@ -3897,7 +3788,9 @@
         "16 GB",
         "512 GB SSD",
         "15,6\" Full HD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 1
     },
     {
       "id": "20308dfa488e692a",
@@ -3956,7 +3849,7 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-09-10T05:22:58.249Z",
       "priceHistory": [
         {
@@ -4254,13 +4147,17 @@
         {
           "d": "2026-11-22",
           "p": 849
+        },
+        {
+          "d": "2026-11-23",
+          "p": 849
         }
       ],
       "lowestEver": 579.99,
       "highestEver": 849,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 74,
+      "daysTracked": 75,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
@@ -4325,13 +4222,9 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-08-10T12:58:37.779Z",
       "priceHistory": [
-        {
-          "d": "2026-08-24",
-          "p": 1599.99
-        },
         {
           "d": "2026-08-25",
           "p": 1599.99
@@ -4687,6 +4580,10 @@
         {
           "d": "2026-11-22",
           "p": 1799
+        },
+        {
+          "d": "2026-11-23",
+          "p": 1799
         }
       ],
       "lowestEver": 1599.99,
@@ -4705,6 +4602,84 @@
         "16 GB",
         "1000 GB SSD",
         "Tower"
+      ]
+    },
+    {
+      "id": "1dc0eb7704bfb778",
+      "modelKey": "7e6c67cf1b28075c",
+      "category": "laptop",
+      "title": "Notebook CROSSHAIR 16 HX E14WFK-061IT-Nero",
+      "brand": "MSI",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwb485e258/hi-res/262005047.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/msi---notebook-crosshair-16-hx-e14wfk-061it-nero/262005047.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 2149,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core i7",
+          "model": null,
+          "tier": "i7",
+          "boostClock": 5.2,
+          "label": "Core i7"
+        },
+        "ram": {
+          "size": 32
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 16,
+          "width": 2560,
+          "height": 1440,
+          "resolution": "2560x1440",
+          "resolutionLabel": "QHD"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 67,
+      "seenAt": "2026-11-23T15:54:18.331Z",
+      "firstSeenAt": "2026-11-23T15:54:18.331Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-23",
+          "p": 2149
+        }
+      ],
+      "lowestEver": 2149,
+      "highestEver": 2149,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 62,
+      "valueScore": 12,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core i7",
+        "32 GB",
+        "1000 GB SSD",
+        "16\" QHD"
       ]
     },
     {
@@ -4750,7 +4725,7 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-22T13:17:14.697Z",
+      "seenAt": "2026-11-23T15:54:18.331Z",
       "firstSeenAt": "2026-09-04T05:22:32.335Z",
       "priceHistory": [
         {
@@ -5072,13 +5047,17 @@
         {
           "d": "2026-11-22",
           "p": 679
+        },
+        {
+          "d": "2026-11-23",
+          "p": 679
         }
       ],
       "lowestEver": 629.99,
       "highestEver": 779,
       "isLowestEver": false,
       "isNew": false,
-      "daysTracked": 80,
+      "daysTracked": 81,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
