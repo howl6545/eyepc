@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-25T15:32:14.318Z",
+  "generatedAt": "2026-11-26T15:06:44.630Z",
   "dataQuality": "reale",
   "disclaimer": "Prezzi rilevati automaticamente: verifica sempre sul sito del venditore prima di acquistare.",
   "stats": {
-    "total": 20,
+    "total": 30,
     "byCategory": {
-      "laptop": 15,
-      "desktop": 5
+      "laptop": 24,
+      "desktop": 6
     },
     "byStore": {
-      "euronics": 20
+      "euronics": 30
     },
-    "discounted": 0,
-    "averageDiscount": 0,
+    "discounted": 1,
+    "averageDiscount": 3,
     "lowestEverCount": 0
   },
   "sources": [
@@ -34,7 +34,7 @@
       "store": "euronics",
       "count": 60,
       "notes": [
-        "3944 in sitemap, 220 candidati, 60 scaricati (50 fissi disponibili)"
+        "3966 in sitemap, 230 candidati, 60 scaricati (54 fissi disponibili)"
       ]
     },
     {
@@ -46,6 +46,191 @@
     }
   ],
   "offers": [
+    {
+      "id": "20308dfa488e692a",
+      "modelKey": "3723455196d58dd3",
+      "category": "desktop",
+      "title": "PC Desktop AIO A105 F0JS0021IX-Cloud Grey",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwff798232/hi-res/262005255.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/pc-desktop/all-in-one/lenovo---pc-desktop-aio-a105-f0js0021ix-cloud-grey/262005255.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 824,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "AMD",
+          "family": "Ryzen 5",
+          "model": null,
+          "tier": "ryzen 5",
+          "boostClock": 4.3,
+          "label": "Ryzen 5"
+        },
+        "gpu": {
+          "brand": "NVIDIA",
+          "series": "Professional",
+          "model": "NVIDIA RTX A105",
+          "type": "dedicata"
+        },
+        "ram": {
+          "size": 8
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 23.8,
+          "width": 1920,
+          "height": 1080,
+          "resolution": "1920x1080",
+          "resolutionLabel": "Full HD"
+        },
+        "os": "Windows 11",
+        "chassis": {
+          "formFactor": "All-in-One"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 67,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-25T15:32:14.318Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-25",
+          "p": 849
+        },
+        {
+          "d": "2026-11-26",
+          "p": 824
+        }
+      ],
+      "lowestEver": 824,
+      "highestEver": 849,
+      "isLowestEver": false,
+      "isNew": false,
+      "daysTracked": 2,
+      "priceChange": {
+        "from": 849,
+        "to": 824,
+        "deltaPct": -3,
+        "since": "2026-11-25T15:32:14.318Z"
+      },
+      "verifiedDiscount": {
+        "referencePrice": 849,
+        "discountPct": 3
+      },
+      "discountPct": 3,
+      "listPrice": 849,
+      "discountSource": "storico",
+      "hardwareScore": 47,
+      "valueScore": 34,
+      "badges": [],
+      "highlights": [
+        "Ryzen 5",
+        "NVIDIA RTX A105",
+        "8 GB",
+        "512 GB SSD",
+        "All-in-One"
+      ]
+    },
+    {
+      "id": "7ba0a291247ca144",
+      "modelKey": "113d9533a393a98b",
+      "category": "laptop",
+      "title": "Notebook Ideapad Slim 5 IPS55 16IMH10 16+512GB-silver",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw02cbc5dd/hi-res/262001857.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-5-ips55-16imh10-16512gb-silver/262001857.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 999,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 9",
+          "model": null,
+          "tier": "Ultra 9",
+          "boostClock": 5.1,
+          "label": "Core Ultra 9"
+        },
+        "gpu": {
+          "brand": null,
+          "series": "Integrata",
+          "model": "Scheda Grafica Integrata",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 16,
+          "width": 1920,
+          "height": 1200,
+          "resolution": "1920x1200",
+          "resolutionLabel": "Full HD+"
+        },
+        "os": "Windows 11",
+        "weightKg": 1.85,
+        "connectivity": {
+          "bluetooth": "5.2"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 89,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 999
+        }
+      ],
+      "lowestEver": 999,
+      "highestEver": 999,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 58,
+      "valueScore": 87,
+      "badges": [
+        "ottimo affare",
+        "novita"
+      ],
+      "highlights": [
+        "Core Ultra 9",
+        "Scheda Grafica Integrata",
+        "16 GB",
+        "512 GB SSD",
+        "16\" Full HD+"
+      ]
+    },
     {
       "id": "4043dfaf71898f0e",
       "modelKey": "42a8f12d25d615a7",
@@ -116,15 +301,14 @@
       "lowestEver": 521,
       "highestEver": 521,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 44,
       "valueScore": 100,
       "badges": [
-        "ottimo affare",
-        "novita"
+        "ottimo affare"
       ],
       "highlights": [
         "Ryzen 5",
@@ -132,6 +316,262 @@
         "8 GB",
         "512 GB SSD",
         "15,6\" Full HD 60 Hz"
+      ],
+      "isStale": true,
+      "staleDays": 0
+    },
+    {
+      "id": "cd5145659365b956",
+      "modelKey": "ddefd5592143a836",
+      "category": "laptop",
+      "title": "Notebook Ideapad Slim 3 IPS3 15ARP10 15,3\"-silver",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw8be32390/hi-res/262001861.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-ips3-15arp10-15-3-silver/262001861.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 574,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "AMD",
+          "family": "Ryzen 5",
+          "model": null,
+          "tier": "ryzen 5",
+          "boostClock": 4.55,
+          "label": "Ryzen 5"
+        },
+        "gpu": {
+          "brand": "AMD",
+          "series": "Integrata",
+          "model": "Radeon 610M",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 8
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 15.3,
+          "width": 1920,
+          "height": 1200,
+          "resolution": "1920x1200",
+          "resolutionLabel": "Full HD+"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.3"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 574
+        }
+      ],
+      "lowestEver": 574,
+      "highestEver": 574,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 45,
+      "valueScore": 93,
+      "badges": [
+        "ottimo affare",
+        "novita"
+      ],
+      "highlights": [
+        "Ryzen 5",
+        "Radeon 610M",
+        "8 GB",
+        "512 GB SSD",
+        "15,3\" Full HD+"
+      ]
+    },
+    {
+      "id": "dd09d600fca236ca",
+      "modelKey": "dc617054e9bb2040",
+      "category": "laptop",
+      "title": "Notebook OMNIBOOK 5 X360 14-FP0008NL Intel Core i3-Glacier Silver",
+      "brand": "HP",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw31e6fbbb/hi-res/262007100.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-convertibili-2-in-1/hp---notebook-omnibook-5-x360-14-fp0008nl-intel-core-i3-glacier-silver/262007100.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 599.99,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core i3",
+          "model": null,
+          "tier": "i3",
+          "boostClock": 4.5,
+          "label": "Core i3"
+        },
+        "gpu": {
+          "brand": "Intel",
+          "series": "Integrata",
+          "model": "UHD Graphics",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 8
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 14,
+          "touch": true
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 599.99
+        }
+      ],
+      "lowestEver": 599.99,
+      "highestEver": 599.99,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 35,
+      "valueScore": 31,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core i3",
+        "UHD Graphics",
+        "8 GB",
+        "512 GB SSD",
+        "14\""
+      ]
+    },
+    {
+      "id": "49d9d30961650de5",
+      "modelKey": "05de799ff818ad9e",
+      "category": "laptop",
+      "title": "Notebook IDEAPAD 5 2-IN-1 83KX008GIX-Luna Grey",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw5af5f1d5/hi-res/262005244.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-convertibili-2-in-1/lenovo---notebook-ideapad-5-2-in-1-83kx008gix-luna-grey/262005244.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 799.99,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core i5",
+          "model": null,
+          "tier": "i5",
+          "boostClock": 4.6,
+          "label": "Core i5"
+        },
+        "gpu": {
+          "brand": "Intel",
+          "series": "Integrata",
+          "model": "UHD Graphics",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 8
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 14,
+          "width": 1920,
+          "height": 1200,
+          "resolution": "1920x1200",
+          "resolutionLabel": "Full HD+",
+          "touch": true
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.2"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 799.99
+        }
+      ],
+      "lowestEver": 799.99,
+      "highestEver": 799.99,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 42,
+      "valueScore": 39,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core i5",
+        "UHD Graphics",
+        "8 GB",
+        "512 GB SSD",
+        "14\" Full HD+"
       ]
     },
     {
@@ -191,32 +631,128 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
       "firstSeenAt": "2026-11-25T15:32:14.318Z",
       "priceHistory": [
         {
           "d": "2026-11-25",
+          "p": 799.99
+        },
+        {
+          "d": "2026-11-26",
           "p": 799.99
         }
       ],
       "lowestEver": 799.99,
       "highestEver": 799.99,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 49,
       "valueScore": 73,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 5",
         "Intel Arc Graphics",
         "16 GB",
         "512 GB SSD",
         "16\" Full HD+"
+      ]
+    },
+    {
+      "id": "a1c957599d55cebf",
+      "modelKey": "da23f80e7a59433c",
+      "category": "laptop",
+      "title": "Notebook IdeaPad Slim 3 IPS3 15IPH11 16GB 512GB-luna grey",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw50aeb019/hi-res/262005661.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-ips3-15iph11-16gb-512gb-luna-grey/262005661.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 849,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 5",
+          "model": null,
+          "tier": "Ultra 5",
+          "boostClock": 4.4,
+          "label": "Core Ultra 5"
+        },
+        "gpu": {
+          "brand": "Intel",
+          "series": "Integrata",
+          "model": "Intel Graphics",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 15.3,
+          "width": 1920,
+          "height": 1200,
+          "resolution": "1920x1200",
+          "resolutionLabel": "Full HD+",
+          "panel": "OLED",
+          "touch": true
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.3"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 849
+        }
+      ],
+      "lowestEver": 849,
+      "highestEver": 849,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "variants": [
+        {
+          "title": "Notebook IDEAPAD SLIM 3 83UR00F5IX 15,3''-Cosmic Blue",
+          "price": 1004,
+          "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-83ur00f5ix-15-3---cosmic-blue/262014186.html"
+        }
+      ],
+      "hardwareScore": 52,
+      "valueScore": 80,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core Ultra 5",
+        "Intel Graphics",
+        "16 GB",
+        "512 GB SSD",
+        "15,3\" Full HD+"
       ]
     },
     {
@@ -287,36 +823,36 @@
       "lowestEver": 863,
       "highestEver": 863,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 43,
       "valueScore": 36,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Ryzen 5",
         "Radeon 610M",
         "8 GB",
         "512 GB SSD",
         "15,6\" Full HD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
-      "id": "4ffddabe13593e81",
-      "modelKey": "da23f80e7a59433c",
+      "id": "d1d6a57769034db8",
+      "modelKey": "8c61df0455c47c2d",
       "category": "laptop",
-      "title": "Notebook IDEAPAD SLIM 3 83UR00F5IX 15,3''-Cosmic Blue",
+      "title": "Notebook IDEAPAD SLIM 3 83UR0095IX INTEL CORE U7-Luna Grey",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw63f55ce0/hi-res/262014186.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-83ur00f5ix-15-3---cosmic-blue/262014186.html",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwb3c5db86/hi-res/262005243.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ideapad-slim-3-83ur0095ix-intel-core-u7-luna-grey/262005243.html",
       "store": {
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 1004,
+      "price": 1015,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
@@ -324,11 +860,11 @@
       "specs": {
         "cpu": {
           "brand": "Intel",
-          "family": "Core Ultra 5",
+          "family": "Core Ultra 7",
           "model": null,
-          "tier": "Ultra 5",
-          "boostClock": 4.4,
-          "label": "Core Ultra 5"
+          "tier": "Ultra 7",
+          "boostClock": 4.7,
+          "label": "Core Ultra 7"
         },
         "gpu": {
           "brand": "Intel",
@@ -363,28 +899,28 @@
         ]
       },
       "specsCompleteness": 78,
-      "seenAt": "2026-11-25T15:32:14.318Z",
-      "firstSeenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
       "priceHistory": [
         {
-          "d": "2026-11-25",
-          "p": 1004
+          "d": "2026-11-26",
+          "p": 1015
         }
       ],
-      "lowestEver": 1004,
-      "highestEver": 1004,
+      "lowestEver": 1015,
+      "highestEver": 1015,
       "isLowestEver": false,
       "isNew": true,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
-      "hardwareScore": 52,
-      "valueScore": 61,
+      "hardwareScore": 57,
+      "valueScore": 81,
       "badges": [
         "novita"
       ],
       "highlights": [
-        "Core Ultra 5",
+        "Core Ultra 7",
         "Intel Graphics",
         "16 GB",
         "512 GB SSD",
@@ -459,22 +995,22 @@
       "lowestEver": 1055,
       "highestEver": 1055,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 47,
       "valueScore": 34,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Ryzen 5",
         "Radeon 610M",
         "16 GB",
         "512 GB SSD",
         "15,6\" Full HD"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
       "id": "d8f112f81b9b6cb5",
@@ -546,12 +1082,94 @@
       "lowestEver": 1192,
       "highestEver": 1192,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 60,
       "valueScore": 74,
+      "badges": [],
+      "highlights": [
+        "Ryzen AI 7",
+        "Radeon 840M",
+        "16 GB",
+        "512 GB SSD",
+        "16\" Full HD+"
+      ],
+      "isStale": true,
+      "staleDays": 0
+    },
+    {
+      "id": "9fa71710055669cf",
+      "modelKey": "744c9b6e5374bbe9",
+      "category": "laptop",
+      "title": "Notebook OMNIBOOK 5 NG AI 16-BP0016NLX 16GB RAM-Meteor Silver AI logo",
+      "brand": "HP",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw70655700/hi-res/262007182.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/hp---notebook-omnibook-5-ng-ai--16-bp0016nlx-16gb-ram-meteor-silver-ai-logo/262007182.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1199,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "AMD",
+          "family": "Ryzen AI 7",
+          "model": null,
+          "tier": "ryzen 7",
+          "boostClock": 4.6,
+          "label": "Ryzen AI 7"
+        },
+        "gpu": {
+          "brand": "AMD",
+          "series": "Integrata",
+          "model": "Radeon 840M",
+          "type": "integrata"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 16,
+          "panel": "OLED"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 1199
+        }
+      ],
+      "lowestEver": 1199,
+      "highestEver": 1199,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 60,
+      "valueScore": 73,
       "badges": [
         "novita"
       ],
@@ -559,8 +1177,8 @@
         "Ryzen AI 7",
         "Radeon 840M",
         "16 GB",
-        "512 GB SSD",
-        "16\" Full HD+"
+        "1000 GB SSD",
+        "16\""
       ]
     },
     {
@@ -632,21 +1250,107 @@
       "lowestEver": 1205,
       "highestEver": 1205,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
       "valueScore": 41,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Ryzen AI 5",
         "Radeon 820M",
         "16 GB",
         "512 GB SSD",
         "14\" Full HD+"
+      ],
+      "isStale": true,
+      "staleDays": 0
+    },
+    {
+      "id": "519d7b423ec7dbe5",
+      "modelKey": "75624eee9bb47207",
+      "category": "laptop",
+      "title": "Notebook LOQ 83JG00B6IX 15,6\" AMD Ryzen7-Luna Grey",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw1174cfb0/hi-res/252014098.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/lenovo---notebook-loq-83jg00b6ix-15-6-amd-ryzen7-luna-grey/252014098.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1299,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "AMD",
+          "family": "Ryzen 7",
+          "model": null,
+          "tier": "ryzen 7",
+          "boostClock": 5.1,
+          "label": "Ryzen 7"
+        },
+        "gpu": {
+          "brand": "NVIDIA",
+          "series": "GeForce RTX",
+          "model": "GeForce RTX 5050",
+          "type": "dedicata",
+          "generation": "RTX 5000"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 512
+          }
+        ],
+        "display": {
+          "sizeInch": 15.6,
+          "width": 1920,
+          "height": 1080,
+          "resolution": "1920x1080",
+          "resolutionLabel": "Full HD"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.3"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 1299
+        }
+      ],
+      "lowestEver": 1299,
+      "highestEver": 1299,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 62,
+      "valueScore": 71,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Ryzen 7",
+        "GeForce RTX 5050",
+        "16 GB",
+        "512 GB SSD",
+        "15,6\" Full HD"
       ]
     },
     {
@@ -716,21 +1420,28 @@
       "lowestEver": 1306,
       "highestEver": 1306,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 52,
       "valueScore": 33,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 5",
         "Intel Graphics",
         "16 GB",
         "512 GB SSD",
         "14\" Full HD+"
+      ],
+      "isStale": true,
+      "staleDays": 0,
+      "variants": [
+        {
+          "title": "Notebook YGS7 14IPH11 AURA EDITION-LUNA GREY",
+          "price": 1379,
+          "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-ygs7-14iph11-aura-edition-luna-grey/262009044.html"
+        }
       ]
     },
     {
@@ -800,22 +1511,22 @@
       "lowestEver": 1361,
       "highestEver": 1361,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 57,
       "valueScore": 47,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 7",
         "Intel Arc Graphics",
         "16 GB",
         "512 GB SSD",
         "14\" Full HD+"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
       "id": "198c8c0d791bb270",
@@ -884,21 +1595,111 @@
       "lowestEver": 1459,
       "highestEver": 1459,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 59,
       "valueScore": 47,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 7",
         "Intel Arc Graphics",
         "16 GB",
         "1000 GB SSD",
         "14\" Full HD+"
+      ],
+      "isStale": true,
+      "staleDays": 0
+    },
+    {
+      "id": "766187d2466bc50c",
+      "modelKey": "b8bca9f4c6e7a9d6",
+      "category": "laptop",
+      "title": "Notebook LOQ 15IRX10 15,6\" Intel i7 32GB 1TB 5060-nero",
+      "brand": "Lenovo",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwcb034e24/hi-res/262001864.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook/lenovo---notebook-loq-15irx10-15-6-intel-i7-32gb-1tb-5060-nero/262001864.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1899,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core i7",
+          "model": null,
+          "tier": "i7",
+          "boostClock": 4.9,
+          "label": "Core i7"
+        },
+        "gpu": {
+          "brand": "NVIDIA",
+          "series": "GeForce RTX",
+          "model": "GeForce RTX 5060",
+          "type": "dedicata",
+          "generation": "RTX 5000"
+        },
+        "ram": {
+          "size": 32
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1024
+          },
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 15.6,
+          "width": 1920,
+          "height": 1080,
+          "resolution": "1920x1080",
+          "resolutionLabel": "Full HD"
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.2"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 78,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 1899
+        }
+      ],
+      "lowestEver": 1899,
+      "highestEver": 1899,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 71,
+      "valueScore": 59,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core i7",
+        "GeForce RTX 5060",
+        "32 GB",
+        "1 TB SSD + 1000 GB SSD",
+        "15,6\" Full HD"
       ]
     },
     {
@@ -968,22 +1769,22 @@
       "lowestEver": 2335,
       "highestEver": 2335,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 58,
       "valueScore": 0,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 7",
         "Intel Graphics",
         "32 GB",
         "512 GB SSD",
         "14\""
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
       "id": "ea519a7acc2c8930",
@@ -1055,22 +1856,22 @@
       "lowestEver": 3738,
       "highestEver": 3738,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 86,
       "valueScore": 28,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 9",
         "GeForce RTX 5070 TI",
         "32 GB",
         "1000 GB SSD",
         "16\" WQXGA"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
       "id": "9999656e2b24352b",
@@ -1143,7 +1944,7 @@
       "lowestEver": 4919,
       "highestEver": 4919,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
@@ -1156,16 +1957,16 @@
       ],
       "hardwareScore": 89,
       "valueScore": 9,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Core Ultra 9",
         "GeForce RTX 5080",
         "32 GB",
         "2000 GB SSD",
         "16\" WQXGA"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
       "id": "6ae82bf4e6f3e881",
@@ -1238,22 +2039,22 @@
       "lowestEver": 5411,
       "highestEver": 5411,
       "isLowestEver": false,
-      "isNew": true,
+      "isNew": false,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 89,
       "valueScore": 1,
-      "badges": [
-        "novita"
-      ],
+      "badges": [],
       "highlights": [
         "Ryzen 9",
         "GeForce RTX 5080",
         "32 GB",
         "2000 GB SSD",
         "16\" WQXGA"
-      ]
+      ],
+      "isStale": true,
+      "staleDays": 0
     },
     {
       "id": "e37cddd7b2e0a8db",
@@ -1303,26 +2104,29 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
       "firstSeenAt": "2026-11-25T15:32:14.318Z",
       "priceHistory": [
         {
           "d": "2026-11-25",
+          "p": 649.99
+        },
+        {
+          "d": "2026-11-26",
           "p": 649.99
         }
       ],
       "lowestEver": 649.99,
       "highestEver": 649.99,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 49,
       "valueScore": 99,
       "badges": [
-        "ottimo affare",
-        "novita"
+        "ottimo affare"
       ],
       "highlights": [
         "Core Ultra 5",
@@ -1332,39 +2136,39 @@
       ]
     },
     {
-      "id": "20308dfa488e692a",
-      "modelKey": "3723455196d58dd3",
+      "id": "6a76d1ba4e4733ec",
+      "modelKey": "020863a45d8e01d1",
       "category": "desktop",
-      "title": "PC Desktop AIO A105 F0JS0021IX-Cloud Grey",
+      "title": "Desktop IDEACENTRE AIO 24IRH9-cloud grey",
       "brand": "Lenovo",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwff798232/hi-res/262005255.jpg?sw=1000&q=90&strip=false",
-      "url": "https://www.euronics.it/informatica/pc-desktop/all-in-one/lenovo---pc-desktop-aio-a105-f0js0021ix-cloud-grey/262005255.html",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw4726586a/hi-res/252005733.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/pc-desktop/all-in-one/lenovo---desktop-ideacentre-aio-24irh9-cloud-grey/252005733.html",
       "store": {
         "id": "euronics",
         "name": "Euronics"
       },
-      "price": 849,
+      "price": 899,
       "currency": "EUR",
       "availability": "disponibile",
       "rating": null,
       "reviewCount": null,
       "specs": {
         "cpu": {
-          "brand": "AMD",
-          "family": "Ryzen 5",
+          "brand": "Intel",
+          "family": "Core i5",
           "model": null,
-          "tier": "ryzen 5",
-          "boostClock": 4.3,
-          "label": "Ryzen 5"
+          "tier": "i5",
+          "boostClock": 4.6,
+          "label": "Core i5"
         },
         "gpu": {
-          "brand": "NVIDIA",
-          "series": "Professional",
-          "model": "NVIDIA RTX A105",
-          "type": "dedicata"
+          "brand": "Intel",
+          "series": "Integrata",
+          "model": "UHD Graphics",
+          "type": "integrata"
         },
         "ram": {
-          "size": 8
+          "size": 16
         },
         "storage": [
           {
@@ -1373,11 +2177,7 @@
           }
         ],
         "display": {
-          "sizeInch": 23.8,
-          "width": 1920,
-          "height": 1080,
-          "resolution": "1920x1080",
-          "resolutionLabel": "Full HD"
+          "touch": true
         },
         "os": "Windows 11",
         "chassis": {
@@ -1388,30 +2188,30 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-25T15:32:14.318Z",
-      "firstSeenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
       "priceHistory": [
         {
-          "d": "2026-11-25",
-          "p": 849
+          "d": "2026-11-26",
+          "p": 899
         }
       ],
-      "lowestEver": 849,
-      "highestEver": 849,
+      "lowestEver": 899,
+      "highestEver": 899,
       "isLowestEver": false,
       "isNew": true,
       "daysTracked": 1,
       "discountPct": 0,
       "discountSource": "nessuno",
-      "hardwareScore": 47,
+      "hardwareScore": 44,
       "valueScore": 0,
       "badges": [
         "novita"
       ],
       "highlights": [
-        "Ryzen 5",
-        "NVIDIA RTX A105",
-        "8 GB",
+        "Core i5",
+        "UHD Graphics",
+        "16 GB",
         "512 GB SSD",
         "All-in-One"
       ]
@@ -1472,26 +2272,28 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
       "firstSeenAt": "2026-11-25T15:32:14.318Z",
       "priceHistory": [
         {
           "d": "2026-11-25",
+          "p": 1699
+        },
+        {
+          "d": "2026-11-26",
           "p": 1699
         }
       ],
       "lowestEver": 1699,
       "highestEver": 1699,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 77,
-      "valueScore": 72,
-      "badges": [
-        "novita"
-      ],
+      "valueScore": 80,
+      "badges": [],
       "highlights": [
         "Core Ultra 7",
         "GeForce RTX 5060 TI",
@@ -1551,32 +2353,108 @@
         ]
       },
       "specsCompleteness": 67,
-      "seenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
       "firstSeenAt": "2026-11-25T15:32:14.318Z",
       "priceHistory": [
         {
           "d": "2026-11-25",
+          "p": 1799
+        },
+        {
+          "d": "2026-11-26",
           "p": 1799
         }
       ],
       "lowestEver": 1799,
       "highestEver": 1799,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 76,
-      "valueScore": 50,
-      "badges": [
-        "novita"
-      ],
+      "valueScore": 65,
+      "badges": [],
       "highlights": [
         "Core Ultra 7",
         "GeForce RTX 5060 TI",
         "16 GB",
         "1000 GB SSD",
         "Tower"
+      ]
+    },
+    {
+      "id": "4f15391abde2daaa",
+      "modelKey": "54d2a6c1330651d6",
+      "category": "laptop",
+      "title": "Notebook gaming HYPERX OMEN 15-GA0028NLX-Shadow Black",
+      "brand": "HP",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwb1159ed1/hi-res/262007183.jpg?sw=1000&q=90&strip=false",
+      "url": "https://www.euronics.it/informatica/computer-portatili/notebook-gaming/hp---notebook-gaming-hyperx-omen-15-ga0028nlx-shadow-black/262007183.html",
+      "store": {
+        "id": "euronics",
+        "name": "Euronics"
+      },
+      "price": 1999,
+      "currency": "EUR",
+      "availability": "disponibile",
+      "rating": null,
+      "reviewCount": null,
+      "specs": {
+        "cpu": {
+          "brand": "Intel",
+          "family": "Core Ultra 7",
+          "model": null,
+          "tier": "Ultra 7",
+          "boostClock": 5.1,
+          "label": "Core Ultra 7"
+        },
+        "ram": {
+          "size": 16
+        },
+        "storage": [
+          {
+            "type": "SSD",
+            "sizeGb": 1000
+          }
+        ],
+        "display": {
+          "sizeInch": 15.3
+        },
+        "os": "Windows 11",
+        "connectivity": {
+          "bluetooth": "5.4"
+        },
+        "ports": [
+          "HDMI"
+        ]
+      },
+      "specsCompleteness": 67,
+      "seenAt": "2026-11-26T15:06:44.630Z",
+      "firstSeenAt": "2026-11-26T15:06:44.630Z",
+      "priceHistory": [
+        {
+          "d": "2026-11-26",
+          "p": 1999
+        }
+      ],
+      "lowestEver": 1999,
+      "highestEver": 1999,
+      "isLowestEver": false,
+      "isNew": true,
+      "daysTracked": 1,
+      "discountPct": 0,
+      "discountSource": "nessuno",
+      "hardwareScore": 57,
+      "valueScore": 10,
+      "badges": [
+        "novita"
+      ],
+      "highlights": [
+        "Core Ultra 7",
+        "16 GB",
+        "1000 GB SSD",
+        "15,3\""
       ]
     },
     {
@@ -1622,19 +2500,23 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
       "firstSeenAt": "2026-11-25T15:32:14.318Z",
       "priceHistory": [
         {
           "d": "2026-11-25",
+          "p": 679
+        },
+        {
+          "d": "2026-11-26",
           "p": 679
         }
       ],
       "lowestEver": 679,
       "highestEver": 679,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "variants": [
@@ -1645,10 +2527,8 @@
         }
       ],
       "hardwareScore": 47,
-      "valueScore": 54,
-      "badges": [
-        "novita"
-      ],
+      "valueScore": 67,
+      "badges": [],
       "highlights": [
         "Ryzen 5",
         "8 GB",
@@ -1662,7 +2542,7 @@
       "category": "desktop",
       "title": "Desktop OMEN 16L GAMING TG03-0053NL",
       "brand": "HP",
-      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw2747d4d2/hi-res/262007186.jpg?sw=1000&q=90&strip=false",
+      "image": "https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dwaee72550/hi-res/262007186.jpg?sw=1000&q=90&strip=false",
       "url": "https://www.euronics.it/informatica/pc-desktop/pc-gaming/hp---desktop-omen-16l-gaming-tg03-0053nl/262007186.html",
       "store": {
         "id": "euronics",
@@ -1704,26 +2584,29 @@
         ]
       },
       "specsCompleteness": 56,
-      "seenAt": "2026-11-25T15:32:14.318Z",
+      "seenAt": "2026-11-26T15:06:44.630Z",
       "firstSeenAt": "2026-11-25T15:32:14.318Z",
       "priceHistory": [
         {
           "d": "2026-11-25",
+          "p": 1299.99
+        },
+        {
+          "d": "2026-11-26",
           "p": 1299.99
         }
       ],
       "lowestEver": 1299.99,
       "highestEver": 1299.99,
       "isLowestEver": false,
-      "isNew": true,
-      "daysTracked": 1,
+      "isNew": false,
+      "daysTracked": 2,
       "discountPct": 0,
       "discountSource": "nessuno",
       "hardwareScore": 71,
       "valueScore": 100,
       "badges": [
-        "ottimo affare",
-        "novita"
+        "ottimo affare"
       ],
       "highlights": [
         "Ryzen 7",
